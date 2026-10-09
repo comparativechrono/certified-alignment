@@ -1,0 +1,3913 @@
+{
+  "schema_version": 4,
+  "primary_policy": "published 148 v3 pairs loaded unchanged and SHA256 verified; all are now known",
+  "original_policy": "original 63 v1 pairs additionally verified by published SHA256",
+  "fresh_policy": "30 new compensated-indel pairs; fixed seeds, gaps, backgrounds before v4 timing",
+  "fresh_generator": "random.Random seeded by first eight SHA256(case id) bytes; ACGT alphabet",
+  "generation_edits_are_optimal_distances": false,
+  "cases": [
+    {
+      "id": "uniform_errors-n256-s17",
+      "scenario": "uniform_errors",
+      "source_length": 256,
+      "seed": 17,
+      "derived_seed": 1341614554197010496,
+      "x_length": 256,
+      "y_length": 252,
+      "input_sha256": "c4730de7e119aabc3fbabe6fc1789f16f5116bce4c62eeccb93b0a70523111ab",
+      "generation": {
+        "substitutions": 2,
+        "inserted_bases": 2,
+        "deleted_bases": 6
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n256-s17",
+      "scenario": "clustered_errors",
+      "source_length": 256,
+      "seed": 17,
+      "derived_seed": 10818112943843210234,
+      "x_length": 256,
+      "y_length": 256,
+      "input_sha256": "132825e88cf3b6016615e0715c1e3f74bedfb67bf503f69580e13ed0160e9192",
+      "generation": {
+        "substitutions": 4,
+        "inserted_bases": 2,
+        "deleted_bases": 2,
+        "error_interval": [
+          102,
+          153
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n256-s17",
+      "scenario": "long_insertion",
+      "source_length": 256,
+      "seed": 17,
+      "derived_seed": 874186210761505143,
+      "x_length": 256,
+      "y_length": 288,
+      "input_sha256": "8acf6bf5b9763b4dabd07b0c0b9f93f2a5417da93506b93fcca6773df77646ed",
+      "generation": {
+        "inserted_bases": 32,
+        "position": 128
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n256-s17",
+      "scenario": "long_deletion",
+      "source_length": 256,
+      "seed": 17,
+      "derived_seed": 10379557719171144556,
+      "x_length": 256,
+      "y_length": 224,
+      "input_sha256": "b884a91c2e546a73c337bc66187def9eff8331138fda13dafd2eda23219e2941",
+      "generation": {
+        "deleted_bases": 32,
+        "position": 128
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n256-s17",
+      "scenario": "tandem_repeats",
+      "source_length": 256,
+      "seed": 17,
+      "derived_seed": 13257366307926099569,
+      "x_length": 256,
+      "y_length": 264,
+      "input_sha256": "5cf9cd77c19ee44194543a848247ec1d34d2de8ddb52542d2219e4fb6a8d2a4f",
+      "generation": {
+        "motif": "CATC",
+        "repeat_length": 192,
+        "extra_repeat_bases": 8,
+        "substitutions": 3,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n256-s17",
+      "scenario": "compensating_indels",
+      "source_length": 256,
+      "seed": 17,
+      "derived_seed": 7690013397842283494,
+      "x_length": 256,
+      "y_length": 256,
+      "input_sha256": "168796bc7270271e58f193b65ea8a1ea168963b092dec4435d4d5b368becbe54",
+      "generation": {
+        "deleted_bases": 25,
+        "inserted_bases": 25,
+        "deletion_position": 64,
+        "insertion_position_after_deletion": 173
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n256-s17",
+      "scenario": "high_similarity",
+      "source_length": 256,
+      "seed": 17,
+      "derived_seed": 4070100584182827866,
+      "x_length": 256,
+      "y_length": 258,
+      "input_sha256": "f3ea06e6d87423780caaa7266d27c0c3ba4578ababff793dc79dfadf242b28e8",
+      "generation": {
+        "substitutions": 0,
+        "inserted_bases": 2,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n256-s29",
+      "scenario": "uniform_errors",
+      "source_length": 256,
+      "seed": 29,
+      "derived_seed": 2626423119521656707,
+      "x_length": 256,
+      "y_length": 259,
+      "input_sha256": "6659500c4e8ef38fb135788fad8fc4c21bc64143b5f8e40eba4f2af294b2e150",
+      "generation": {
+        "substitutions": 4,
+        "inserted_bases": 3,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n256-s29",
+      "scenario": "clustered_errors",
+      "source_length": 256,
+      "seed": 29,
+      "derived_seed": 12688944231083652723,
+      "x_length": 256,
+      "y_length": 260,
+      "input_sha256": "b385a880e124dcba40319325648e80b45c2994d216eaacb0642ceae460d0dedd",
+      "generation": {
+        "substitutions": 7,
+        "inserted_bases": 4,
+        "deleted_bases": 0,
+        "error_interval": [
+          102,
+          153
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n256-s29",
+      "scenario": "long_insertion",
+      "source_length": 256,
+      "seed": 29,
+      "derived_seed": 12965243888498215858,
+      "x_length": 256,
+      "y_length": 288,
+      "input_sha256": "92daa222127a49946d107ea5cff4632d073900766ac010bb7369f94f9129c26e",
+      "generation": {
+        "inserted_bases": 32,
+        "position": 128
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n256-s29",
+      "scenario": "long_deletion",
+      "source_length": 256,
+      "seed": 29,
+      "derived_seed": 4620609461066987073,
+      "x_length": 256,
+      "y_length": 224,
+      "input_sha256": "04c12026a8dda28075e9f16e297c00306093a680c08bec080b0c04c9660a924d",
+      "generation": {
+        "deleted_bases": 32,
+        "position": 128
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n256-s29",
+      "scenario": "tandem_repeats",
+      "source_length": 256,
+      "seed": 29,
+      "derived_seed": 4778494628004200744,
+      "x_length": 256,
+      "y_length": 264,
+      "input_sha256": "2460103827c602bd90429d5455a7c402e4d62076f42867c7549ee87d680eff01",
+      "generation": {
+        "motif": "TCCA",
+        "repeat_length": 192,
+        "extra_repeat_bases": 8,
+        "substitutions": 1,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n256-s29",
+      "scenario": "compensating_indels",
+      "source_length": 256,
+      "seed": 29,
+      "derived_seed": 9524363586383951698,
+      "x_length": 256,
+      "y_length": 256,
+      "input_sha256": "44a0f96f708e0208d1e5e605d1689df9fff209b54494e722ada7ed8227b5f02c",
+      "generation": {
+        "deleted_bases": 25,
+        "inserted_bases": 25,
+        "deletion_position": 64,
+        "insertion_position_after_deletion": 173
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n256-s29",
+      "scenario": "high_similarity",
+      "source_length": 256,
+      "seed": 29,
+      "derived_seed": 6134418733679254937,
+      "x_length": 256,
+      "y_length": 256,
+      "input_sha256": "e4c4fd48ec0402790a3cf094c65f299ede8a634c645cae330622052a7d564cc2",
+      "generation": {
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n256-s43",
+      "scenario": "uniform_errors",
+      "source_length": 256,
+      "seed": 43,
+      "derived_seed": 18088204406768439479,
+      "x_length": 256,
+      "y_length": 259,
+      "input_sha256": "1584b7ee037c45a42809839105617c87eb556850e72ce14d6274f490ef93bcf9",
+      "generation": {
+        "substitutions": 4,
+        "inserted_bases": 5,
+        "deleted_bases": 2
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n256-s43",
+      "scenario": "clustered_errors",
+      "source_length": 256,
+      "seed": 43,
+      "derived_seed": 15050848581198177831,
+      "x_length": 256,
+      "y_length": 257,
+      "input_sha256": "111cbed3d8b1103024d1e27dbc734813f1f19a23fd2cd270cd133c8a39149428",
+      "generation": {
+        "substitutions": 2,
+        "inserted_bases": 6,
+        "deleted_bases": 5,
+        "error_interval": [
+          102,
+          153
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n256-s43",
+      "scenario": "long_insertion",
+      "source_length": 256,
+      "seed": 43,
+      "derived_seed": 7896163886295251062,
+      "x_length": 256,
+      "y_length": 288,
+      "input_sha256": "315dfa95fe7b79e858cb9e438455615b9105a4b201f7948fa389c0d830352c09",
+      "generation": {
+        "inserted_bases": 32,
+        "position": 128
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n256-s43",
+      "scenario": "long_deletion",
+      "source_length": 256,
+      "seed": 43,
+      "derived_seed": 7592768210329682746,
+      "x_length": 256,
+      "y_length": 224,
+      "input_sha256": "75f47b66ae2ce5774b002606645a965d749e36a64f9facd575ed19a04d9e855f",
+      "generation": {
+        "deleted_bases": 32,
+        "position": 128
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n256-s43",
+      "scenario": "tandem_repeats",
+      "source_length": 256,
+      "seed": 43,
+      "derived_seed": 17587156760931010407,
+      "x_length": 256,
+      "y_length": 260,
+      "input_sha256": "a426e39d59664457253254910e04b63231968b34f2815850d7dbb7d42c37da7d",
+      "generation": {
+        "motif": "GA",
+        "repeat_length": 192,
+        "extra_repeat_bases": 4,
+        "substitutions": 1,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n256-s43",
+      "scenario": "compensating_indels",
+      "source_length": 256,
+      "seed": 43,
+      "derived_seed": 11191779826829547649,
+      "x_length": 256,
+      "y_length": 256,
+      "input_sha256": "0713f487f79bdde899b82d892483b7f45893f79a6edbea26760057d2b45eaed8",
+      "generation": {
+        "deleted_bases": 25,
+        "inserted_bases": 25,
+        "deletion_position": 64,
+        "insertion_position_after_deletion": 173
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n256-s43",
+      "scenario": "high_similarity",
+      "source_length": 256,
+      "seed": 43,
+      "derived_seed": 14564711695131008410,
+      "x_length": 256,
+      "y_length": 254,
+      "input_sha256": "2863cf8826fb02b28baf1b0191b464b505f48eda5ef6f3bf55b0b240e4aabcfd",
+      "generation": {
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 2
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n1024-s17",
+      "scenario": "uniform_errors",
+      "source_length": 1024,
+      "seed": 17,
+      "derived_seed": 8764983885911557883,
+      "x_length": 1024,
+      "y_length": 1022,
+      "input_sha256": "a26797b83ecec5640a305c60448defce876da5cfc695fbee38effb283b4eecde",
+      "generation": {
+        "substitutions": 23,
+        "inserted_bases": 15,
+        "deleted_bases": 17
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n1024-s17",
+      "scenario": "clustered_errors",
+      "source_length": 1024,
+      "seed": 17,
+      "derived_seed": 12994311769472238636,
+      "x_length": 1024,
+      "y_length": 1020,
+      "input_sha256": "91b551bac893f28a72d56cbd97b91cb98789e92b0669d0f6e81ce8908bcb09de",
+      "generation": {
+        "substitutions": 30,
+        "inserted_bases": 12,
+        "deleted_bases": 16,
+        "error_interval": [
+          409,
+          614
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n1024-s17",
+      "scenario": "long_insertion",
+      "source_length": 1024,
+      "seed": 17,
+      "derived_seed": 5684189609654190648,
+      "x_length": 1024,
+      "y_length": 1152,
+      "input_sha256": "9fb59d1820e971db6a0ab710f08ec000976d0fd44eb52a931994b319c5873a01",
+      "generation": {
+        "inserted_bases": 128,
+        "position": 512
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n1024-s17",
+      "scenario": "long_deletion",
+      "source_length": 1024,
+      "seed": 17,
+      "derived_seed": 18124592068982077167,
+      "x_length": 1024,
+      "y_length": 896,
+      "input_sha256": "14aad04f2f4b8e3236e61037f582a2dbcb2874643617400443206a5aa84a3fe6",
+      "generation": {
+        "deleted_bases": 128,
+        "position": 512
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n1024-s17",
+      "scenario": "tandem_repeats",
+      "source_length": 1024,
+      "seed": 17,
+      "derived_seed": 10605212704577243029,
+      "x_length": 1024,
+      "y_length": 1045,
+      "input_sha256": "e2bac2000bd2b72a68d43671421af776025b7397f28202cbf72317f1e52b113d",
+      "generation": {
+        "motif": "CAC",
+        "repeat_length": 768,
+        "extra_repeat_bases": 21,
+        "substitutions": 4,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n1024-s17",
+      "scenario": "compensating_indels",
+      "source_length": 1024,
+      "seed": 17,
+      "derived_seed": 8459498591119406560,
+      "x_length": 1024,
+      "y_length": 1024,
+      "input_sha256": "9419765f13bba680af997f5a41ce47f1d6df8c79d95cb0633e85e73d529ce717",
+      "generation": {
+        "deleted_bases": 102,
+        "inserted_bases": 102,
+        "deletion_position": 256,
+        "insertion_position_after_deletion": 691
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n1024-s17",
+      "scenario": "high_similarity",
+      "source_length": 1024,
+      "seed": 17,
+      "derived_seed": 11452346040572646844,
+      "x_length": 1024,
+      "y_length": 1028,
+      "input_sha256": "86f92a0a04056c2e52f0a52f21dc5e3a42f11731a1197cd1681ff20d05b7e8c3",
+      "generation": {
+        "substitutions": 4,
+        "inserted_bases": 4,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n1024-s29",
+      "scenario": "uniform_errors",
+      "source_length": 1024,
+      "seed": 29,
+      "derived_seed": 5430849209976059372,
+      "x_length": 1024,
+      "y_length": 1032,
+      "input_sha256": "1bebaa795fd4eeb09adf6e616a3113027340e2e4bc85d37e9c4de76f21281735",
+      "generation": {
+        "substitutions": 21,
+        "inserted_bases": 18,
+        "deleted_bases": 10
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n1024-s29",
+      "scenario": "clustered_errors",
+      "source_length": 1024,
+      "seed": 29,
+      "derived_seed": 6205051450763371117,
+      "x_length": 1024,
+      "y_length": 1019,
+      "input_sha256": "80528b75f731b06e4d9d508dcc8efc7e7de1f981850984e294e7a8bbfb50e96d",
+      "generation": {
+        "substitutions": 18,
+        "inserted_bases": 10,
+        "deleted_bases": 15,
+        "error_interval": [
+          409,
+          614
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n1024-s29",
+      "scenario": "long_insertion",
+      "source_length": 1024,
+      "seed": 29,
+      "derived_seed": 13731084607522921479,
+      "x_length": 1024,
+      "y_length": 1152,
+      "input_sha256": "e5f632e986cf100db4063ffe26c19ad2d006b05a84d754baabefc6ff27a5bc53",
+      "generation": {
+        "inserted_bases": 128,
+        "position": 512
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n1024-s29",
+      "scenario": "long_deletion",
+      "source_length": 1024,
+      "seed": 29,
+      "derived_seed": 17466298555895488401,
+      "x_length": 1024,
+      "y_length": 896,
+      "input_sha256": "dee8a729067c5ad863ddc74a72f791ca109c628a7e55c36ed95f1907e938e59c",
+      "generation": {
+        "deleted_bases": 128,
+        "position": 512
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n1024-s29",
+      "scenario": "tandem_repeats",
+      "source_length": 1024,
+      "seed": 29,
+      "derived_seed": 17537223250656180963,
+      "x_length": 1024,
+      "y_length": 1042,
+      "input_sha256": "07ac842d798062c678c39a404c43408c2ff6309f53353e9b30a303e2d5c49971",
+      "generation": {
+        "motif": "CCATCA",
+        "repeat_length": 768,
+        "extra_repeat_bases": 18,
+        "substitutions": 5,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n1024-s29",
+      "scenario": "compensating_indels",
+      "source_length": 1024,
+      "seed": 29,
+      "derived_seed": 6658151167719329271,
+      "x_length": 1024,
+      "y_length": 1024,
+      "input_sha256": "6a392104ed373c20055a43e08a155e45b4011883050daa01473b9437766710af",
+      "generation": {
+        "deleted_bases": 102,
+        "inserted_bases": 102,
+        "deletion_position": 256,
+        "insertion_position_after_deletion": 691
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n1024-s29",
+      "scenario": "high_similarity",
+      "source_length": 1024,
+      "seed": 29,
+      "derived_seed": 5382179297837081492,
+      "x_length": 1024,
+      "y_length": 1024,
+      "input_sha256": "d673f46d349f787b96ca7a5addce6a66845eff2ffe4958fc8a760aa256c7b0c3",
+      "generation": {
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n1024-s43",
+      "scenario": "uniform_errors",
+      "source_length": 1024,
+      "seed": 43,
+      "derived_seed": 1832892703308604345,
+      "x_length": 1024,
+      "y_length": 1031,
+      "input_sha256": "77687459033f0fc1d5643bf4963a52451fd601b9b0b2738c553099083c3048fb",
+      "generation": {
+        "substitutions": 21,
+        "inserted_bases": 21,
+        "deleted_bases": 14
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n1024-s43",
+      "scenario": "clustered_errors",
+      "source_length": 1024,
+      "seed": 43,
+      "derived_seed": 15397566941027377020,
+      "x_length": 1024,
+      "y_length": 1017,
+      "input_sha256": "b902cc7fc095310184c2d396a5bcc0d9eb9f99a53d64bace35623f8c678a025a",
+      "generation": {
+        "substitutions": 17,
+        "inserted_bases": 11,
+        "deleted_bases": 18,
+        "error_interval": [
+          409,
+          614
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n1024-s43",
+      "scenario": "long_insertion",
+      "source_length": 1024,
+      "seed": 43,
+      "derived_seed": 8551437452248751485,
+      "x_length": 1024,
+      "y_length": 1152,
+      "input_sha256": "b6d44ff6a308f17350cccaf49cae503d279aedfc6e6a2b610c79a2d46197d178",
+      "generation": {
+        "inserted_bases": 128,
+        "position": 512
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n1024-s43",
+      "scenario": "long_deletion",
+      "source_length": 1024,
+      "seed": 43,
+      "derived_seed": 17145687390157375597,
+      "x_length": 1024,
+      "y_length": 896,
+      "input_sha256": "3c89a53de91b8d8c64d3ef719ffa9a7407fcf75681280866dda226d5acf666c3",
+      "generation": {
+        "deleted_bases": 128,
+        "position": 512
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n1024-s43",
+      "scenario": "tandem_repeats",
+      "source_length": 1024,
+      "seed": 43,
+      "derived_seed": 9502411200464863223,
+      "x_length": 1024,
+      "y_length": 1044,
+      "input_sha256": "6b026fefe957feae270f677700dc7341a7e28e30a9f23672ba76734c322f3d3f",
+      "generation": {
+        "motif": "GATA",
+        "repeat_length": 768,
+        "extra_repeat_bases": 20,
+        "substitutions": 3,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n1024-s43",
+      "scenario": "compensating_indels",
+      "source_length": 1024,
+      "seed": 43,
+      "derived_seed": 15678879425258494508,
+      "x_length": 1024,
+      "y_length": 1024,
+      "input_sha256": "0574e2350d2acf838649b959223155c22d648caa640c52a71ee6d829a175d27c",
+      "generation": {
+        "deleted_bases": 102,
+        "inserted_bases": 102,
+        "deletion_position": 256,
+        "insertion_position_after_deletion": 691
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n1024-s43",
+      "scenario": "high_similarity",
+      "source_length": 1024,
+      "seed": 43,
+      "derived_seed": 14905031159236772873,
+      "x_length": 1024,
+      "y_length": 1024,
+      "input_sha256": "9851cfa6d3676ef2d03d3664b45abec89cbce31619da4263d28b4cbf98d52c98",
+      "generation": {
+        "substitutions": 2,
+        "inserted_bases": 1,
+        "deleted_bases": 1
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n4096-s17",
+      "scenario": "uniform_errors",
+      "source_length": 4096,
+      "seed": 17,
+      "derived_seed": 6812813325942331867,
+      "x_length": 4096,
+      "y_length": 4080,
+      "input_sha256": "f52fb371748be6c5b8319d48d496c56c3c4aef31bf1a23bb226605b529e47f27",
+      "generation": {
+        "substitutions": 78,
+        "inserted_bases": 59,
+        "deleted_bases": 75
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n4096-s17",
+      "scenario": "clustered_errors",
+      "source_length": 4096,
+      "seed": 17,
+      "derived_seed": 5160569143212598049,
+      "x_length": 4096,
+      "y_length": 4094,
+      "input_sha256": "0dd755ffe5c199a76768cecac2460eb9a5faf38be53768fdfc9f70f7087f5c7e",
+      "generation": {
+        "substitutions": 88,
+        "inserted_bases": 38,
+        "deleted_bases": 40,
+        "error_interval": [
+          1638,
+          2457
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n4096-s17",
+      "scenario": "long_insertion",
+      "source_length": 4096,
+      "seed": 17,
+      "derived_seed": 1940074267057230423,
+      "x_length": 4096,
+      "y_length": 4608,
+      "input_sha256": "51090c87ad8444f02d95d6b51c6f7e178b0fec91b29264fba1e4b1d4d35a426d",
+      "generation": {
+        "inserted_bases": 512,
+        "position": 2048
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n4096-s17",
+      "scenario": "long_deletion",
+      "source_length": 4096,
+      "seed": 17,
+      "derived_seed": 14094008933673409796,
+      "x_length": 4096,
+      "y_length": 3584,
+      "input_sha256": "d644fe5327eb0836d895adb1c2a69b90a26f03b6965f65e9dcc718e1cb794b0b",
+      "generation": {
+        "deleted_bases": 512,
+        "position": 2048
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n4096-s17",
+      "scenario": "tandem_repeats",
+      "source_length": 4096,
+      "seed": 17,
+      "derived_seed": 17842511504106619931,
+      "x_length": 4096,
+      "y_length": 4180,
+      "input_sha256": "28b1b9492aa394426dfb7804793a1d9548ee2449b4e4df72cb6ba2d1caacba7d",
+      "generation": {
+        "motif": "TGAACC",
+        "repeat_length": 3072,
+        "extra_repeat_bases": 84,
+        "substitutions": 11,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n4096-s17",
+      "scenario": "compensating_indels",
+      "source_length": 4096,
+      "seed": 17,
+      "derived_seed": 12990946390063052728,
+      "x_length": 4096,
+      "y_length": 4096,
+      "input_sha256": "849cc3a4983da01b13e091c2c60055fcfc0150125bfeccbf4e412c4aec74c4a9",
+      "generation": {
+        "deleted_bases": 409,
+        "inserted_bases": 409,
+        "deletion_position": 1024,
+        "insertion_position_after_deletion": 2765
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n4096-s17",
+      "scenario": "high_similarity",
+      "source_length": 4096,
+      "seed": 17,
+      "derived_seed": 12738094996523287299,
+      "x_length": 4096,
+      "y_length": 4099,
+      "input_sha256": "55ed5a426aeb48f6810de4ca61237053d19409a12631df2bb84e50fc0906d6f7",
+      "generation": {
+        "substitutions": 9,
+        "inserted_bases": 6,
+        "deleted_bases": 3
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n4096-s29",
+      "scenario": "uniform_errors",
+      "source_length": 4096,
+      "seed": 29,
+      "derived_seed": 16745324542132663029,
+      "x_length": 4096,
+      "y_length": 4102,
+      "input_sha256": "306b63b805d7d14241b1fc70fd4c75ffd1cd1241b4f47f366edb2cf3d55cf3c3",
+      "generation": {
+        "substitutions": 89,
+        "inserted_bases": 71,
+        "deleted_bases": 65
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n4096-s29",
+      "scenario": "clustered_errors",
+      "source_length": 4096,
+      "seed": 29,
+      "derived_seed": 3021226911909390965,
+      "x_length": 4096,
+      "y_length": 4090,
+      "input_sha256": "f891d22f69b45b43ade4a1bde1e69445ae26a62d123e14256c5142457232e703",
+      "generation": {
+        "substitutions": 104,
+        "inserted_bases": 53,
+        "deleted_bases": 59,
+        "error_interval": [
+          1638,
+          2457
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n4096-s29",
+      "scenario": "long_insertion",
+      "source_length": 4096,
+      "seed": 29,
+      "derived_seed": 10556551714721936116,
+      "x_length": 4096,
+      "y_length": 4608,
+      "input_sha256": "57f08fd0edfc35158007ba3f2af523f2e11957bde509a0cdfefb6dd3931c6ba0",
+      "generation": {
+        "inserted_bases": 512,
+        "position": 2048
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n4096-s29",
+      "scenario": "long_deletion",
+      "source_length": 4096,
+      "seed": 29,
+      "derived_seed": 5089888194146170749,
+      "x_length": 4096,
+      "y_length": 3584,
+      "input_sha256": "e3358a6fb1aad624422027d738f4839acba6027b3376003e646a2510176c5ceb",
+      "generation": {
+        "deleted_bases": 512,
+        "position": 2048
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n4096-s29",
+      "scenario": "tandem_repeats",
+      "source_length": 4096,
+      "seed": 29,
+      "derived_seed": 14474402878304811064,
+      "x_length": 4096,
+      "y_length": 4180,
+      "input_sha256": "924302782a3808394e41d18201dcec549eeeefecd3a738fa910108b24b804a55",
+      "generation": {
+        "motif": "CCGG",
+        "repeat_length": 3072,
+        "extra_repeat_bases": 84,
+        "substitutions": 21,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n4096-s29",
+      "scenario": "compensating_indels",
+      "source_length": 4096,
+      "seed": 29,
+      "derived_seed": 4535860368339541077,
+      "x_length": 4096,
+      "y_length": 4096,
+      "input_sha256": "860004509ab3a5a91a485fc9520502346eed9dab515c5ac79aa31aed1aabc85b",
+      "generation": {
+        "deleted_bases": 409,
+        "inserted_bases": 409,
+        "deletion_position": 1024,
+        "insertion_position_after_deletion": 2765
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n4096-s29",
+      "scenario": "high_similarity",
+      "source_length": 4096,
+      "seed": 29,
+      "derived_seed": 1479242245018824762,
+      "x_length": 4096,
+      "y_length": 4097,
+      "input_sha256": "0f8e8a9340054e5047605c1ae48c7dd0340219d93856695b7d1bc79aa41834b6",
+      "generation": {
+        "substitutions": 6,
+        "inserted_bases": 4,
+        "deleted_bases": 3
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "uniform_errors-n4096-s43",
+      "scenario": "uniform_errors",
+      "source_length": 4096,
+      "seed": 43,
+      "derived_seed": 9949715975435732209,
+      "x_length": 4096,
+      "y_length": 4099,
+      "input_sha256": "a9c42db58ce1f8aa96e869a5152a4c247f37c253ac2ccc799f4245da501dec43",
+      "generation": {
+        "substitutions": 71,
+        "inserted_bases": 58,
+        "deleted_bases": 55
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "clustered_errors-n4096-s43",
+      "scenario": "clustered_errors",
+      "source_length": 4096,
+      "seed": 43,
+      "derived_seed": 4661765830879039335,
+      "x_length": 4096,
+      "y_length": 4097,
+      "input_sha256": "7dd4ac57b19ec6af329d0b1a7494620cfdfbb0b778d204c687557f9c7945ddf8",
+      "generation": {
+        "substitutions": 83,
+        "inserted_bases": 56,
+        "deleted_bases": 55,
+        "error_interval": [
+          1638,
+          2457
+        ]
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_insertion-n4096-s43",
+      "scenario": "long_insertion",
+      "source_length": 4096,
+      "seed": 43,
+      "derived_seed": 7363266857766319442,
+      "x_length": 4096,
+      "y_length": 4608,
+      "input_sha256": "e86536d5b9141c639586f109ed2148e91e4e31a93b5adf9926f4cdf538cb50da",
+      "generation": {
+        "inserted_bases": 512,
+        "position": 2048
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "long_deletion-n4096-s43",
+      "scenario": "long_deletion",
+      "source_length": 4096,
+      "seed": 43,
+      "derived_seed": 7258362474217769811,
+      "x_length": 4096,
+      "y_length": 3584,
+      "input_sha256": "1cbc4ac6f2506ad820bc5a17b719e0c6cea49d2cea2f228d61961eb6d3b87c82",
+      "generation": {
+        "deleted_bases": 512,
+        "position": 2048
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "tandem_repeats-n4096-s43",
+      "scenario": "tandem_repeats",
+      "source_length": 4096,
+      "seed": 43,
+      "derived_seed": 18125333591420660528,
+      "x_length": 4096,
+      "y_length": 4181,
+      "input_sha256": "8c222c33421de92296c54a69dd48a8dbdc7677696ac7d30f19ec6c6c1f634a82",
+      "generation": {
+        "motif": "CACCG",
+        "repeat_length": 3072,
+        "extra_repeat_bases": 85,
+        "substitutions": 16,
+        "inserted_bases": 0,
+        "deleted_bases": 0
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "compensating_indels-n4096-s43",
+      "scenario": "compensating_indels",
+      "source_length": 4096,
+      "seed": 43,
+      "derived_seed": 12552118440287021814,
+      "x_length": 4096,
+      "y_length": 4096,
+      "input_sha256": "a789e4d4e7543960f73385926eee12afc643ce84ccedf3a5040523bc605d3556",
+      "generation": {
+        "deleted_bases": 409,
+        "inserted_bases": 409,
+        "deletion_position": 1024,
+        "insertion_position_after_deletion": 2765
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "high_similarity-n4096-s43",
+      "scenario": "high_similarity",
+      "source_length": 4096,
+      "seed": 43,
+      "derived_seed": 10200799000795859961,
+      "x_length": 4096,
+      "y_length": 4096,
+      "input_sha256": "b5fd6c8859b6c0f675b0838b54270ac26399da59dccc821bf5ad41cfa675f209",
+      "generation": {
+        "substitutions": 13,
+        "inserted_bases": 5,
+        "deleted_bases": 5
+      },
+      "suite": "original63",
+      "prior_suite": "original",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g16-s101",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 10468766366936186994,
+      "x_length": 2048,
+      "y_length": 2064,
+      "input_sha256": "b8326c9790d00ff168e73f467859d1c3b1077bdef78fa5f014e22afa384fd4d7",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 0,
+        "position": 698
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g64-s101",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 16598866450138869042,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "68c6c68879184aaecb4dbcffdeaa7cbd06fffc04f9ab8012aabc0eadac5a4a46",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 1009
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g256-s101",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 9795676424851827783,
+      "x_length": 2048,
+      "y_length": 2304,
+      "input_sha256": "bff67cc9bbfa9e450e60652938231bb0f8ac5282cbd3bd78a55db9e623f0d6d6",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 0,
+        "position": 813
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g16-s101",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 14994373955443649076,
+      "x_length": 2048,
+      "y_length": 2032,
+      "input_sha256": "a641db48d3233548e5346b2643eaaaf256ba398ad8e09f6eb961c49cb236e078",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 16,
+        "position": 877
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g64-s101",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 14881328699053669584,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "3108de148bccbf10f826969c0e42ba0fb177a546217222256c43e0a64668c0af",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 973
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g256-s101",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 16228202229332025319,
+      "x_length": 2048,
+      "y_length": 1792,
+      "input_sha256": "903e02bb1bd06899d734e95c5becf785dbdeef9b6bd7c4ccd0c90bee0e541f8d",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 256,
+        "position": 850
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g16-s101",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 49847184034105993,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "db53fd03c3ca5418b6ca2e1154d25ec078752d582e6c2377e08eb00d1d8e5774",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 16,
+        "deletion_position": 575,
+        "insertion_position_after_deletion": 1537
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g64-s101",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 16264072930959727204,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "a3fbe121f56e23ce84eca5bc4b40d21aba8e9ef6ef24be6cf0878a2a44fd98fc",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 64,
+        "deletion_position": 554,
+        "insertion_position_after_deletion": 1515
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g256-s101",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 16937782750328265031,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "1131e2500c507079dea216572d287eb19bf1451d5be9f379d62a99003c668754",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 256,
+        "deletion_position": 539,
+        "insertion_position_after_deletion": 1363
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g16-s103",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 14186339501777148744,
+      "x_length": 2048,
+      "y_length": 2064,
+      "input_sha256": "67af75b03989005f8be826899bb6d980d9b5da84e16601d43a7a5689b80c5a83",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 0,
+        "position": 947
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g64-s103",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 16544077103855801711,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "5192f10c1ab8a1be397bdcff489eef79a7978ff1f98ea67613bfe7c149ee77a2",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 838
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g256-s103",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 10699088358839111448,
+      "x_length": 2048,
+      "y_length": 2304,
+      "input_sha256": "4430f09c339babf686bf8a5f56e16604d20a9b311766776294fc3cc32e806e34",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 0,
+        "position": 919
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g16-s103",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 14415284282936568200,
+      "x_length": 2048,
+      "y_length": 2032,
+      "input_sha256": "4d4526392046083c268b59932ad3eccccc4d0d8886868eba22465cdeb576159c",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 16,
+        "position": 692
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g64-s103",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 18089435961067737979,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "a5fdf69321d7eba1b72cc48c47848c75c866459698a443f89bb77f934953303b",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 744
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g256-s103",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 4256740079382697590,
+      "x_length": 2048,
+      "y_length": 1792,
+      "input_sha256": "5d0f91265cb11bf97d7fb2f7fcd95c374a8aeac93ed87cb11d4329c9d2142ae2",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 256,
+        "position": 741
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g16-s103",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 1598302076720905021,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "1dbca5f4bc13ac499bb5ca841ae711eb53d9745a131850f813138951cb6c0f55",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 16,
+        "deletion_position": 554,
+        "insertion_position_after_deletion": 1575
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g64-s103",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 14614118795894661139,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "dd5f249e5e83bac3e6ad174f387e836402d30e11c96214b05209b0060471f1f2",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 64,
+        "deletion_position": 559,
+        "insertion_position_after_deletion": 1543
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g256-s103",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 15180404452427885857,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "c42e64a79403d87150d009db802b777d3c0f690f1091f2d7972f72261f9873ea",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 256,
+        "deletion_position": 517,
+        "insertion_position_after_deletion": 1400
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g16-s107",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 69998914158290859,
+      "x_length": 2048,
+      "y_length": 2064,
+      "input_sha256": "7b046140009765864319d3f41b7c2fba8824b3011ca1723f17ae968f538c70e8",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 0,
+        "position": 831
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g64-s107",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 15457903052781692493,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "a6ed74a0b5e14bfd34140c1a38725468227bc4a3103b414fc6ec3689779aa427",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 914
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g256-s107",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 3238371241254751400,
+      "x_length": 2048,
+      "y_length": 2304,
+      "input_sha256": "a0ef83c1ba562adaa48dc6a05703bd087a420dff270b3f2e80e763949309c653",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 0,
+        "position": 1009
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g16-s107",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 12301752527270306072,
+      "x_length": 2048,
+      "y_length": 2032,
+      "input_sha256": "4d56022377fab9908c4b64fa00844e5b0a13d7741e0c99c5c2b67f87ef6dd761",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 16,
+        "position": 979
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g64-s107",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 12584892481014883476,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "51aec585974808eb1496f74a44d6819bebb75d49748bf770493515b6b22b0bde",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 996
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g256-s107",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 9298100369335536694,
+      "x_length": 2048,
+      "y_length": 1792,
+      "input_sha256": "4475fa8c5ec0ff0285b583a2c25d41bcd46a7e2ee6ed3cc67e27b35a4fa74d5b",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 256,
+        "position": 987
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g16-s107",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 12861442818214316074,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "2260db127a1a9e9ff6afeb5bc057cb53d38496c1557c6df3fa603a02c4ca7d7f",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 16,
+        "deletion_position": 519,
+        "insertion_position_after_deletion": 1558
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g64-s107",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 210149554636704351,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "f9ef564ed697d826b386cc3e23c74a89c3987998df6139b1cf31b840dc02cf5d",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 64,
+        "deletion_position": 536,
+        "insertion_position_after_deletion": 1547
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g256-s107",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 12921112984609642591,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "a1a5d4df76171a3f1ce232ca275fb9cfcf1ebfd2ddc7e5ce8d215cbb0afdbfff",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 256,
+        "deletion_position": 522,
+        "insertion_position_after_deletion": 1390
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g16-s109",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 16336592960849733543,
+      "x_length": 2048,
+      "y_length": 2064,
+      "input_sha256": "d3e960a9a25a5e0720768ecaf02b1108bcf40feaa628daf989536cbf088eba57",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 0,
+        "position": 1003
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g64-s109",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 16170892807390560586,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "19b81f81be4c96fb0a728a91446e7bc069420b289e3b85f9810996dde5630991",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 962
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g256-s109",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 17827876038475615910,
+      "x_length": 2048,
+      "y_length": 2304,
+      "input_sha256": "25f6ef1f5803002a499f80eccc063c5385495bc2059b8a78968dd674c178a394",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 0,
+        "position": 973
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g16-s109",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 10989689101690238814,
+      "x_length": 2048,
+      "y_length": 2032,
+      "input_sha256": "6f8f4d05e25c7731b404a72e67427eebc1fd5cdb6207a1512d3be3fdedb3580f",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 16,
+        "position": 793
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g64-s109",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 15565827981560113745,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "84043049d3231612c2a2528b21cb9ae24c30706472c30635de80492edc801142",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 704
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g256-s109",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 13140064761453561765,
+      "x_length": 2048,
+      "y_length": 1792,
+      "input_sha256": "c487c96d785f058bee3b2c840bdff449544e893bbb2f07cab6e3927054fe59fc",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 256,
+        "position": 789
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g16-s109",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 12478602839335369919,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "c7856833e2e288137d31974d58aa905f4b7c4093c3cd731d0c8594e004ccb78c",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 16,
+        "deletion_position": 551,
+        "insertion_position_after_deletion": 1586
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g64-s109",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 5625101870695199180,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "34c252f7358cd9fec3e2cd8e28a1a4a41a5bfa485c5b8d187422b06eec1fb9cc",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 64,
+        "deletion_position": 535,
+        "insertion_position_after_deletion": 1530
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g256-s109",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 1605674111447942319,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "6c4bc6c1f4c388c1d818a4416c4211c45179340982bff279ad671df7198b72ff",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 256,
+        "deletion_position": 520,
+        "insertion_position_after_deletion": 1360
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g16-s113",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 5412827956590031471,
+      "x_length": 2048,
+      "y_length": 2064,
+      "input_sha256": "c71d14cbe072dd7a54aab4eeeaa3d548ff1c82cdc775a40870c8ea362bd163e7",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 0,
+        "position": 902
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g64-s113",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 10009130323778227996,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "9bf45836acfd7d215bc5e70b0c1f607b93389166f76df29573f1c3e39f619276",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 878
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-insertion-n2048-g256-s113",
+      "suite": "v2extension55",
+      "scenario": "insertion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 8019673002565280815,
+      "x_length": 2048,
+      "y_length": 2304,
+      "input_sha256": "4e920cb39a673dfc7fbc302af821cc85cdb551ed8e3cb71b90d121d3f7fbc084",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 0,
+        "position": 691
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g16-s113",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 12292335917857618412,
+      "x_length": 2048,
+      "y_length": 2032,
+      "input_sha256": "e5a6c2c9b04dc052c85808e02babf87d2f9c60761c46f694edb826d664bbe078",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 16,
+        "position": 695
+      },
+      "analytic_optimal_distance": 16,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g64-s113",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 12176735549421226058,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "ae5e45fe4e25ab4c792a1cf60d6f84c3ba5ae005b8b2f12357047b67aceb23be",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 791
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-deletion-n2048-g256-s113",
+      "suite": "v2extension55",
+      "scenario": "deletion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 11551546251131600081,
+      "x_length": 2048,
+      "y_length": 1792,
+      "input_sha256": "81aafc3c8c6028fbc8e13a0d1591e550da0261c97262120964b1e69d21d60574",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 0,
+        "deleted_bases": 256,
+        "position": 1016
+      },
+      "analytic_optimal_distance": 256,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g16-s113",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 3232081694418116369,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "ad6608f176d62045727b63d352afab65b9b6d6f2553cef4a9685fa075c01db1c",
+      "generation": {
+        "indel_length": 16,
+        "substitutions": 0,
+        "inserted_bases": 16,
+        "deleted_bases": 16,
+        "deletion_position": 531,
+        "insertion_position_after_deletion": 1533
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g64-s113",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 10983787116779299493,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "045db981950b1c365abb7b10b4d07c4487210052164c23545d7f1cf38f010c65",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "inserted_bases": 64,
+        "deleted_bases": 64,
+        "deletion_position": 563,
+        "insertion_position_after_deletion": 1535
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-compensating-n2048-g256-s113",
+      "suite": "v2extension55",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 14584711132473907825,
+      "x_length": 2048,
+      "y_length": 2048,
+      "input_sha256": "c44b08aed816e90f0ed5ee28d3ec68c0357128b1ad5174782509a50c9475c7eb",
+      "generation": {
+        "indel_length": 256,
+        "substitutions": 0,
+        "inserted_bases": 256,
+        "deleted_bases": 256,
+        "deletion_position": 556,
+        "insertion_position_after_deletion": 1386
+      },
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_insertion-n2048-g64-s101",
+      "suite": "v2extension55",
+      "scenario": "repeat_insertion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 5286402396663035767,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "631341827982cc932f10bedffbc4fb9637178e863cf0a22858107350975c0b66",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "ACTG",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_deletion-n2048-g64-s101",
+      "suite": "v2extension55",
+      "scenario": "repeat_deletion",
+      "source_length": 2048,
+      "seed": 101,
+      "derived_seed": 17541613174827490124,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "b332f39c377639e23252bd04cd2a906ee592c58b326cda44f4c8bfeb1b66d8cb",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "CCCT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_insertion-n2048-g64-s103",
+      "suite": "v2extension55",
+      "scenario": "repeat_insertion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 18056425951504652867,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "7877534f6317d829424e02b3a2e91fc4401dda67e498ab9e78c4938cbcd4d118",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "TAAA",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_deletion-n2048-g64-s103",
+      "suite": "v2extension55",
+      "scenario": "repeat_deletion",
+      "source_length": 2048,
+      "seed": 103,
+      "derived_seed": 9039334280574702259,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "69da297a7430d7afb4fdfee26eeb13c3775217314446e612c30835d78892948e",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "TGAC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_insertion-n2048-g64-s107",
+      "suite": "v2extension55",
+      "scenario": "repeat_insertion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 12871019728677199977,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "67f1f7c15ad721f4ceac762b91cc5b9e06a156aa117b9a623fb0c76df230ee7b",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "AAAG",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_deletion-n2048-g64-s107",
+      "suite": "v2extension55",
+      "scenario": "repeat_deletion",
+      "source_length": 2048,
+      "seed": 107,
+      "derived_seed": 13023989859757584351,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "5b4ec02b19ac2c6001045f7706b70d2949832fc0b6712760c4510af19ed82dad",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "CCGA",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_insertion-n2048-g64-s109",
+      "suite": "v2extension55",
+      "scenario": "repeat_insertion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 8057076585185053890,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "8e0a91397f0609435a48a90b219daf534135416f850988b7fca142e86b2f8ca9",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "GAAC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_deletion-n2048-g64-s109",
+      "suite": "v2extension55",
+      "scenario": "repeat_deletion",
+      "source_length": 2048,
+      "seed": 109,
+      "derived_seed": 15183904874810368846,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "4c7b7d147cf6179c1e6d2c0b0ac6faa392ea6ae58f0ee45007b620a9a1308220",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "ATGT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_insertion-n2048-g64-s113",
+      "suite": "v2extension55",
+      "scenario": "repeat_insertion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 12983379296099657395,
+      "x_length": 2048,
+      "y_length": 2112,
+      "input_sha256": "0249ef8b05bb611021e2c8eb91b4a6d61b499afb8310c3a4acf9e7652662cc44",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "TGAT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 64,
+        "deleted_bases": 0,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "heldout-repeat_deletion-n2048-g64-s113",
+      "suite": "v2extension55",
+      "scenario": "repeat_deletion",
+      "source_length": 2048,
+      "seed": 113,
+      "derived_seed": 4411178257939154703,
+      "x_length": 2048,
+      "y_length": 1984,
+      "input_sha256": "bcdf3ff2f124f3f02256fb1d084ff2997623e5adf2d949cb1e8b0b0ccc94cfd7",
+      "generation": {
+        "indel_length": 64,
+        "substitutions": 0,
+        "motif": "AACT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "inserted_bases": 0,
+        "deleted_bases": 64,
+        "position": 1024
+      },
+      "analytic_optimal_distance": 64,
+      "analytic_optimum_reason": "length-difference lower bound meets the constructed insertion/deletion path",
+      "prior_suite": "heldout",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g32-s211",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 211,
+      "derived_seed": 7378413203331474790,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 537,
+        "insertion_position_after_deletion": 1552
+      },
+      "input_sha256": "aa43bd6a1ad53da49373ac1f78a0dd853c34a569cdcbd26ff2faff14258618f1",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g32-s211",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 211,
+      "derived_seed": 4892554049172854973,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "TGCT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 574,
+        "insertion_position_after_deletion": 1525
+      },
+      "input_sha256": "2c900d8f004b2dfedf5dfaee460e7f1ec8e5b26dc9a4a42e31abfdfe73536cd7",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g128-s211",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 211,
+      "derived_seed": 15400919615834949093,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 531,
+        "insertion_position_after_deletion": 1483
+      },
+      "input_sha256": "91a964e8f46a984466e0d0e7232c1bb206414e2a8624938686343e269a2739f0",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g128-s211",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 211,
+      "derived_seed": 6616284004021496937,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "CGGC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 574,
+        "insertion_position_after_deletion": 1474
+      },
+      "input_sha256": "ab92382062cbc1a9f541ae84c7aee3880668b8767c5b9421c178d07df4d266b7",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g384-s211",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 211,
+      "derived_seed": 11354181672928171582,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 542,
+        "insertion_position_after_deletion": 1265
+      },
+      "input_sha256": "3af7e97ac0543c778eef15447f8efbcb9d5f17f32c938f364677c5b88fd41ae4",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g384-s211",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 211,
+      "derived_seed": 13931755067110452646,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "ACTA",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 562,
+        "insertion_position_after_deletion": 1257
+      },
+      "input_sha256": "12ff8b03d861998de13f2943d34c88860215e3dda8cb5f361e67a51ae5a4b13e",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g32-s223",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 223,
+      "derived_seed": 1449852738988262337,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 542,
+        "insertion_position_after_deletion": 1541
+      },
+      "input_sha256": "3c42cbad0720eefd901dd59af55c5e7944918dec7308442a385b4ef3cccd3e37",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g32-s223",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 223,
+      "derived_seed": 3130447271844962631,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "GCCT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 524,
+        "insertion_position_after_deletion": 1520
+      },
+      "input_sha256": "6a98c4e4bce2268ae93c6b39da5645f38c59a8719a42b3ab2f6d29a513db2f19",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g128-s223",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 223,
+      "derived_seed": 1031620689379850581,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 541,
+        "insertion_position_after_deletion": 1479
+      },
+      "input_sha256": "e2a39358c9bdd1d39e73154c55046452a7fad5e923ebe689dde0c45e00dc288a",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g128-s223",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 223,
+      "derived_seed": 15078154560729642957,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "ATTC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 530,
+        "insertion_position_after_deletion": 1495
+      },
+      "input_sha256": "8a26ffb9f1c8c0e7b0c9b830805fedc90444ea32c87a4484f1bd866dee4f3ded",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g384-s223",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 223,
+      "derived_seed": 11795574403408575315,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 573,
+        "insertion_position_after_deletion": 1254
+      },
+      "input_sha256": "be3b20cd3dcad97e765fce90240fb3e03cbab0c1c57a530a3b0975979b3bbd10",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g384-s223",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 223,
+      "derived_seed": 6594515207889704105,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "GTGC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 547,
+        "insertion_position_after_deletion": 1287
+      },
+      "input_sha256": "dcbf33fe78d6fae7471dd20edaba48c9130c9171a77192cdd072921daeed42d1",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g32-s227",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 227,
+      "derived_seed": 5669276794021808571,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 561,
+        "insertion_position_after_deletion": 1534
+      },
+      "input_sha256": "f9f1a64f78e3aff52c58babd0ee5efa9bb6fd855c284b48a1db2b4740e4d6ffb",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g32-s227",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 227,
+      "derived_seed": 349816558231737004,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "CAAC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 550,
+        "insertion_position_after_deletion": 1540
+      },
+      "input_sha256": "402522a84da67e62aa1f7589924e0d2d571041e7554ec7ad1bde2cfa1a0e9db0",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g128-s227",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 227,
+      "derived_seed": 3853031769148658571,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 562,
+        "insertion_position_after_deletion": 1480
+      },
+      "input_sha256": "382bdac3213cc6183991ba7881a3a7976fd97f78ea2a0c24a044bfc5d64b3dcc",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g128-s227",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 227,
+      "derived_seed": 5744738139693067909,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "TATC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 568,
+        "insertion_position_after_deletion": 1446
+      },
+      "input_sha256": "f702bfab979a0c55b66aa2ba392cf40bc34b3fa64ab550a2fedc72e9607da89f",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g384-s227",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 227,
+      "derived_seed": 4503753437422362991,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 575,
+        "insertion_position_after_deletion": 1264
+      },
+      "input_sha256": "5b244446fc287ee351a55a15490c6dbad45321f938fae1df1ac7e96ee17d8359",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g384-s227",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 227,
+      "derived_seed": 12145272802249932328,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "AATC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 517,
+        "insertion_position_after_deletion": 1282
+      },
+      "input_sha256": "71fcbbb3e78ae91215041d42b7ebe904ef529bb793622d4ce0818f4e09b18102",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g32-s229",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 229,
+      "derived_seed": 2591532487917405197,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 529,
+        "insertion_position_after_deletion": 1575
+      },
+      "input_sha256": "0a7388a833186ab37bcceb5d3c13a1e95faad02785b21b0ead37ad00d17d18e6",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g32-s229",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 229,
+      "derived_seed": 4312400205576222280,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "CGCT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 526,
+        "insertion_position_after_deletion": 1524
+      },
+      "input_sha256": "9498b69318762885085748d3b9f3d9fa185fe711a1d1e2e8a1ac9857b66ad069",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g128-s229",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 229,
+      "derived_seed": 2778305520942792038,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 515,
+        "insertion_position_after_deletion": 1496
+      },
+      "input_sha256": "cda7180cf449f3a66f5d48fbafa74df874f24b1d95034b9b19bcc1c55c2d96c5",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g128-s229",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 229,
+      "derived_seed": 3330646135932431260,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "CCAT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 549,
+        "insertion_position_after_deletion": 1454
+      },
+      "input_sha256": "673df2854fd1109a20fe25d0ac20266f4e4545c4cbad24fe5c795f718e6c288d",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g384-s229",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 229,
+      "derived_seed": 827503789915419538,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 517,
+        "insertion_position_after_deletion": 1258
+      },
+      "input_sha256": "90970186958af1b465c1b59fa06e62824425fc6771e304d4a6764b7d103afd55",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g384-s229",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 229,
+      "derived_seed": 14817002725165454842,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "TTAG",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 567,
+        "insertion_position_after_deletion": 1282
+      },
+      "input_sha256": "6cbf288af3edc86bf4736561624d66b56a13932575f0c4e8756f954df32404db",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g32-s233",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 233,
+      "derived_seed": 12164264985081438474,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 548,
+        "insertion_position_after_deletion": 1572
+      },
+      "input_sha256": "04b109f2a9bd9728f43936eee40a5e2f34aa96944ed4ade99e5472b0a9cefd06",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g32-s233",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 233,
+      "derived_seed": 15326832676908773953,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 32,
+        "inserted_bases": 32,
+        "deleted_bases": 32,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "TAGA",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 522,
+        "insertion_position_after_deletion": 1548
+      },
+      "input_sha256": "716c2aa63468b15622a0cba68409d55f2afb478435ebee83dca0df78a6b7e459",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g128-s233",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 233,
+      "derived_seed": 11900665902562507657,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 562,
+        "insertion_position_after_deletion": 1453
+      },
+      "input_sha256": "02389891627ef698364cb5a89bece2bf2e017514415afb84dd9ec0cea22009ed",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g128-s233",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 233,
+      "derived_seed": 11043711682919475758,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 128,
+        "inserted_bases": 128,
+        "deleted_bases": 128,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "CCCC",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 514,
+        "insertion_position_after_deletion": 1478
+      },
+      "input_sha256": "8a7579868554f8cfe6a794d2ff52d96f76d2d9641871a30db41980cb2956121d",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-compensating-n2048-g384-s233",
+      "suite": "v3fresh30",
+      "scenario": "compensating",
+      "source_length": 2048,
+      "seed": 233,
+      "derived_seed": 12860389234872869160,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": false,
+        "deletion_position": 537,
+        "insertion_position_after_deletion": 1275
+      },
+      "input_sha256": "14076dac052155fafc97cf66a14424a59d473571b35913819f8eb6054dce4466",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v3-repeat_compensating-n2048-g384-s233",
+      "suite": "v3fresh30",
+      "scenario": "repeat_compensating",
+      "source_length": 2048,
+      "seed": 233,
+      "derived_seed": 16022524262616566824,
+      "x_length": 2048,
+      "y_length": 2048,
+      "generation": {
+        "indel_length": 384,
+        "inserted_bases": 384,
+        "deleted_bases": 384,
+        "substitutions": 0,
+        "repeat_background": true,
+        "motif": "GTCT",
+        "repeat_interval": [
+          512,
+          1536
+        ],
+        "deletion_position": 528,
+        "insertion_position_after_deletion": 1308
+      },
+      "input_sha256": "33d386fa5507e85c642e7833a47c95ffee793686831452b74ae5dd0b7b3f0751",
+      "prior_suite": "fresh_v3",
+      "evidence_status": "known from prior experiments; not a fresh test"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g47-s401",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 401,
+      "derived_seed": 151925752598141616,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 780,
+        "insertion_position_after_deletion": 2275
+      },
+      "input_sha256": "afa74649654aa88a88843e3288a70405cc5ccf9e7fc7df932e95c11dfd178ab1"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g47-s401",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 401,
+      "derived_seed": 15056034940510264272,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "CCTC",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 793,
+        "insertion_position_after_deletion": 2321
+      },
+      "input_sha256": "10d49a0502f3c251e07bc637c2e953b3bfcc73e2c622c93c0718fb61ca6ffa04"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g193-s401",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 401,
+      "derived_seed": 1671794293424078518,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 821,
+        "insertion_position_after_deletion": 2190
+      },
+      "input_sha256": "46d51530ae807723f02e9070b47914a9aa6d2e1eee23e21d70979e979ea9c32c"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g193-s401",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 401,
+      "derived_seed": 11246839199938443815,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "ATCC",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 795,
+        "insertion_position_after_deletion": 2202
+      },
+      "input_sha256": "3b08c4be00feab9961258b6639a67ebf5ad58c403f6a09a6130ecb527e84b149"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g511-s401",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 401,
+      "derived_seed": 1921329986409095169,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 770,
+        "insertion_position_after_deletion": 1932
+      },
+      "input_sha256": "8b6fe5e7afec85a9c41d96bfa714a862387af0a9665204fcaf526280f1481631"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g511-s401",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 401,
+      "derived_seed": 4793905838831242581,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "ACGG",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 830,
+        "insertion_position_after_deletion": 1928
+      },
+      "input_sha256": "d7f9f1a9b89369abe2eb8760e02328073a3d7ca6179d14bf71e7143cf19515ac"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g47-s409",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 409,
+      "derived_seed": 7101319894803908588,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 789,
+        "insertion_position_after_deletion": 2270
+      },
+      "input_sha256": "b83d8c26f020752b2ceb8138a7c87072fb45d72d58c7252f58f7ef986addf9d0"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g47-s409",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 409,
+      "derived_seed": 10828462219031051927,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "TTCG",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 787,
+        "insertion_position_after_deletion": 2319
+      },
+      "input_sha256": "517eb8440a7ab8a79a11a68759b3efad3f00f7303538aefcafd27ff5124f52e7"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g193-s409",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 409,
+      "derived_seed": 849387679628865002,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 797,
+        "insertion_position_after_deletion": 2219
+      },
+      "input_sha256": "dc60eaae75d46697de655eb1195a2a9dff17ec6570892dc4a1938fc333e42a05"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g193-s409",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 409,
+      "derived_seed": 13300651828384339361,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "AGTT",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 784,
+        "insertion_position_after_deletion": 2191
+      },
+      "input_sha256": "9fad4d77bd154c10d218d08b21e4eb7188cca379caed07cfc09e5e7b2098ac20"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g511-s409",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 409,
+      "derived_seed": 11696157518316041276,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 818,
+        "insertion_position_after_deletion": 1966
+      },
+      "input_sha256": "a2a612332cc2872496cef7f5f50feb70dd1d43305928af0c798c1527e52e6db8"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g511-s409",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 409,
+      "derived_seed": 9088542167531484331,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "GTGG",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 822,
+        "insertion_position_after_deletion": 1923
+      },
+      "input_sha256": "1e14e0685f938502ecb2473cf2d00fc667fa7cd40f6fd6b00ae3bf900a3b16e2"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g47-s419",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 419,
+      "derived_seed": 15479759560168665558,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 830,
+        "insertion_position_after_deletion": 2272
+      },
+      "input_sha256": "14d0637a86fad2567673ce715c7f8a29b1bfddbdce2a8ad860957a07c184bc85"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g47-s419",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 419,
+      "derived_seed": 17795023508615374360,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "GAGC",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 803,
+        "insertion_position_after_deletion": 2279
+      },
+      "input_sha256": "b7db83defb23fbac61222362b0fc4365748ac944be6b43b6d78312822543bd28"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g193-s419",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 419,
+      "derived_seed": 10606816793063661373,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 783,
+        "insertion_position_after_deletion": 2222
+      },
+      "input_sha256": "1bc28df6f24a00a6f3506b0fa90e88c7ff99ede6ff2c9c41f36bb5145b9a55af"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g193-s419",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 419,
+      "derived_seed": 543690050432323830,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "ACGC",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 773,
+        "insertion_position_after_deletion": 2200
+      },
+      "input_sha256": "75d62f7ea415ad2f664d4e7a64b14645ce2a448ae9f66685bc553a87978c9e83"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g511-s419",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 419,
+      "derived_seed": 5193680538360090640,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 781,
+        "insertion_position_after_deletion": 1966
+      },
+      "input_sha256": "73a68d297fca24735e842f92123e17864740873bd83846e02132efa139f2b9fc"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g511-s419",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 419,
+      "derived_seed": 17876690384105611763,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "GAAT",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 804,
+        "insertion_position_after_deletion": 1947
+      },
+      "input_sha256": "e051028531ff2fba5653c530e725c6d05cfd35b17f33ca427ef612a1710c2e6d"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g47-s421",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 421,
+      "derived_seed": 4649883250837163430,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 781,
+        "insertion_position_after_deletion": 2270
+      },
+      "input_sha256": "fb53fe635482f17d385a02690e031772de0311d644f033a197d521fad3bf9951"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g47-s421",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 421,
+      "derived_seed": 14410031548991423142,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "TGGC",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 825,
+        "insertion_position_after_deletion": 2283
+      },
+      "input_sha256": "3f003453558fe9a4f640f957480ff2fc25c83fd602a92e184ed4c766c8e44628"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g193-s421",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 421,
+      "derived_seed": 17681680383685815011,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 814,
+        "insertion_position_after_deletion": 2173
+      },
+      "input_sha256": "4831471fb61f34f5ce72c55d452c90a383e70ef103e09923c2649454a8bf2580"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g193-s421",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 421,
+      "derived_seed": 731662376095453837,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "CCTT",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 803,
+        "insertion_position_after_deletion": 2202
+      },
+      "input_sha256": "d608e173a44638945f23e90856cf26d2388892fce475eb7b24756b56f7d4c95e"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g511-s421",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 421,
+      "derived_seed": 15365711762037038466,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 798,
+        "insertion_position_after_deletion": 1952
+      },
+      "input_sha256": "882a525d3456bcb949f2b0ae5406ce207bd0d53ad4e93745f331717c7b1275ed"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g511-s421",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 421,
+      "derived_seed": 8216747501241134845,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "TCTG",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 800,
+        "insertion_position_after_deletion": 1978
+      },
+      "input_sha256": "947cf1e652ad3802230ef5ca39ca68b89843325067d1ca2e7928c95d41b8092c"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g47-s431",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 431,
+      "derived_seed": 8158905077166043518,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 776,
+        "insertion_position_after_deletion": 2296
+      },
+      "input_sha256": "11194e7d54db7e151cfbbf497c92f40c1f06f9a3ab6db6e475d60be06eb63d18"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g47-s431",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 431,
+      "derived_seed": 12677617948638144619,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 47,
+        "inserted_bases": 47,
+        "deleted_bases": 47,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "GGAG",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 800,
+        "insertion_position_after_deletion": 2306
+      },
+      "input_sha256": "0eb257ba36efee91dc28f885db612751db28f94b333b950f650d37b313bfee4e"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g193-s431",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 431,
+      "derived_seed": 11996065025250718310,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 796,
+        "insertion_position_after_deletion": 2169
+      },
+      "input_sha256": "628286aa44da9babbe9298db28993557bdbb87946ba73548ab877ac69b874de6"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g193-s431",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 431,
+      "derived_seed": 14820277240881686262,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 193,
+        "inserted_bases": 193,
+        "deleted_bases": 193,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "GATC",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 773,
+        "insertion_position_after_deletion": 2211
+      },
+      "input_sha256": "e54f673fb24d04369c725a88935f1c49fa7d9f6b121254f06b277cbc61c6993a"
+    },
+    {
+      "id": "fresh-v4-compensating-n3073-g511-s431",
+      "suite": "NEWfreshv4_30",
+      "scenario": "compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 431,
+      "derived_seed": 9211787751152034986,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": false,
+        "background": "random",
+        "deletion_position": 801,
+        "insertion_position_after_deletion": 1981
+      },
+      "input_sha256": "270281166e5e75f7dbbd4653a157dcd2610a1ed857d3316da41e713fec83f677"
+    },
+    {
+      "id": "fresh-v4-repeat_compensating-n3073-g511-s431",
+      "suite": "NEWfreshv4_30",
+      "scenario": "repeat_compensating",
+      "evidence_status": "new v4 inputs fixed before v4 timing; no tuning on outcomes",
+      "source_length": 3073,
+      "seed": 431,
+      "derived_seed": 12950185911837547142,
+      "x_length": 3073,
+      "y_length": 3073,
+      "generation": {
+        "indel_length": 511,
+        "inserted_bases": 511,
+        "deleted_bases": 511,
+        "substitutions": 0,
+        "repeat_background": true,
+        "background": "repeated",
+        "motif": "GGGA",
+        "repeat_interval": [
+          768,
+          2304
+        ],
+        "deletion_position": 804,
+        "insertion_position_after_deletion": 1964
+      },
+      "input_sha256": "30158e09924cc4b071e4f1892778558d0e7e8c8b0d9a4d7d880d62b4f10536bd"
+    }
+  ]
+}

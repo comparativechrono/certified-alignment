@@ -1,0 +1,89 @@
+{
+  "audit_scope": "Independent design, input reconstruction and native measurement review. No candidate benchmark output inspected and no performance experiment performed by this audit.",
+  "audited_sha256": {
+    "EXTERNAL_BENCHMARK_PLAN.md": "a0ee496f5a018d45c6251bf40e347b9b0c8239aef9ae3d4151964ed4a19e8dca",
+    "benchmarks/external_adapter.cpp": "fe595b894c9d0acae88a1669de368a658880f8a7b587ab00c01df5b8cb2787ad",
+    "benchmarks/run_external_bench.py": "cb8d8da6462762baf563fab22d9239aaa1bde8cdbb853ec5eccb04cdf1ed2724",
+    "results/external_benchmark/cases.json": "c3115e363e8efabba6a8733d4154d4409ba0a6c5971fa067bae3b65c7ffe8b6d",
+    "results/external_benchmark/config.json": "66343acb2fc1f3a0d33fd9c57485211f57d5ae4a7ef8e455102fa8ba33437745",
+    "results/external_benchmark/input_freeze.json": "20c136592377d3b96bc655c4cc942850ecbc1a2b0e132c7ec2ca68888e1ff71b",
+    "results/external_benchmark/pairs.tsv": "02090a4ab201c016963f63afac2eee61f1801cea1a6f44a49af5e7c1f9cbcdec"
+  },
+  "auditor_role": "Separate workload/design auditor from generator, native adapter and oracle implementers",
+  "input_checks": {
+    "centered_nested_lengths": [
+      1024,
+      4096,
+      8192
+    ],
+    "checks": [
+      "Reference intervals equal supplied genomic sequences",
+      "Random parents reconstruct from retained seeds",
+      "Large edit position/length/payload agree with metadata",
+      "Small edits reconstruct every target exactly",
+      "Deletion/substitution incompatibilities and coordinate ranges checked",
+      "All matched pairs share prescribed masks, directions, offsets and inserted bases",
+      "All observed counts are Bernoulli outcomes, not fixed-count rate guarantees"
+    ],
+    "matched_background_pairs_checked": 192,
+    "nonoverlapping_8192_base_loci": 8,
+    "pairs_reconstructed_from_reference_and_metadata": 384,
+    "reference_sequence_sha256": "e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0",
+    "scope_counts": {
+      "genomic": 192,
+      "random_control": 192
+    },
+    "source_and_target_alphabet": "ACGT",
+    "variants_per_locus_per_scope": 24
+  },
+  "limitations": [
+    "Semisynthetic injected errors, not real reads or calibrated sequencing noise",
+    "Eight E. coli loci do not establish cross-genome, platform or hardware generalization",
+    "WFA workspace is reused within each batch and its setup/teardown amortized; this is not a per-pair cold-start comparison",
+    "Public reference background does not establish variant-calling or association-study benefit",
+    "Oracle correctness and adapter execution tests are recorded separately; this audit did not rerun alignments"
+  ],
+  "measurement_review": {
+    "bootstrap": "9999 paired resamples of eight complete loci, overhead allocated equally across 192 cases",
+    "correctness_checks": "Scores and replayed =XID CIGARs checked against independent oracle; all supplied finite prototype lower/upper bounds checked",
+    "edlib": "NW/PATH/k=-1, no oracle distance supplied",
+    "failure_handling": "Errors/missing outputs invalidate comparisons; per-batch 300-second timeout terminates complete process group",
+    "format_checks": "Method IDs, batch identity and finite nonnegative timing fields validated",
+    "objective": "Exact global unit-cost Levenshtein with full traceback for all six methods",
+    "primary_estimator": "sum of per-case medians across seven repeats plus median per-batch setup and teardown",
+    "prototype_defaults_unchanged": true,
+    "rss": "Fresh Python wrapper runs exactly one adapter child and records Linux RUSAGE_CHILDREN.ru_maxrss. Whole-process KiB, includes preloaded inputs and retained outputs; not per-alignment auxiliary memory. Wrapper execution is outside native timers.",
+    "warmup_validation": "Separate excluded outer warmup invocations emit records and receive the same validation",
+    "wfa2": "edit/end2end/compute_alignment/no heuristic/one thread; predeclared high and ultralow memory modes"
+  },
+  "observed_noise_counts_per_background": {
+    "low": {
+      "pairs": 96,
+      "pre_noise_bases": 425984,
+      "retained_bases": 425984,
+      "single_base_deletions": 0,
+      "single_base_insertions": 0,
+      "substitutions": 1718
+    },
+    "mixed": {
+      "pairs": 96,
+      "pre_noise_bases": 425984,
+      "retained_bases": 425591,
+      "single_base_deletions": 393,
+      "single_base_insertions": 409,
+      "substitutions": 8336
+    }
+  },
+  "pre_timing_corrections_reviewed": [
+    "Added prototype trace and lower-bound output to satisfy written interval-validation plan",
+    "Added explicit method/batch identity and timing-field validation",
+    "Added whole-process-group timeout cleanup",
+    "Made missing optional RSS values safe to summarize",
+    "Replaced unavailable /usr/bin/time with isolated Python RSS wrapper without changing native measured region"
+  ],
+  "source_integrity": {
+    "all_byte_identical": true,
+    "prototype_files_compared_to_restored_v5": 6
+  },
+  "status": "passed_before_timing"
+}

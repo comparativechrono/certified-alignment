@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "oracle": "independent unrestricted unit-cost Levenshtein DP",
+  "checked_outputs": 19107,
+  "finite_trace_rounds": 35699,
+  "null_trace_rounds": 2631,
+  "cigar_checks": 19092,
+  "exact_results": 18462,
+  "nonexact_approximate_results": 630,
+  "budget_errors": 15,
+  "budget_expectations": 21,
+  "default_length_comparisons": 5660,
+  "v1_deterministic_comparisons": 5660,
+  "v1_regression_tested": true,
+  "strengthening_round_comparisons": 19406,
+  "strictly_improved_round_bounds": 3633,
+  "seconds": 2.658951,
+  "failures": []
+}

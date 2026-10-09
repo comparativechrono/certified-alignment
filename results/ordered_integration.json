@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "oracle": "independent unrestricted unit-cost Levenshtein DP and independent CIGAR replay",
+  "checked_outputs": 28665,
+  "finite_trace_rounds": 51604,
+  "null_trace_rounds": 3667,
+  "cigar_checks": 28661,
+  "exact_results": 28003,
+  "nonexact_approximate_results": 658,
+  "budget_errors": 4,
+  "budget_expectations": 5,
+  "v2_deterministic_comparisons": 16980,
+  "strengthening_round_comparisons": 23321,
+  "strictly_improved_round_bounds": 5134,
+  "fallback_comparisons": 630,
+  "outputs_with_ordered_index": 3119,
+  "seconds": 6.087712,
+  "failures": []
+}

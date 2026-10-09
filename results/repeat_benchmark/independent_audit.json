@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "audit_role": "independent experiment-design and endpoint audit",
+  "status": "pass",
+  "audit_does_not_mean_performance_gate_passed": true,
+  "engine_changes": false,
+  "new_engine_invocations_or_timing_by_auditor": 0,
+  "structural_checks": {
+    "fresh_case_count": 380,
+    "exact_original_generator_replications": 60,
+    "final_generated_pairs_and_metadata_reproduced": 380,
+    "controlled_targets_independently_reconstructed_from_source_edit_noise": 320,
+    "matched_repeat_random_control_pairs": 160,
+    "whole_copy_indel_geometry_checks": 320,
+    "inherited_source_interruption_checks": 320,
+    "analytic_pure_indel_cases": 160,
+    "clusters_per_suite": {
+      "fresh_replication60": 20,
+      "controlled_repeats160": 20,
+      "matched_random160": 20
+    },
+    "cluster_size_per_suite": {
+      "fresh_replication60": 3,
+      "controlled_repeats160": 8,
+      "matched_random160": 8
+    },
+    "primitive_definition_correction": "Before timing, changed the stricter finite-string-period filter to the exact-power/divisor definition required by the frozen plan. Final generator verified, including ATATA primitive period 5 versus finite-string period 2.",
+    "bootstrap_sanity_check": "An independently supplied constant 0.8 candidate/baseline ratio gives both bootstrap interval endpoints 0.8."
+  },
+  "raw_record_checks": {
+    "records_including_warmup": 12160,
+    "timed_records": 10640,
+    "case_bound_combinations": 1520,
+    "timed_repetitions_each": 7,
+    "metrics_per_combination_compared_with_summary": 11,
+    "all_independently_recomputed_per_case_metrics_match_summary": true
+  },
+  "endpoint_recomputation": {
+    "source": "raw_results.json only for timings; metadata supplies suites and seed clusters; no benchmark helper imported",
+    "median_method": "Sort 7 timed values and select index 3; exclude warmup.",
+    "aggregate": "sum per-case medians",
+    "bootstrap": "9,999 paired resamples of 20 seed clusters with 3 lengths each; Random seed 20261009; linearly interpolated percentile 95% interval.",
+    "comparisons": [
+      {
+        "baseline": "linear/length",
+        "candidate": "linear/sparse",
+        "baseline_sum_case_median_ms": 123.36578,
+        "candidate_sum_case_median_ms": 72.443545,
+        "candidate_over_baseline": 0.5872256066471594,
+        "percentile95_ratio_interval": [
+          0.5228132913150887,
+          0.6500222144760549
+        ],
+        "passes_10percent_margin": true,
+        "passes_interval_upper": true
+      },
+      {
+        "baseline": "linear/qgram",
+        "candidate": "linear/sparse",
+        "baseline_sum_case_median_ms": 77.429452,
+        "candidate_sum_case_median_ms": 72.443545,
+        "candidate_over_baseline": 0.9356070994794075,
+        "percentile95_ratio_interval": [
+          0.7997765465983235,
+          1.0884207859453998
+        ],
+        "passes_10percent_margin": false,
+        "passes_interval_upper": false
+      }
+    ],
+    "primary_performance_gate_passed": false
+  },
+  "secondary_recomputation": [
+    {
+      "suite": "fresh_replication60",
+      "regime": "all",
+      "case_count": 60,
+      "sparse_over_qgram_total_ms": 0.9356070994794075,
+      "sparse_faster_case_count_vs_qgram": 42,
+      "qgram_sum_case_median_metrics": {
+        "total_ms": 77.429452,
+        "dp_cells": 23986724,
+        "dp_ms": 70.574809,
+        "certificate_ms": 4.822268,
+        "bound_preprocess_ms": 1.17489,
+        "rounds": 134,
+        "sparse_expansions": 0,
+        "post_first_optimal_dp_cells": 18735750,
+        "sparse_bytes": 0,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 0
+      },
+      "sparse_sum_case_median_metrics": {
+        "total_ms": 72.443545,
+        "dp_cells": 15543989,
+        "dp_ms": 45.875702,
+        "certificate_ms": 23.520206,
+        "bound_preprocess_ms": 1.40418,
+        "rounds": 113,
+        "sparse_expansions": 1092866,
+        "post_first_optimal_dp_cells": 10293015,
+        "sparse_bytes": 17342448,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 444005
+      }
+    },
+    {
+      "suite": "controlled_repeats160",
+      "regime": "all",
+      "case_count": 160,
+      "sparse_over_qgram_total_ms": 1.1750627973748573,
+      "sparse_faster_case_count_vs_qgram": 42,
+      "qgram_sum_case_median_metrics": {
+        "total_ms": 517.682468,
+        "dp_cells": 166025356,
+        "dp_ms": 485.093836,
+        "certificate_ms": 25.125994,
+        "bound_preprocess_ms": 4.728682,
+        "rounds": 558,
+        "sparse_expansions": 0,
+        "post_first_optimal_dp_cells": 29720602,
+        "sparse_bytes": 0,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 0
+      },
+      "sparse_sum_case_median_metrics": {
+        "total_ms": 608.309409,
+        "dp_cells": 160120764,
+        "dp_ms": 464.885357,
+        "certificate_ms": 128.899398,
+        "bound_preprocess_ms": 5.749685,
+        "rounds": 547,
+        "sparse_expansions": 6329056,
+        "post_first_optimal_dp_cells": 23816010,
+        "sparse_bytes": 74176176,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 1410651
+      }
+    },
+    {
+      "suite": "controlled_repeats160",
+      "regime": "perfect",
+      "case_count": 80,
+      "sparse_over_qgram_total_ms": 1.1015800796581097,
+      "sparse_faster_case_count_vs_qgram": 23,
+      "qgram_sum_case_median_metrics": {
+        "total_ms": 170.60912,
+        "dp_cells": 53407640,
+        "dp_ms": 157.053767,
+        "certificate_ms": 10.205721,
+        "bound_preprocess_ms": 2.24252,
+        "rounds": 240,
+        "sparse_expansions": 0,
+        "post_first_optimal_dp_cells": 0,
+        "sparse_bytes": 0,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 0
+      },
+      "sparse_sum_case_median_metrics": {
+        "total_ms": 187.939608,
+        "dp_cells": 53407640,
+        "dp_ms": 155.896945,
+        "certificate_ms": 26.439018,
+        "bound_preprocess_ms": 2.725023,
+        "rounds": 240,
+        "sparse_expansions": 954355,
+        "post_first_optimal_dp_cells": 0,
+        "sparse_bytes": 31599760,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 164022
+      }
+    },
+    {
+      "suite": "controlled_repeats160",
+      "regime": "imperfect",
+      "case_count": 80,
+      "sparse_over_qgram_total_ms": 1.2111843315609472,
+      "sparse_faster_case_count_vs_qgram": 19,
+      "qgram_sum_case_median_metrics": {
+        "total_ms": 347.073348,
+        "dp_cells": 112617716,
+        "dp_ms": 328.040069,
+        "certificate_ms": 14.920273,
+        "bound_preprocess_ms": 2.486162,
+        "rounds": 318,
+        "sparse_expansions": 0,
+        "post_first_optimal_dp_cells": 29720602,
+        "sparse_bytes": 0,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 0
+      },
+      "sparse_sum_case_median_metrics": {
+        "total_ms": 420.369801,
+        "dp_cells": 106713124,
+        "dp_ms": 308.988412,
+        "certificate_ms": 102.46038,
+        "bound_preprocess_ms": 3.024662,
+        "rounds": 307,
+        "sparse_expansions": 5374701,
+        "post_first_optimal_dp_cells": 23816010,
+        "sparse_bytes": 42576416,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 1246629
+      }
+    },
+    {
+      "suite": "matched_random160",
+      "regime": "all",
+      "case_count": 160,
+      "sparse_over_qgram_total_ms": 0.8435470335261502,
+      "sparse_faster_case_count_vs_qgram": 76,
+      "qgram_sum_case_median_metrics": {
+        "total_ms": 951.787271,
+        "dp_cells": 315293692,
+        "dp_ms": 918.194912,
+        "certificate_ms": 26.539277,
+        "bound_preprocess_ms": 4.933252,
+        "rounds": 674,
+        "sparse_expansions": 0,
+        "post_first_optimal_dp_cells": 99778956,
+        "sparse_bytes": 0,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 0
+      },
+      "sparse_sum_case_median_metrics": {
+        "total_ms": 802.877329,
+        "dp_cells": 215514736,
+        "dp_ms": 618.362,
+        "certificate_ms": 171.4074,
+        "bound_preprocess_ms": 6.071938,
+        "rounds": 624,
+        "sparse_expansions": 9050964,
+        "post_first_optimal_dp_cells": 0,
+        "sparse_bytes": 67710184,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 992747
+      }
+    },
+    {
+      "suite": "matched_random160",
+      "regime": "perfect",
+      "case_count": 80,
+      "sparse_over_qgram_total_ms": 1.1403229719962606,
+      "sparse_faster_case_count_vs_qgram": 29,
+      "qgram_sum_case_median_metrics": {
+        "total_ms": 326.47443499999997,
+        "dp_cells": 107757368,
+        "dp_ms": 312.077613,
+        "certificate_ms": 11.055358,
+        "bound_preprocess_ms": 2.421456,
+        "rounds": 312,
+        "sparse_expansions": 0,
+        "post_first_optimal_dp_cells": 0,
+        "sparse_bytes": 0,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 0
+      },
+      "sparse_sum_case_median_metrics": {
+        "total_ms": 372.286298,
+        "dp_cells": 107757368,
+        "dp_ms": 307.584689,
+        "certificate_ms": 58.39834,
+        "bound_preprocess_ms": 3.00415,
+        "rounds": 312,
+        "sparse_expansions": 2828208,
+        "post_first_optimal_dp_cells": 0,
+        "sparse_bytes": 31137520,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 187552
+      }
+    },
+    {
+      "suite": "matched_random160",
+      "regime": "imperfect",
+      "case_count": 80,
+      "sparse_over_qgram_total_ms": 0.6886009789186545,
+      "sparse_faster_case_count_vs_qgram": 47,
+      "qgram_sum_case_median_metrics": {
+        "total_ms": 625.312836,
+        "dp_cells": 207536324,
+        "dp_ms": 606.117299,
+        "certificate_ms": 15.483919,
+        "bound_preprocess_ms": 2.511796,
+        "rounds": 362,
+        "sparse_expansions": 0,
+        "post_first_optimal_dp_cells": 99778956,
+        "sparse_bytes": 0,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 0
+      },
+      "sparse_sum_case_median_metrics": {
+        "total_ms": 430.591031,
+        "dp_cells": 107757368,
+        "dp_ms": 310.777311,
+        "certificate_ms": 113.00906,
+        "bound_preprocess_ms": 3.067788,
+        "rounds": 312,
+        "sparse_expansions": 6222756,
+        "post_first_optimal_dp_cells": 0,
+        "sparse_bytes": 36572664,
+        "ordered_bytes": 0,
+        "sparse_cached_states": 805195
+      }
+    }
+  ],
+  "interpretation": "The primary repeat gate fails the qgram comparison. Imperfect random controls save substantially more main DP work than imperfect repeats at comparable sparse proof overhead. This supports a certificate-delay mechanism on those synthetic controls, not a confirmed repeat-specific or general real-data advantage. Secondary results do not replace the primary endpoint.",
+  "references": {
+    "configuration_sha256": "4d3297d40e5555e0373fc286d182dc8f43909b2fb9db86b085cfde5a16933b75",
+    "configuration_file_sha256": "93b1758a4f2aa51cc763c405d76b06b28bd194ac207442b6eedde55e47d44765",
+    "pairs_sha256": "193b67af8910b558c78db862da5e22fcff0bce800c481df1a5ece73148fda0f3",
+    "metadata_sha256": "69d3b5d8d9e64e0f025b1457066b9ce902edff6782b7531df340d2e1536df64c",
+    "raw_results_sha256": "edfaf801e9c8e4f814040136f982055ef74b2f2e64c2cdc8f11158989f575700",
+    "summary_sha256": "823d8a7641a4b54fd2bc8fa5f06418cc9ac87380187828234a068794eddcf495",
+    "engine_binary_sha256": "4a492041691bd03ab0577152cfe0aa056a19f8f4be18551e43538d4a8d476a25",
+    "oracle_scores_sha256": "e44b074040046bd5a64e4cd29095034e4b35f5f07d7daab04bdeab220feb8734",
+    "source_sha256": {
+      "REPEAT_VALIDATION_PLAN.md": "ebede74f93c727f5a3f7f46eb2a54c294ec3cdea8e4affeedf68015e393fc51b",
+      "benchmarks/run_bench.py": "32af38de28042a26a62241ea3505e5e88d1446fd688ee83df9c263d3901c6f12",
+      "benchmarks/run_bound_bench.py": "3a164f6fe4ef26a88df488353fbc4baa4ef6d4b56dbfe3fd21a0241a58c719b6",
+      "benchmarks/run_repeat_bench.py": "5f99a100a2648a9305085bb68cee49e9465967c0888e6f9307a2f9bf6e0de245",
+      "benchmarks/run_sparse_bench.py": "9eb813662405140b3d062c5d11f6460ba025635e7643bb95da7d4dc3fe799455",
+      "include/engine.hpp": "634dfdce5f64e19c97585c7d0b6068214b8e7debb156f7785308b0488697cd50",
+      "include/lower_bounds.hpp": "e23488c722ffbc3093b1bf9934a7df1d41017fa4551549a6f2e3090ad046083c",
+      "include/ordered_bounds.hpp": "3a8efd9ad4ff06a588fbeb38b4857ee0a1b6b0106e568f56b8170532bfbc6628",
+      "include/predictor.hpp": "930a1a18658e3a0b8b651291199afb93912054672daafd7163eb20a112d1156a",
+      "include/sparse_bounds.hpp": "aeb0856c16a3b8e24289d796078372a9bdc2f9966790bf83083243fd08a4cb82",
+      "src/aligner.cpp": "c6f89aca0199dcd25d903fd4aa391b86c993c003a55e3e6fef943b775dc8c7a9"
+    }
+  },
+  "source_hash_verification": "Every frozen source hash and original engine binary hash rechecked after timing and matched."
+}

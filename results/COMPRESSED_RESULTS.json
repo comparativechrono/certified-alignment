@@ -1,0 +1,109 @@
+{
+  "format": "lossless gzip of historical recorded outputs; no result values changed",
+  "files": [
+    {
+      "path": "results/benchmark/raw_results.json",
+      "compressed_path": "results/benchmark/raw_results.json.gz",
+      "sha256": "59224aba8581c829098d26899b1093f4c048b037f8cf39b2f548a44edc96d7dc",
+      "bytes": 1113069,
+      "compressed_sha256": "5d3f8ed8a3a900729df9717f35ee19895c85b389faf672dab6c3480fe88e192b",
+      "compressed_bytes": 161409
+    },
+    {
+      "path": "results/bound_benchmark/raw_results.json",
+      "compressed_path": "results/bound_benchmark/raw_results.json.gz",
+      "sha256": "71affed0dcbf013d2a1425501b82908f8a0bedd28d5780da5aba5b21ac9eea8e",
+      "bytes": 15261705,
+      "compressed_sha256": "8a37eebb14f17e7efe11120efa00fb05058970e6fbda69888ea1425abc7bad96",
+      "compressed_bytes": 1709919
+    },
+    {
+      "path": "results/bound_benchmark/raw_results.csv",
+      "compressed_path": "results/bound_benchmark/raw_results.csv.gz",
+      "sha256": "929602e72bd96d01c2a8e48842c1285e567eb9d23c772a9be6b073d1e01c512d",
+      "bytes": 6330060,
+      "compressed_sha256": "3838835336fc91a7bd5e9215488a1e072fb9bacf986e55786c8dbb315b89a10a",
+      "compressed_bytes": 1533977
+    },
+    {
+      "path": "results/bound_benchmark/summary.json",
+      "compressed_path": "results/bound_benchmark/summary.json.gz",
+      "sha256": "ae9fad7402450e533fd3c563c057566d207af23e658b35eed8abb1dc468a80c8",
+      "bytes": 6501209,
+      "compressed_sha256": "dcba3dfd1f6ac9470dc3ce9b166e0f76d436e50cc4023c473c913b8ce4ee6a86",
+      "compressed_bytes": 274330
+    },
+    {
+      "path": "results/ordered_benchmark/raw_results.json",
+      "compressed_path": "results/ordered_benchmark/raw_results.json.gz",
+      "sha256": "2387aa56dd9f099b6ef6453f3125d64838abd5f9dbb864ee9e5a85fa57240524",
+      "bytes": 23512192,
+      "compressed_sha256": "e6d16fccfe4d3b998066acd403f8c29b6017c2f3a07c9d70102c23c6da408066",
+      "compressed_bytes": 2512813
+    },
+    {
+      "path": "results/ordered_benchmark/raw_results.csv",
+      "compressed_path": "results/ordered_benchmark/raw_results.csv.gz",
+      "sha256": "895ce41caeb0f958677ecbccb79a6e1ff7467b735be187cceb005177d6aeb9df",
+      "bytes": 9344182,
+      "compressed_sha256": "177939b20d160070ba2d75cf70fc6299490e9219f53c5edf8a2cd28413a4e858",
+      "compressed_bytes": 2212212
+    },
+    {
+      "path": "results/ordered_benchmark/summary.json",
+      "compressed_path": "results/ordered_benchmark/summary.json.gz",
+      "sha256": "6eb26d5c62cd1d296f7c0929df766c53aafd5c02a23787baf4584d6fc42c5f9d",
+      "bytes": 13802187,
+      "compressed_sha256": "32efef48790e0ab9f3e70d0f1d84fedd33e2fb292ed78c58877b0c40ca2f0f37",
+      "compressed_bytes": 577354
+    },
+    {
+      "path": "results/sparse_benchmark/raw_results.json",
+      "compressed_path": "results/sparse_benchmark/raw_results.json.gz",
+      "sha256": "905f04ced85e3f5a58476f0fb97e6de24d6c7a275136f27185cf24025a94aae9",
+      "bytes": 46285449,
+      "compressed_sha256": "bb3c98f3df274fa1645d9a091a57949600612d7ca9f03aa4eaa8116ae2207556",
+      "compressed_bytes": 4663203
+    },
+    {
+      "path": "results/sparse_benchmark/raw_results.csv",
+      "compressed_path": "results/sparse_benchmark/raw_results.csv.gz",
+      "sha256": "e57e13edf354f4fab809bc94821625cf1728ee2fe21fb5eea0cb2ee07f7c50bf",
+      "bytes": 17473475,
+      "compressed_sha256": "5926246399227fbb708231d33cf18c5655d91b1151a79d4802786bfc213e781f",
+      "compressed_bytes": 4029972
+    },
+    {
+      "path": "results/sparse_benchmark/summary.json",
+      "compressed_path": "results/sparse_benchmark/summary.json.gz",
+      "sha256": "5f539244aa5a2abd8a9ed7054a7b14e864ad4d90368506a61ae68084c50ee12d",
+      "bytes": 41341831,
+      "compressed_sha256": "723124c12e5774f78e5fe54320990c6c1c75974c4a96aa0d1b08cb4dd392598a",
+      "compressed_bytes": 1498457
+    },
+    {
+      "path": "results/repeat_benchmark/raw_results.json",
+      "compressed_path": "results/repeat_benchmark/raw_results.json.gz",
+      "sha256": "edfaf801e9c8e4f814040136f982055ef74b2f2e64c2cdc8f11158989f575700",
+      "bytes": 31950442,
+      "compressed_sha256": "2b5d8e9e833bef96677708d405c00a84f5f24a3a23a1340572f13740360efe1e",
+      "compressed_bytes": 2952337
+    },
+    {
+      "path": "results/repeat_benchmark/raw_results.csv",
+      "compressed_path": "results/repeat_benchmark/raw_results.csv.gz",
+      "sha256": "19c167af99d2fa68401d6c91a2efe7757f8bced62a22f57d8249ee5ad1f4d1cb",
+      "bytes": 10879296,
+      "compressed_sha256": "62b17dd0ba660163ddbec7303631463186e5869c9d8fe69ddbed3c73b5c33186",
+      "compressed_bytes": 2272828
+    },
+    {
+      "path": "results/repeat_benchmark/summary.json",
+      "compressed_path": "results/repeat_benchmark/summary.json.gz",
+      "sha256": "823d8a7641a4b54fd2bc8fa5f06418cc9ac87380187828234a068794eddcf495",
+      "bytes": 10465014,
+      "compressed_sha256": "8ec130e51744b6836de8a520027346744f327d27d78db9e5716ba6209aafb892",
+      "compressed_bytes": 398525
+    }
+  ]
+}

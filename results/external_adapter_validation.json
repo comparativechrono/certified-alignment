@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "cases": 1081,
+  "exhaustive_binary_pairs": 961,
+  "methods": [
+    "edlib",
+    "wfa2-high",
+    "wfa2-ultralow",
+    "prototype-length",
+    "prototype-qgram",
+    "prototype-sparse"
+  ],
+  "timed_repeats_in_validation": 3,
+  "warmups": 1,
+  "alignment_outputs_checked": 19458,
+  "cigar_checks": 19458,
+  "finite_bound_checks": 43503,
+  "unchanged_cli_equivalence_checks": 3243,
+  "oracle": "independent unrestricted scalar Levenshtein DP",
+  "test_pair_bytes_sha256": "135167a834caf3584ae559705603cdcb89005514f96fa6437e3df07499c7fc09",
+  "binary_sha256": "11da10f8a4e22f91a6d961d5fe379b0e86eb879315e94d28a5b83471f1bf8bb7"
+}

@@ -1,0 +1,20 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz",
+  "ncbi_md5_url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/md5checksums.txt",
+  "accession": "NC_000913.3",
+  "assembly": "GCF_000005845.2",
+  "compressed_bytes": 1379902,
+  "fasta_bytes": 4699745,
+  "sequence_length": 4641652,
+  "compressed_md5": "c13d459b5caa702ff7e1f26fe44b8ad7",
+  "compressed_sha256": "a96d3cfa58c88d477013c768f90a11d2386d42a70d566abfb6d9013dcbd24255",
+  "fasta_sha256": "53bb6a51b6e92139ced1e38f74b7938781027c52200922ff03718c2237d23bb4",
+  "sequence_sha256": "e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0",
+  "header": ">NC_000913.3 Escherichia coli str. K-12 substr. MG1655, complete genome",
+  "alphabet": [
+    "A",
+    "C",
+    "G",
+    "T"
+  ]
+}

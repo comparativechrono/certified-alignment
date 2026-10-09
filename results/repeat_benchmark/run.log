@@ -1,0 +1,74 @@
+{
+  "phase": "inputs_frozen",
+  "case_count": 380,
+  "configuration_sha256": "4d3297d40e5555e0373fc286d182dc8f43909b2fb9db86b085cfde5a16933b75",
+  "pairs_tsv_sha256": "193b67af8910b558c78db862da5e22fcff0bce800c481df1a5ece73148fda0f3",
+  "metadata_sha256": "69d3b5d8d9e64e0f025b1457066b9ce902edff6782b7531df340d2e1536df64c"
+}
+warmup0: linear/length,380 cases
+warmup0: linear/qgram,380 cases
+warmup0: linear/ordered,380 cases
+warmup0: linear/sparse,380 cases
+timed1: linear/length,380 cases
+timed1: linear/qgram,380 cases
+timed1: linear/ordered,380 cases
+timed1: linear/sparse,380 cases
+timed2: linear/length,380 cases
+timed2: linear/sparse,380 cases
+timed2: linear/ordered,380 cases
+timed2: linear/qgram,380 cases
+timed3: linear/ordered,380 cases
+timed3: linear/sparse,380 cases
+timed3: linear/length,380 cases
+timed3: linear/qgram,380 cases
+timed4: linear/ordered,380 cases
+timed4: linear/qgram,380 cases
+timed4: linear/length,380 cases
+timed4: linear/sparse,380 cases
+timed5: linear/length,380 cases
+timed5: linear/qgram,380 cases
+timed5: linear/ordered,380 cases
+timed5: linear/sparse,380 cases
+timed6: linear/length,380 cases
+timed6: linear/sparse,380 cases
+timed6: linear/ordered,380 cases
+timed6: linear/qgram,380 cases
+timed7: linear/ordered,380 cases
+timed7: linear/sparse,380 cases
+timed7: linear/length,380 cases
+timed7: linear/qgram,380 cases
+{
+  "status": "pass",
+  "case_count": 380,
+  "timed_result_count": 10640,
+  "total_outputs": 12160,
+  "failure_count": 0,
+  "primary_gate": {
+    "scope": "fresh_replication60",
+    "candidate": "linear/sparse",
+    "comparisons": [
+      {
+        "baseline": "linear/length",
+        "candidate_over_baseline": 0.5872256066471594,
+        "percentile95_ratio_interval": [
+          0.5228132913150887,
+          0.6500222144760549
+        ],
+        "passes_10percent_margin": true,
+        "passes_interval_upper": true
+      },
+      {
+        "baseline": "linear/qgram",
+        "candidate_over_baseline": 0.9356070994794075,
+        "percentile95_ratio_interval": [
+          0.7997765465983235,
+          1.0884207859453998
+        ],
+        "passes_10percent_margin": false,
+        "passes_interval_upper": false
+      }
+    ],
+    "passed": false
+  },
+  "wall_seconds": 58.82017230400379
+}

@@ -1,0 +1,113 @@
+{
+  "phase": "inputs_frozen",
+  "case_count": 178,
+  "primary": 148,
+  "NEWfreshv4": 30,
+  "configuration_sha256": "b61fe4077bfbcfa431721872a8580f46c253fb5d8b79c525be6ba3038fe7f4b7",
+  "pairs_tsv_sha256": "96492c28420e4eb6636f46863478676976a227431cf7eb11ceeed073bdb4ceb6",
+  "output_dir": "/workspace/scratch/b4a4909ae85e/certified_alignment/results/sparse_benchmark"
+}
+warmup 0: linear/length, 178 cases
+warmup 0: linear/qgram, 178 cases
+warmup 0: linear/ordered, 178 cases
+warmup 0: linear/sparse, 178 cases
+warmup 0: cost/length, 178 cases
+warmup 0: cost/qgram, 178 cases
+warmup 0: cost/ordered, 178 cases
+warmup 0: cost/sparse, 178 cases
+warmup 0: anchor-linear/length, 178 cases
+warmup 0: anchor-linear/qgram, 178 cases
+warmup 0: anchor-linear/ordered, 178 cases
+warmup 0: anchor-linear/sparse, 178 cases
+warmup 0: anchor-cost/length, 178 cases
+warmup 0: anchor-cost/qgram, 178 cases
+warmup 0: anchor-cost/ordered, 178 cases
+warmup 0: anchor-cost/sparse, 178 cases
+timed 1: linear/length, 178 cases
+timed 1: linear/qgram, 178 cases
+timed 1: linear/ordered, 178 cases
+timed 1: linear/sparse, 178 cases
+timed 1: cost/length, 178 cases
+timed 1: cost/qgram, 178 cases
+timed 1: cost/ordered, 178 cases
+timed 1: cost/sparse, 178 cases
+timed 1: anchor-linear/length, 178 cases
+timed 1: anchor-linear/qgram, 178 cases
+timed 1: anchor-linear/ordered, 178 cases
+timed 1: anchor-linear/sparse, 178 cases
+timed 1: anchor-cost/length, 178 cases
+timed 1: anchor-cost/qgram, 178 cases
+timed 1: anchor-cost/ordered, 178 cases
+timed 1: anchor-cost/sparse, 178 cases
+timed 2: cost/length, 178 cases
+timed 2: linear/sparse, 178 cases
+timed 2: linear/ordered, 178 cases
+timed 2: linear/qgram, 178 cases
+timed 2: linear/length, 178 cases
+timed 2: anchor-cost/sparse, 178 cases
+timed 2: anchor-cost/ordered, 178 cases
+timed 2: anchor-cost/qgram, 178 cases
+timed 2: anchor-cost/length, 178 cases
+timed 2: anchor-linear/sparse, 178 cases
+timed 2: anchor-linear/ordered, 178 cases
+timed 2: anchor-linear/qgram, 178 cases
+timed 2: anchor-linear/length, 178 cases
+timed 2: cost/sparse, 178 cases
+timed 2: cost/ordered, 178 cases
+timed 2: cost/qgram, 178 cases
+timed 3: anchor-linear/ordered, 178 cases
+timed 3: anchor-linear/sparse, 178 cases
+timed 3: anchor-cost/length, 178 cases
+timed 3: anchor-cost/qgram, 178 cases
+timed 3: anchor-cost/ordered, 178 cases
+timed 3: anchor-cost/sparse, 178 cases
+timed 3: linear/length, 178 cases
+timed 3: linear/qgram, 178 cases
+timed 3: linear/ordered, 178 cases
+timed 3: linear/sparse, 178 cases
+timed 3: cost/length, 178 cases
+timed 3: cost/qgram, 178 cases
+timed 3: cost/ordered, 178 cases
+timed 3: cost/sparse, 178 cases
+timed 3: anchor-linear/length, 178 cases
+timed 3: anchor-linear/qgram, 178 cases
+timed 4: anchor-cost/ordered, 178 cases
+timed 4: anchor-cost/qgram, 178 cases
+timed 4: anchor-cost/length, 178 cases
+timed 4: anchor-linear/sparse, 178 cases
+timed 4: anchor-linear/ordered, 178 cases
+timed 4: anchor-linear/qgram, 178 cases
+timed 4: anchor-linear/length, 178 cases
+timed 4: cost/sparse, 178 cases
+timed 4: cost/ordered, 178 cases
+timed 4: cost/qgram, 178 cases
+timed 4: cost/length, 178 cases
+timed 4: linear/sparse, 178 cases
+timed 4: linear/ordered, 178 cases
+timed 4: linear/qgram, 178 cases
+timed 4: linear/length, 178 cases
+timed 4: anchor-cost/sparse, 178 cases
+timed 5: cost/length, 178 cases
+timed 5: cost/qgram, 178 cases
+timed 5: cost/ordered, 178 cases
+timed 5: cost/sparse, 178 cases
+timed 5: anchor-linear/length, 178 cases
+timed 5: anchor-linear/qgram, 178 cases
+timed 5: anchor-linear/ordered, 178 cases
+timed 5: anchor-linear/sparse, 178 cases
+timed 5: anchor-cost/length, 178 cases
+timed 5: anchor-cost/qgram, 178 cases
+timed 5: anchor-cost/ordered, 178 cases
+timed 5: anchor-cost/sparse, 178 cases
+timed 5: linear/length, 178 cases
+timed 5: linear/qgram, 178 cases
+timed 5: linear/ordered, 178 cases
+timed 5: linear/sparse, 178 cases
+{
+  "status": "pass",
+  "case_count": 178,
+  "timed_result_count": 14240,
+  "wall_seconds": 116.79216037000151,
+  "failure_count": 0,
+  "output_dir": "/workspace/scratch/b4a4909ae85e/certified_alignment/results/sparse_benchmark"
+}

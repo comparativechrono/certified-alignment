@@ -1,0 +1,130 @@
+{
+  "schema_version": 5,
+  "candidate": "linear/sparse",
+  "co_primary_baselines": [
+    "linear/length",
+    "linear/qgram"
+  ],
+  "secondary_baseline": "linear/ordered",
+  "settings": [
+    [
+      "linear",
+      "length"
+    ],
+    [
+      "linear",
+      "qgram"
+    ],
+    [
+      "linear",
+      "ordered"
+    ],
+    [
+      "linear",
+      "sparse"
+    ]
+  ],
+  "parameters": {
+    "width": 8,
+    "block": 64,
+    "seed_k": 11,
+    "epsilon": 0,
+    "order_block": 8,
+    "order_max_cells": 4000000,
+    "sparse_max_work": 4000000,
+    "bound_memory": 67108864,
+    "main_dp_max_cells": 50000000
+  },
+  "repetitions": 7,
+  "warmups_per_setting": 1,
+  "setting_order": "rotate by repetition mod4; reverse odd repetitions",
+  "case_order": "random.Random(case_order_seed+repeat+1).shuffle; repeat=-1 for warmup; identical across settings",
+  "case_order_seed": 2026100901,
+  "replication_seeds": [
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520
+  ],
+  "replication_lengths": [
+    256,
+    1024,
+    4096
+  ],
+  "controlled_lengths": [
+    1024,
+    4096
+  ],
+  "primitive_periods": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "locus_seeds": [
+    601,
+    607
+  ],
+  "delta_percent": [
+    2,
+    8
+  ],
+  "directions": [
+    "expand",
+    "contract"
+  ],
+  "regimes": [
+    "perfect",
+    "imperfect"
+  ],
+  "delta_rule": "max(1,floor(n*percent/(100*period)))*period",
+  "primary_scope": "fresh_replication60",
+  "primary_gate": "candidate sum of per-case median total_ms <=0.90 times EACH co-primary baseline AND each paired cluster-bootstrap95% interval upper ratio <1",
+  "bootstrap": {
+    "replicates": 9999,
+    "seed": 20261009,
+    "method": "percentile95% with linear-interpolated2.5/97.5 percentiles; paired resampling of whole clusters",
+    "replication_cluster": "seed; each contains3 lengths",
+    "controlled_cluster": "n/period/seed locus; includes all8 variants",
+    "scope_policy": "each suite separate; subgroups descriptive and unadjusted; no pooled endpoint",
+    "uncertainty_limit": "clusters of synthetic inputs; timings from one runtime; not cross-machine uncertainty"
+  },
+  "engine_binary_sha256": "4a492041691bd03ab0577152cfe0aa056a19f8f4be18551e43538d4a8d476a25",
+  "predictor_sha256": "930a1a18658e3a0b8b651291199afb93912054672daafd7163eb20a112d1156a",
+  "source_sha256": {
+    "REPEAT_VALIDATION_PLAN.md": "ebede74f93c727f5a3f7f46eb2a54c294ec3cdea8e4affeedf68015e393fc51b",
+    "benchmarks/run_bench.py": "32af38de28042a26a62241ea3505e5e88d1446fd688ee83df9c263d3901c6f12",
+    "benchmarks/run_bound_bench.py": "3a164f6fe4ef26a88df488353fbc4baa4ef6d4b56dbfe3fd21a0241a58c719b6",
+    "benchmarks/run_repeat_bench.py": "62ddfca6a2bc2caf23531438332518e908357865a4cd0bc744379d535d98239a",
+    "benchmarks/run_sparse_bench.py": "9eb813662405140b3d062c5d11f6460ba025635e7643bb95da7d4dc3fe799455",
+    "include/engine.hpp": "634dfdce5f64e19c97585c7d0b6068214b8e7debb156f7785308b0488697cd50",
+    "include/lower_bounds.hpp": "e23488c722ffbc3093b1bf9934a7df1d41017fa4551549a6f2e3090ad046083c",
+    "include/ordered_bounds.hpp": "3a8efd9ad4ff06a588fbeb38b4857ee0a1b6b0106e568f56b8170532bfbc6628",
+    "include/predictor.hpp": "930a1a18658e3a0b8b651291199afb93912054672daafd7163eb20a112d1156a",
+    "include/sparse_bounds.hpp": "aeb0856c16a3b8e24289d796078372a9bdc2f9966790bf83083243fd08a4cb82",
+    "src/aligner.cpp": "c6f89aca0199dcd25d903fd4aa391b86c993c003a55e3e6fef943b775dc8c7a9"
+  },
+  "pairs_tsv_sha256": "193b67af8910b558c78db862da5e22fcff0bce800c481df1a5ece73148fda0f3",
+  "metadata_sha256": "69d3b5d8d9e64e0f025b1457066b9ce902edff6782b7531df340d2e1536df64c",
+  "analytic_reference_count": 160,
+  "correctness": "independent full-DP oracle required for all380 pairs, plus all output CIGARs and round bounds",
+  "selection_policy": "single linear/sparse candidate chosen on old results; no model selection or tuning on these380 outcomes",
+  "configuration_sha256": "590fe811063f7e74537c87a666a1511e665bfcb13bb4d9d80be3cd9203062a3c"
+}

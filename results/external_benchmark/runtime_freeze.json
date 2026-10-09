@@ -1,0 +1,45 @@
+{
+  "files": {
+    "adapter": {
+      "path": "build/external_adapter",
+      "sha256": "11da10f8a4e22f91a6d961d5fe379b0e86eb879315e94d28a5b83471f1bf8bb7"
+    },
+    "adapter_source": {
+      "path": "benchmarks/external_adapter.cpp",
+      "sha256": "fe595b894c9d0acae88a1669de368a658880f8a7b587ab00c01df5b8cb2787ad"
+    },
+    "build_manifest": {
+      "path": "build/external_build.json",
+      "sha256": "0a0320bb618e28b3b6500ee1e117b2de1c445047a638a4a87a1033f0fa96cf6e"
+    },
+    "build_script": {
+      "path": "benchmarks/build_external.py",
+      "sha256": "747bb2d0495c1b060f9b831f30bc0f583ff2922eac70780c6012dcfd96d2ad54"
+    },
+    "harness": {
+      "path": "benchmarks/run_external_bench.py",
+      "sha256": "cb8d8da6462762baf563fab22d9239aaa1bde8cdbb853ec5eccb04cdf1ed2724"
+    },
+    "oracle_scores": {
+      "path": "results/external_benchmark/oracle_scores.json",
+      "sha256": "55184b26f9d0a5285d6182b42d1fc64df297fd88535787ec43d56ad8738d450b"
+    },
+    "plan": {
+      "path": "EXTERNAL_BENCHMARK_PLAN.md",
+      "sha256": "a0ee496f5a018d45c6251bf40e347b9b0c8239aef9ae3d4151964ed4a19e8dca"
+    }
+  },
+  "input_freeze_sha256": "20c136592377d3b96bc655c4cc942850ecbc1a2b0e132c7ec2ca68888e1ff71b",
+  "per_batch_timeout_seconds": 300,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "source_sha256": {
+    "include/engine.hpp": "634dfdce5f64e19c97585c7d0b6068214b8e7debb156f7785308b0488697cd50",
+    "include/lower_bounds.hpp": "e23488c722ffbc3093b1bf9934a7df1d41017fa4551549a6f2e3090ad046083c",
+    "include/ordered_bounds.hpp": "3a8efd9ad4ff06a588fbeb38b4857ee0a1b6b0106e568f56b8170532bfbc6628",
+    "include/predictor.hpp": "930a1a18658e3a0b8b651291199afb93912054672daafd7163eb20a112d1156a",
+    "include/sparse_bounds.hpp": "aeb0856c16a3b8e24289d796078372a9bdc2f9966790bf83083243fd08a4cb82",
+    "src/aligner.cpp": "c6f89aca0199dcd25d903fd4aa391b86c993c003a55e3e6fef943b775dc8c7a9"
+  },
+  "timing_started": false
+}

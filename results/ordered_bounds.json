@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "pairs_checked": 1028,
+  "indices_checked": 8224,
+  "suffix_checks": 450184,
+  "combined_checks": 483080,
+  "threshold_checks": 2250920,
+  "lipschitz_checks": 404512,
+  "fallback_checks": 9568,
+  "strict_ordered_improvements": 20693,
+  "allocation_failure_injection_tested": false
+}

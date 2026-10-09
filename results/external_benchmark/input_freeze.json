@@ -1,0 +1,17 @@
+{
+  "files": {
+    "cases.json": "c3115e363e8efabba6a8733d4154d4409ba0a6c5971fa067bae3b65c7ffe8b6d",
+    "config.json": "66343acb2fc1f3a0d33fd9c57485211f57d5ae4a7ef8e455102fa8ba33437745",
+    "pairs.tsv": "02090a4ab201c016963f63afac2eee61f1801cea1a6f44a49af5e7c1f9cbcdec"
+  },
+  "generator_sha256": "cb8d8da6462762baf563fab22d9239aaa1bde8cdbb853ec5eccb04cdf1ed2724",
+  "source_sha256": {
+    "include/engine.hpp": "634dfdce5f64e19c97585c7d0b6068214b8e7debb156f7785308b0488697cd50",
+    "include/lower_bounds.hpp": "e23488c722ffbc3093b1bf9934a7df1d41017fa4551549a6f2e3090ad046083c",
+    "include/ordered_bounds.hpp": "3a8efd9ad4ff06a588fbeb38b4857ee0a1b6b0106e568f56b8170532bfbc6628",
+    "include/predictor.hpp": "930a1a18658e3a0b8b651291199afb93912054672daafd7163eb20a112d1156a",
+    "include/sparse_bounds.hpp": "aeb0856c16a3b8e24289d796078372a9bdc2f9966790bf83083243fd08a4cb82",
+    "src/aligner.cpp": "c6f89aca0199dcd25d903fd4aa391b86c993c003a55e3e6fef943b775dc8c7a9"
+  },
+  "stage": "inputs frozen before candidate alignment or performance timing"
+}

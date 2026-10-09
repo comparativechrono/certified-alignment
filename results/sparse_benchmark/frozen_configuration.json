@@ -1,0 +1,49 @@
+{
+  "schema_version": 4,
+  "modes": [
+    "linear",
+    "cost",
+    "anchor-linear",
+    "anchor-cost"
+  ],
+  "bounds": [
+    "length",
+    "qgram",
+    "ordered",
+    "sparse"
+  ],
+  "width": 8,
+  "block": 64,
+  "seed_k": 11,
+  "epsilon": 0,
+  "order_block": 8,
+  "order_max_cells": 4000000,
+  "sparse_max_work": 4000000,
+  "bound_memory_bytes": 67108864,
+  "repetitions": 5,
+  "warmups_per_setting": 1,
+  "setting_order": "rotate by five positions per repetition; reverse odd repetitions",
+  "fresh_source_length": 3073,
+  "fresh_seeds": [
+    401,
+    409,
+    419,
+    421,
+    431
+  ],
+  "fresh_indel_lengths": [
+    47,
+    193,
+    511
+  ],
+  "fresh_backgrounds": [
+    "random",
+    "repeated"
+  ],
+  "primary_148_pairs_sha256": "80e6c6e100848eb13a364a9395fec7e82191cbbe69ca8d47444c619b78249579",
+  "pairs_tsv_sha256": "96492c28420e4eb6636f46863478676976a227431cf7eb11ceeed073bdb4ceb6",
+  "predictor_sha256": "930a1a18658e3a0b8b651291199afb93912054672daafd7163eb20a112d1156a",
+  "primary_milestone": "each sparse variant versus plain linear predictor and length bound on matched cases; fastest sparse winner selected at aggregate scope, not per case",
+  "analytic_reference_count": 40,
+  "configuration_sha256": "b61fe4077bfbcfa431721872a8580f46c253fb5d8b79c525be6ba3038fe7f4b7"
+}

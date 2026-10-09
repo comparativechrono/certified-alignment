@@ -1,0 +1,61 @@
+{
+  "bootstrap_replicates": 9999,
+  "bootstrap_seed": 2026101002,
+  "candidate": "prototype-sparse",
+  "cases": 384,
+  "control_scope": "random_control",
+  "evidence_status": "semisynthetic reference-derived sequences with planted errors; not actual reads, not platform-calibrated",
+  "gap_percents_floor": [
+    2,
+    8
+  ],
+  "large_event_position_range_inclusive": "floor(n/3)..floor(n/2)",
+  "lengths": [
+    1024,
+    4096,
+    8192
+  ],
+  "locus_parent_starts_0based": [
+    359811,
+    511632,
+    1921590,
+    2246142,
+    2256527,
+    2434711,
+    3770177,
+    4451456
+  ],
+  "locus_sampling": "uniform integer start with rejection of overlap; sorted after selection; no sequence/outcome filtering",
+  "master_seed": 2026101001,
+  "matched_masks": "Within each locus/length/gap/direction/regime, genomic and random use identical large-event position, insertion payload, small-indel positions/directions/bases and nonzero substitution offsets. Deletion removes actual source bases.",
+  "methods": [
+    "edlib",
+    "wfa2-high",
+    "wfa2-ultralow",
+    "prototype-length",
+    "prototype-qgram",
+    "prototype-sparse"
+  ],
+  "noise_note": "low: .004 substitutions; mixed: .02 substitutions plus .002 single-base I/D event probability with equiprobable direction. Substitution probability conditional on retained pre-noise base.",
+  "noise_regimes": [
+    "low",
+    "mixed"
+  ],
+  "primary_scope": "genomic",
+  "primary_success_rule": "All outputs correct, no candidate failure, candidate aggregate runtime <=0.9 of each of edlib, wfa2-high and wfa2-ultralow; each paired locus-cluster bootstrap 95% upper runtime ratio <1. No per-case baseline selection.",
+  "prototype_parameters": {
+    "bound_memory": 67108864,
+    "epsilon_den": 1,
+    "epsilon_num": 0,
+    "max_cells": 50000000,
+    "mode": "linear",
+    "order_block": 8,
+    "sparse_max_work": 4000000,
+    "width": 8
+  },
+  "reference_accession": "NC_000913.3",
+  "reference_compressed_sha256": "a96d3cfa58c88d477013c768f90a11d2386d42a70d566abfb6d9013dcbd24255",
+  "reference_sequence_sha256": "e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0",
+  "timed_repeats": 7,
+  "warmup_repeats": 1
+}

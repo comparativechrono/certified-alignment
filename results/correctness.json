@@ -1,0 +1,393 @@
+{
+  "passed": true,
+  "oracle": "independent unrestricted unit-cost Levenshtein DP",
+  "exhaustive_unique_pairs": 961,
+  "stress_unique_pairs": 171,
+  "checked_outputs": 8813,
+  "finite_trace_rounds": 23580,
+  "null_trace_rounds": 1321,
+  "cigar_checks": 8808,
+  "exact_results": 7986,
+  "nonexact_approximate_results": 822,
+  "budget_errors": 5,
+  "seconds": 1.454005,
+  "batches": [
+    {
+      "name": "exhaustive_binary_len_0_to_4",
+      "mode": "full",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 961,
+      "seconds": 0.01272
+    },
+    {
+      "name": "random_and_adversarial",
+      "mode": "full",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 171,
+      "seconds": 0.019129
+    },
+    {
+      "name": "exhaustive_binary_len_0_to_4",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 961,
+      "seconds": 0.013124
+    },
+    {
+      "name": "random_and_adversarial",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 171,
+      "seconds": 0.015477
+    },
+    {
+      "name": "exhaustive_binary_len_0_to_4",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 961,
+      "seconds": 0.013446
+    },
+    {
+      "name": "random_and_adversarial",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 171,
+      "seconds": 0.016784
+    },
+    {
+      "name": "exhaustive_binary_len_0_to_4",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 961,
+      "seconds": 0.01372
+    },
+    {
+      "name": "random_and_adversarial",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 171,
+      "seconds": 0.02131
+    },
+    {
+      "name": "exhaustive_binary_len_0_to_4",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 961,
+      "seconds": 0.013123
+    },
+    {
+      "name": "random_and_adversarial",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 171,
+      "seconds": 0.028148
+    },
+    {
+      "name": "width_sweep",
+      "mode": "linear",
+      "width": 1,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.004291
+    },
+    {
+      "name": "width_sweep",
+      "mode": "linear",
+      "width": 3,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.005034
+    },
+    {
+      "name": "width_sweep",
+      "mode": "linear",
+      "width": 11,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.003833
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "0.1",
+      "cases": 171,
+      "seconds": 0.018044
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "0.25",
+      "cases": 171,
+      "seconds": 0.014196
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "1e-3",
+      "cases": 171,
+      "seconds": 0.015831
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "1",
+      "cases": 171,
+      "seconds": 0.013705
+    },
+    {
+      "name": "epsilon_decimal_boundary",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "0.999999999999999999",
+      "cases": 1,
+      "seconds": 0.003454
+    },
+    {
+      "name": "width_sweep",
+      "mode": "cost",
+      "width": 1,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.004669
+    },
+    {
+      "name": "width_sweep",
+      "mode": "cost",
+      "width": 3,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.005186
+    },
+    {
+      "name": "width_sweep",
+      "mode": "cost",
+      "width": 11,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.004042
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "0.1",
+      "cases": 171,
+      "seconds": 0.015862
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "0.25",
+      "cases": 171,
+      "seconds": 0.014404
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "1e-3",
+      "cases": 171,
+      "seconds": 0.017561
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "1",
+      "cases": 171,
+      "seconds": 0.015345
+    },
+    {
+      "name": "epsilon_decimal_boundary",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "0.999999999999999999",
+      "cases": 1,
+      "seconds": 0.002557
+    },
+    {
+      "name": "width_sweep",
+      "mode": "anchor-linear",
+      "width": 1,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.004792
+    },
+    {
+      "name": "width_sweep",
+      "mode": "anchor-linear",
+      "width": 3,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.005183
+    },
+    {
+      "name": "width_sweep",
+      "mode": "anchor-linear",
+      "width": 11,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.004134
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "0.1",
+      "cases": 171,
+      "seconds": 0.023198
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "0.25",
+      "cases": 171,
+      "seconds": 0.024184
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "1e-3",
+      "cases": 171,
+      "seconds": 0.026958
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "1",
+      "cases": 171,
+      "seconds": 0.016386
+    },
+    {
+      "name": "epsilon_decimal_boundary",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "0.999999999999999999",
+      "cases": 1,
+      "seconds": 0.002759
+    },
+    {
+      "name": "width_sweep",
+      "mode": "anchor-cost",
+      "width": 1,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.005035
+    },
+    {
+      "name": "width_sweep",
+      "mode": "anchor-cost",
+      "width": 3,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.004075
+    },
+    {
+      "name": "width_sweep",
+      "mode": "anchor-cost",
+      "width": 11,
+      "epsilon": "0",
+      "cases": 34,
+      "seconds": 0.005287
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "0.1",
+      "cases": 171,
+      "seconds": 0.024569
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "0.25",
+      "cases": 171,
+      "seconds": 0.024844
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "1e-3",
+      "cases": 171,
+      "seconds": 0.027794
+    },
+    {
+      "name": "epsilon_guarantee",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "1",
+      "cases": 171,
+      "seconds": 0.015731
+    },
+    {
+      "name": "epsilon_decimal_boundary",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "0.999999999999999999",
+      "cases": 1,
+      "seconds": 0.002907
+    },
+    {
+      "name": "budget_exhaustion",
+      "mode": "full",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 1,
+      "seconds": 0.002454
+    },
+    {
+      "name": "budget_exhaustion",
+      "mode": "linear",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 1,
+      "seconds": 0.002769
+    },
+    {
+      "name": "budget_exhaustion",
+      "mode": "cost",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 1,
+      "seconds": 0.002452
+    },
+    {
+      "name": "budget_exhaustion",
+      "mode": "anchor-linear",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 1,
+      "seconds": 0.002247
+    },
+    {
+      "name": "budget_exhaustion",
+      "mode": "anchor-cost",
+      "width": 0,
+      "epsilon": "0",
+      "cases": 1,
+      "seconds": 0.002173
+    }
+  ],
+  "failures": []
+}
