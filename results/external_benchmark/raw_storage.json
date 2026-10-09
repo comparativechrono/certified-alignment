@@ -1,0 +1,9 @@
+{
+  "compression": "gzip level9,mtime0; exact original JSONL bytes",
+  "raw_sha256": "1e0fd6d7676759107cb64ad4461d3784dc4fe8658e69c24cc58a83d498a17824",
+  "compressed_sha256": "ba86bb41a1c290bdcdfc35a9f6e6017db3a9ced6bb4b7932a5436d1f27961b12",
+  "raw_bytes": 21304031,
+  "compressed_bytes": 3612562,
+  "restore_command": "python3 scripts/restore_recorded_results.py",
+  "analysis_instructions": "EXTERNAL_REPRODUCTION.md#reanalyze-the-published-measurements-without-timing"
+}

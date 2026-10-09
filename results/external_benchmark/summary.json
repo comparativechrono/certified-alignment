@@ -1,0 +1,2138 @@
+{
+  "aggregate": {
+    "genomic/edlib": {
+      "actual_batch_totals_ms": [
+        238.87864699999992,
+        276.44338099999993,
+        310.1029840000001,
+        239.56044000000003,
+        234.60360700000004,
+        238.77992999999998,
+        243.74221300000002
+      ],
+      "actual_batch_wallcompute_ms": [
+        238.91872,
+        276.530008,
+        310.170487,
+        239.612888,
+        234.646634,
+        238.833331,
+        243.787672
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 239.56044000000003,
+      "median_actual_batch_wallcompute_ms": 239.612888,
+      "median_setup_teardown_ms": 0.00033200000000000005,
+      "peak_process_rss_kib": 8448,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 0,
+        "distance": 52724,
+        "dp_cells": 0,
+        "lower_bound": 52724,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 0,
+        "sparse_expansions": 0,
+        "total_ms": 234.65245300000007
+      },
+      "sum_per_case_median_ms": 234.65245300000007,
+      "total_ms": 234.652785
+    },
+    "genomic/prototype-length": {
+      "actual_batch_totals_ms": [
+        11466.116654000007,
+        7730.311652,
+        7812.629108000001,
+        7539.717706999996,
+        7921.386325000001,
+        8279.702683000001,
+        7568.967596000001
+      ],
+      "actual_batch_wallcompute_ms": [
+        11466.365548,
+        7730.482196,
+        7812.814815,
+        7539.901304,
+        7921.613592,
+        8279.880497,
+        7569.192627
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 7812.629108000001,
+      "median_actual_batch_wallcompute_ms": 7812.814815,
+      "median_setup_teardown_ms": 0.003814,
+      "peak_process_rss_kib": 113740,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 100.22521800000004,
+        "distance": 52724,
+        "dp_cells": 1641794535,
+        "lower_bound": 52724,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 1092,
+        "sparse_expansions": 0,
+        "total_ms": 7526.979395
+      },
+      "sum_per_case_median_ms": 7526.979395,
+      "total_ms": 7526.983209
+    },
+    "genomic/prototype-qgram": {
+      "actual_batch_totals_ms": [
+        7446.076437999998,
+        11439.864828999996,
+        7662.1839509999945,
+        7439.822260000004,
+        7215.495947000003,
+        7564.569007999996,
+        7542.757448999997
+      ],
+      "actual_batch_wallcompute_ms": [
+        7446.241185,
+        11440.899483,
+        7662.369386,
+        7440.009758,
+        7215.668627,
+        7564.766801,
+        7542.931033
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 7542.757448999997,
+      "median_actual_batch_wallcompute_ms": 7542.931033,
+      "median_setup_teardown_ms": 0.003712,
+      "peak_process_rss_kib": 98416,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 8755248,
+        "bound_preprocess_ms": 9.837223000000005,
+        "certificate_ms": 128.58110699999997,
+        "distance": 52724,
+        "dp_cells": 1623182212,
+        "lower_bound": 52724,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 1056,
+        "sparse_expansions": 0,
+        "total_ms": 7423.542090000002
+      },
+      "sum_per_case_median_ms": 7423.542090000002,
+      "total_ms": 7423.545802000001
+    },
+    "genomic/prototype-sparse": {
+      "actual_batch_totals_ms": [
+        7068.247163000002,
+        7484.906049999999,
+        7339.179835999999,
+        7087.074782999999,
+        6967.985698999998,
+        7095.626188999997,
+        6973.309567000002
+      ],
+      "actual_batch_wallcompute_ms": [
+        7068.427853,
+        7485.127438,
+        7339.377869,
+        7087.267368,
+        6968.188221,
+        7095.850275,
+        6973.58168
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 7087.074782999999,
+      "median_actual_batch_wallcompute_ms": 7087.267368,
+      "median_setup_teardown_ms": 0.0037890000000000003,
+      "peak_process_rss_kib": 118632,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 235746440,
+        "bound_preprocess_ms": 17.54650200000001,
+        "certificate_ms": 2935.0270009999995,
+        "distance": 52724,
+        "dp_cells": 933945038,
+        "lower_bound": 52724,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 910,
+        "sparse_expansions": 153372871,
+        "total_ms": 6937.074345999998
+      },
+      "sum_per_case_median_ms": 6937.074345999998,
+      "total_ms": 6937.078135
+    },
+    "genomic/wfa2-high": {
+      "actual_batch_totals_ms": [
+        66.938961,
+        59.26900000000003,
+        68.88263300000006,
+        59.10262299999999,
+        68.251231,
+        61.44994800000001,
+        57.49806299999999
+      ],
+      "actual_batch_wallcompute_ms": [
+        66.993963,
+        59.306341,
+        68.92166,
+        59.142425,
+        68.393327,
+        61.492918,
+        57.555154
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 61.44994800000001,
+      "median_actual_batch_wallcompute_ms": 61.492918,
+      "median_setup_teardown_ms": 0.292175,
+      "peak_process_rss_kib": 10960,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 0,
+        "distance": 52724,
+        "dp_cells": 0,
+        "lower_bound": 52724,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 0,
+        "sparse_expansions": 0,
+        "total_ms": 54.861167000000016
+      },
+      "sum_per_case_median_ms": 54.861167000000016,
+      "total_ms": 55.153342
+    },
+    "genomic/wfa2-ultralow": {
+      "actual_batch_totals_ms": [
+        61.654728,
+        149.76509099999996,
+        68.038658,
+        60.626457,
+        62.658017999999984,
+        64.036464,
+        63.88714799999999
+      ],
+      "actual_batch_wallcompute_ms": [
+        61.6959,
+        149.844316,
+        68.074889,
+        60.655015,
+        62.712702,
+        64.076427,
+        63.931251
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 63.88714799999999,
+      "median_actual_batch_wallcompute_ms": 63.931251,
+      "median_setup_teardown_ms": 0.162557,
+      "peak_process_rss_kib": 8448,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 0,
+        "distance": 52724,
+        "dp_cells": 0,
+        "lower_bound": 52724,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 0,
+        "sparse_expansions": 0,
+        "total_ms": 59.24971300000003
+      },
+      "sum_per_case_median_ms": 59.24971300000003,
+      "total_ms": 59.41227
+    },
+    "random_control/edlib": {
+      "actual_batch_totals_ms": [
+        232.8886920000001,
+        228.17531000000002,
+        452.6178619999997,
+        243.62329600000004,
+        248.78200700000016,
+        254.14370099999994,
+        238.8952410000001
+      ],
+      "actual_batch_wallcompute_ms": [
+        232.929017,
+        228.219489,
+        452.690968,
+        243.741543,
+        248.83949,
+        254.174785,
+        238.935265
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 243.62329600000004,
+      "median_actual_batch_wallcompute_ms": 243.741543,
+      "median_setup_teardown_ms": 0.000347,
+      "peak_process_rss_kib": 8448,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 0,
+        "distance": 52728,
+        "dp_cells": 0,
+        "lower_bound": 52728,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 0,
+        "sparse_expansions": 0,
+        "total_ms": 236.8951690000001
+      },
+      "sum_per_case_median_ms": 236.8951690000001,
+      "total_ms": 236.895516
+    },
+    "random_control/prototype-length": {
+      "actual_batch_totals_ms": [
+        7742.998848999999,
+        7401.221736,
+        7577.151234999996,
+        7720.798166999999,
+        7600.617667000004,
+        7778.802003999998,
+        7584.595709000002
+      ],
+      "actual_batch_wallcompute_ms": [
+        7743.175092,
+        7401.395734,
+        7577.336389,
+        7721.105363,
+        7600.926578,
+        7779.06876,
+        7584.770163
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 7600.617667000004,
+      "median_actual_batch_wallcompute_ms": 7600.926578,
+      "median_setup_teardown_ms": 0.003378,
+      "peak_process_rss_kib": 113780,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 94.79638,
+        "distance": 52728,
+        "dp_cells": 1641923656,
+        "lower_bound": 52728,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 1093,
+        "sparse_expansions": 0,
+        "total_ms": 7423.169360000001
+      },
+      "sum_per_case_median_ms": 7423.169360000001,
+      "total_ms": 7423.172738
+    },
+    "random_control/prototype-qgram": {
+      "actual_batch_totals_ms": [
+        8176.838647999991,
+        7495.637216999998,
+        7431.262193000001,
+        7379.321714999999,
+        7569.096561999997,
+        8096.988296000005,
+        7728.065326000001
+      ],
+      "actual_batch_wallcompute_ms": [
+        8177.002957,
+        7495.815446,
+        7431.479244,
+        7379.515894,
+        7569.302547,
+        8097.181336,
+        7728.254207
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 7569.096561999997,
+      "median_actual_batch_wallcompute_ms": 7569.302547,
+      "median_setup_teardown_ms": 0.003745,
+      "peak_process_rss_kib": 98396,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 8755248,
+        "bound_preprocess_ms": 9.885119,
+        "certificate_ms": 129.33383900000004,
+        "distance": 52728,
+        "dp_cells": 1633304745,
+        "lower_bound": 52728,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 1060,
+        "sparse_expansions": 0,
+        "total_ms": 7414.5144869999995
+      },
+      "sum_per_case_median_ms": 7414.5144869999995,
+      "total_ms": 7414.518232
+    },
+    "random_control/prototype-sparse": {
+      "actual_batch_totals_ms": [
+        6816.658980000001,
+        6924.997564000004,
+        8399.257434000008,
+        6885.065913000001,
+        6888.979487,
+        7278.840340000005,
+        6981.8510840000035
+      ],
+      "actual_batch_wallcompute_ms": [
+        6816.847785,
+        6925.196456,
+        8399.445855,
+        6885.457464,
+        6889.22824,
+        7279.037798,
+        6982.098979
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 6924.997564000004,
+      "median_actual_batch_wallcompute_ms": 6925.196456,
+      "median_setup_teardown_ms": 0.003653,
+      "peak_process_rss_kib": 132708,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 236089120,
+        "bound_preprocess_ms": 17.753835000000006,
+        "certificate_ms": 2932.2884609999996,
+        "distance": 52728,
+        "dp_cells": 918291989,
+        "lower_bound": 52728,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 909,
+        "sparse_expansions": 153717534,
+        "total_ms": 6839.277801000004
+      },
+      "sum_per_case_median_ms": 6839.277801000004,
+      "total_ms": 6839.281454
+    },
+    "random_control/wfa2-high": {
+      "actual_batch_totals_ms": [
+        59.82537700000002,
+        59.72978499999996,
+        64.27149699999998,
+        81.50277200000001,
+        59.998604000000014,
+        84.26376799999997,
+        57.864777999999994
+      ],
+      "actual_batch_wallcompute_ms": [
+        59.87299,
+        59.86797,
+        64.311844,
+        81.565266,
+        60.055972,
+        84.50451,
+        57.905204
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 59.998604000000014,
+      "median_actual_batch_wallcompute_ms": 60.055972,
+      "median_setup_teardown_ms": 0.31247199999999997,
+      "peak_process_rss_kib": 10828,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 0,
+        "distance": 52728,
+        "dp_cells": 0,
+        "lower_bound": 52728,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 0,
+        "sparse_expansions": 0,
+        "total_ms": 56.05219899999999
+      },
+      "sum_per_case_median_ms": 56.05219899999999,
+      "total_ms": 56.364671
+    },
+    "random_control/wfa2-ultralow": {
+      "actual_batch_totals_ms": [
+        103.26693700000007,
+        64.36784999999998,
+        64.61310799999997,
+        100.82953499999996,
+        63.91645500000001,
+        65.37058299999998,
+        65.08778999999997
+      ],
+      "actual_batch_wallcompute_ms": [
+        103.329159,
+        64.422138,
+        64.767,
+        100.888905,
+        63.967203,
+        65.427651,
+        65.13787
+      ],
+      "complete_and_correct": true,
+      "median_actual_batch_total_ms": 65.08778999999997,
+      "median_actual_batch_wallcompute_ms": 65.13787,
+      "median_setup_teardown_ms": 0.164043,
+      "peak_process_rss_kib": 8448,
+      "rss_scope": "whole adapter process including preloaded input, all retained results and library workspaces; not per-alignment auxiliary memory",
+      "sum_median_metrics": {
+        "bound_bytes": 0,
+        "bound_preprocess_ms": 0,
+        "certificate_ms": 0,
+        "distance": 52728,
+        "dp_cells": 0,
+        "lower_bound": 52728,
+        "m": 851984,
+        "n": 851968,
+        "outer_repeat": 576,
+        "repeat": 0,
+        "rounds": 0,
+        "sparse_expansions": 0,
+        "total_ms": 60.23394599999996
+      },
+      "sum_per_case_median_ms": 60.23394599999996,
+      "total_ms": 60.397989
+    }
+  },
+  "aggregation": "sum of each case's median complete native alignment time over 7 repetitions plus median per-scope batch setup+teardown; bootstrap allocates that overhead equally across the 192 cases",
+  "all_outputs_correct": true,
+  "batch_scope": "each invocation contains exactly one 192-case scope, one repetition; WFA workspace setup/teardown shared within that scope; all I/O and CIGAR verification outside measured native scope",
+  "bootstrap": {
+    "clusters": 8,
+    "limitation": "eight independent genomic windows; CI does not represent platform, genome or hardware generalization",
+    "replicates": 9999,
+    "seed": 2026101002,
+    "unit": "reference locus with nested lengths and all event/noise variants retained together; matched controls share cluster"
+  },
+  "candidate": "prototype-sparse",
+  "comparisons": [
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 234.652785,
+      "candidate_total_ms": 6937.078135,
+      "cases": 192,
+      "change_percent": 2856.316131087044,
+      "cluster_count": 8,
+      "evidence": "primary",
+      "group": "genomic",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        27.918281217667722,
+        31.252931312421264
+      ],
+      "runtime_ratio": 29.56316131087044,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 55.153342,
+      "candidate_total_ms": 6937.078135,
+      "cases": 192,
+      "change_percent": 12477.80196710473,
+      "cluster_count": 8,
+      "evidence": "primary",
+      "group": "genomic",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        118.84753856231421,
+        132.9329697488601
+      ],
+      "runtime_ratio": 125.7780196710473,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 59.41227,
+      "candidate_total_ms": 6937.078135,
+      "cases": 192,
+      "change_percent": 11576.170822963,
+      "cluster_count": 8,
+      "evidence": "primary",
+      "group": "genomic",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        111.09413823028294,
+        122.47477776265461
+      ],
+      "runtime_ratio": 116.76170822963,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 7526.983209,
+      "candidate_total_ms": 6937.078135,
+      "cases": 192,
+      "change_percent": -7.837204596054526,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8791257239311017,
+        0.9632143200078711
+      ],
+      "runtime_ratio": 0.9216279540394547,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 7423.545802000001,
+      "candidate_total_ms": 6937.078135,
+      "cases": 192,
+      "change_percent": -6.553036513480393,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8849600856748233,
+        0.9834840978682478
+      ],
+      "runtime_ratio": 0.9344696348651961,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 236.895516,
+      "candidate_total_ms": 6839.281454,
+      "cases": 192,
+      "change_percent": 2787.045550494928,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        27.601649265823553,
+        30.315534919799884
+      ],
+      "runtime_ratio": 28.87045550494928,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 56.364671,
+      "candidate_total_ms": 6839.281454,
+      "cases": 192,
+      "change_percent": 12033.98629435804,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        117.18298807682177,
+        126.4336763957199
+      ],
+      "runtime_ratio": 121.33986294358039,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 60.397989,
+      "candidate_total_ms": 6839.281454,
+      "cases": 192,
+      "change_percent": 11223.690684469644,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        108.28747359601594,
+        119.10287456956254
+      ],
+      "runtime_ratio": 113.23690684469643,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 7423.172738,
+      "candidate_total_ms": 6839.281454,
+      "cases": 192,
+      "change_percent": -7.865791415724432,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8826333063023103,
+        0.9678432916833957
+      ],
+      "runtime_ratio": 0.9213420858427557,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 7414.518232,
+      "candidate_total_ms": 6839.281454,
+      "cases": 192,
+      "change_percent": -7.758248884160279,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8822392724522243,
+        0.9704358235974286
+      ],
+      "runtime_ratio": 0.9224175111583972,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 6.016606666666667,
+      "candidate_total_ms": 52.082653,
+      "cases": 64,
+      "change_percent": 765.6482945536299,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        8.424591210794551,
+        8.899875573376285
+      ],
+      "runtime_ratio": 8.656482945536299,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 1.1921156666666668,
+      "candidate_total_ms": 52.082653,
+      "cases": 64,
+      "change_percent": 4268.92614167473,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        42.70084202543271,
+        44.673872991078184
+      ],
+      "runtime_ratio": 43.68926141674731,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 1.5638736666666666,
+      "candidate_total_ms": 52.082653,
+      "cases": 64,
+      "change_percent": 3230.361915423262,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        32.553905424480824,
+        34.05280854943677
+      ],
+      "runtime_ratio": 33.30361915423262,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 79.47603733333334,
+      "candidate_total_ms": 52.082653,
+      "cases": 64,
+      "change_percent": -34.46747630162,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6328964667986742,
+        0.6776582203258148
+      ],
+      "runtime_ratio": 0.6553252369838,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 64.84864833333333,
+      "candidate_total_ms": 52.082653,
+      "cases": 64,
+      "change_percent": -19.68583102567365,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.7593110155455348,
+        0.8507494367847231
+      ],
+      "runtime_ratio": 0.8031416897432635,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 59.047035666666666,
+      "candidate_total_ms": 1124.4490090000002,
+      "cases": 64,
+      "change_percent": 1804.3276200142525,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        18.486859989398514,
+        19.584891870827683
+      ],
+      "runtime_ratio": 19.043276200142525,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 11.219400666666667,
+      "candidate_total_ms": 1124.4490090000002,
+      "cases": 64,
+      "change_percent": 9922.362534398006,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        97.36293024619013,
+        102.7984042726235
+      ],
+      "runtime_ratio": 100.22362534398006,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 12.966907666666666,
+      "candidate_total_ms": 1124.4490090000002,
+      "cases": 64,
+      "change_percent": 8571.682084160751,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        84.73275271577447,
+        88.54330153969862
+      ],
+      "runtime_ratio": 86.71682084160751,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 1375.6331453333335,
+      "candidate_total_ms": 1124.4490090000002,
+      "cases": 64,
+      "change_percent": -18.259529234625138,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.7935933823005735,
+        0.8424864961116795
+      ],
+      "runtime_ratio": 0.8174047076537486,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 1311.8077173333334,
+      "candidate_total_ms": 1124.4490090000002,
+      "cases": 64,
+      "change_percent": -14.282482551192743,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8143358125232629,
+        0.9028496328027612
+      ],
+      "runtime_ratio": 0.8571751744880726,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 169.58914266666667,
+      "candidate_total_ms": 5760.546473,
+      "cases": 64,
+      "change_percent": 3296.7660797263143,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        31.69121509588969,
+        36.40159323214257
+      ],
+      "runtime_ratio": 33.96766079726314,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 42.741825666666664,
+      "candidate_total_ms": 5760.546473,
+      "cases": 64,
+      "change_percent": 13377.539583650761,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        125.97240873215425,
+        143.98866440068429
+      ],
+      "runtime_ratio": 134.7753958365076,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 44.88148866666667,
+      "candidate_total_ms": 5760.546473,
+      "cases": 64,
+      "change_percent": 12735.016493733949,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        121.06137843914826,
+        135.73012819420777
+      ],
+      "runtime_ratio": 128.35016493733949,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 6071.874026333333,
+      "candidate_total_ms": 5760.546473,
+      "cases": 64,
+      "change_percent": -5.1273717468960145,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8944950131180045,
+        1.003289729544854
+      ],
+      "runtime_ratio": 0.9487262825310399,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 6046.889436333334,
+      "candidate_total_ms": 5760.546473,
+      "cases": 64,
+      "change_percent": -4.735376202065367,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8946147383387498,
+        1.0107390299751415
+      ],
+      "runtime_ratio": 0.9526462379793463,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 104.346051,
+      "candidate_total_ms": 2769.1742285,
+      "cases": 96,
+      "change_percent": 2553.837114065773,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        25.543105525090073,
+        27.752937064523817
+      ],
+      "runtime_ratio": 26.538371140657734,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 7.7719745,
+      "candidate_total_ms": 2769.1742285,
+      "cases": 96,
+      "change_percent": 35530.25365690533,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        345.10256515750785,
+        368.1760535578868
+      ],
+      "runtime_ratio": 356.30253656905336,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 9.7272605,
+      "candidate_total_ms": 2769.1742285,
+      "cases": 96,
+      "change_percent": 28368.18205906997,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        277.826383119051,
+        293.1890334080962
+      ],
+      "runtime_ratio": 284.6818205906997,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 1465.923687,
+      "candidate_total_ms": 2769.1742285,
+      "cases": 96,
+      "change_percent": 88.90302769901281,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.8524081290705536,
+        1.9176921389225952
+      ],
+      "runtime_ratio": 1.8890302769901282,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 1403.340407,
+      "candidate_total_ms": 2769.1742285,
+      "cases": 96,
+      "change_percent": 97.32733517021863,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.9190007363920405,
+        2.0433461126645667
+      ],
+      "runtime_ratio": 1.9732733517021863,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 130.306734,
+      "candidate_total_ms": 4167.9039065,
+      "cases": 96,
+      "change_percent": 3098.5330140344086,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        29.744962982370645,
+        34.256263716860666
+      ],
+      "runtime_ratio": 31.985330140344086,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 47.3813675,
+      "candidate_total_ms": 4167.9039065,
+      "cases": 96,
+      "change_percent": 8696.504040327665,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        81.53378318846848,
+        94.50926098353366
+      ],
+      "runtime_ratio": 87.96504040327666,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 49.6850095,
+      "candidate_total_ms": 4167.9039065,
+      "cases": 96,
+      "change_percent": 8288.65474404307,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        78.16621229472703,
+        89.63185767135049
+      ],
+      "runtime_ratio": 83.88654744043069,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 6061.059522,
+      "candidate_total_ms": 4167.9039065,
+      "cases": 96,
+      "change_percent": -31.234730637908427,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6405940329798191,
+        0.7343782724735358
+      ],
+      "runtime_ratio": 0.6876526936209157,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 6020.205395,
+      "candidate_total_ms": 4167.9039065,
+      "cases": 96,
+      "change_percent": -30.768077946948523,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6408415526999102,
+        0.7435888578016585
+      ],
+      "runtime_ratio": 0.6923192205305148,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 114.219459,
+      "candidate_total_ms": 4402.3728985,
+      "cases": 96,
+      "change_percent": 3754.3107602181863,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        35.18242062592103,
+        41.95236880672999
+      ],
+      "runtime_ratio": 38.54310760218186,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 26.9274555,
+      "candidate_total_ms": 4402.3728985,
+      "cases": 96,
+      "change_percent": 16249.01187934374,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        148.3683853766923,
+        179.33470707417106
+      ],
+      "runtime_ratio": 163.4901187934374,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 29.3524195,
+      "candidate_total_ms": 4402.3728985,
+      "cases": 96,
+      "change_percent": 14898.330541371555,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        137.84650200750076,
+        162.04437673912562
+      ],
+      "runtime_ratio": 149.98330541371556,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3779.597659,
+      "candidate_total_ms": 4402.3728985,
+      "cases": 96,
+      "change_percent": 16.477289269587825,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0778855336580258,
+        1.2478763721430657
+      ],
+      "runtime_ratio": 1.1647728926958782,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3713.4864190000003,
+      "candidate_total_ms": 4402.3728985,
+      "cases": 96,
+      "change_percent": 18.55093574532336,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0844228980356663,
+        1.2862527044151837
+      ],
+      "runtime_ratio": 1.1855093574532336,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 120.43332600000001,
+      "candidate_total_ms": 2534.7052365,
+      "cases": 96,
+      "change_percent": 2004.6543516534616,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        20.609874871625085,
+        21.591099271999564
+      ],
+      "runtime_ratio": 21.046543516534616,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 28.2258865,
+      "candidate_total_ms": 2534.7052365,
+      "cases": 96,
+      "change_percent": 8880.07308468416,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        86.87936106548463,
+        92.83536578046656
+      ],
+      "runtime_ratio": 89.8007308468416,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 30.0598505,
+      "candidate_total_ms": 2534.7052365,
+      "cases": 96,
+      "change_percent": 8332.195085268304,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        82.11271707508011,
+        86.42290752648138
+      ],
+      "runtime_ratio": 84.32195085268305,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3747.38555,
+      "candidate_total_ms": 2534.7052365,
+      "cases": 96,
+      "change_percent": -32.360703144089356,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6620698026466835,
+        0.6916762931414996
+      ],
+      "runtime_ratio": 0.6763929685591065,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3710.0593830000003,
+      "candidate_total_ms": 2534.7052365,
+      "cases": 96,
+      "change_percent": -31.68019767784941,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6733019518402278,
+        0.6931586799508913
+      ],
+      "runtime_ratio": 0.6831980232215059,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 113.187886,
+      "candidate_total_ms": 2603.0374465,
+      "cases": 96,
+      "change_percent": 2199.749150275675,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        22.263512791344937,
+        23.81682982251021
+      ],
+      "runtime_ratio": 22.997491502756752,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 21.2980045,
+      "candidate_total_ms": 2603.0374465,
+      "cases": 96,
+      "change_percent": 12121.978103629379,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        116.96681013928722,
+        127.00168835580463
+      ],
+      "runtime_ratio": 122.2197810362938,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 23.2824075,
+      "candidate_total_ms": 2603.0374465,
+      "cases": 96,
+      "change_percent": 11080.27612264754,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        106.93872671453981,
+        115.8086347861778
+      ],
+      "runtime_ratio": 111.8027612264754,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3749.737699,
+      "candidate_total_ms": 2603.0374465,
+      "cases": 96,
+      "change_percent": -30.5808124340486,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6749406363680256,
+        0.7136975551797575
+      ],
+      "runtime_ratio": 0.694191875659514,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3660.531719,
+      "candidate_total_ms": 2603.0374465,
+      "cases": 96,
+      "change_percent": -28.889089172785287,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6912380715148647,
+        0.732136778871403
+      ],
+      "runtime_ratio": 0.7111091082721471,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 121.464899,
+      "candidate_total_ms": 4334.0406885,
+      "cases": 96,
+      "change_percent": 3468.142503868545,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        33.16063495066896,
+        38.30974698275493
+      ],
+      "runtime_ratio": 35.681425038685454,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 33.8553375,
+      "candidate_total_ms": 4334.0406885,
+      "cases": 96,
+      "change_percent": 12701.646678311803,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        119.01378040883888,
+        137.17450803333156
+      ],
+      "runtime_ratio": 128.01646678311803,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 36.1298625,
+      "candidate_total_ms": 4334.0406885,
+      "cases": 96,
+      "change_percent": 11895.729816298084,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        113.13379192020282,
+        127.24318897709753
+      ],
+      "runtime_ratio": 119.95729816298083,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3777.2455099999997,
+      "candidate_total_ms": 4334.0406885,
+      "cases": 96,
+      "change_percent": 14.740772793982359,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0696101029225966,
+        1.2246057872335159
+      ],
+      "runtime_ratio": 1.1474077279398236,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3763.014083,
+      "candidate_total_ms": 4334.0406885,
+      "cases": 96,
+      "change_percent": 15.174713485120916,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "genomic/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0663021065786285,
+        1.2400319154544475
+      ],
+      "runtime_ratio": 1.1517471348512092,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 5.920804666666667,
+      "candidate_total_ms": 52.58264966666666,
+      "cases": 64,
+      "change_percent": 788.099720004274,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        8.722823861774646,
+        9.058935094213894
+      ],
+      "runtime_ratio": 8.88099720004274,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 1.2213233333333333,
+      "candidate_total_ms": 52.58264966666666,
+      "cases": 64,
+      "change_percent": 4205.383204556806,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        42.13842821113333,
+        43.86507119654502
+      ],
+      "runtime_ratio": 43.05383204556806,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 1.5682829999999999,
+      "candidate_total_ms": 52.58264966666666,
+      "cases": 64,
+      "change_percent": 3252.880166823633,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        32.86137725204793,
+        34.23858560523893
+      ],
+      "runtime_ratio": 33.528801668236326,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 79.045987,
+      "candidate_total_ms": 52.58264966666666,
+      "cases": 64,
+      "change_percent": -33.47840711171502,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6492426797410588,
+        0.6798760825237407
+      ],
+      "runtime_ratio": 0.6652159288828497,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 64.28079533333333,
+      "candidate_total_ms": 52.58264966666666,
+      "cases": 64,
+      "change_percent": -18.19850797739041,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=1024",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.7828839763265529,
+        0.8509981434698386
+      ],
+      "runtime_ratio": 0.8180149202260959,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 59.632953666666666,
+      "candidate_total_ms": 1119.9762406666666,
+      "cases": 64,
+      "change_percent": 1778.11632965064,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        18.209262154935253,
+        19.307908260229954
+      ],
+      "runtime_ratio": 18.7811632965064,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 11.321571333333333,
+      "candidate_total_ms": 1119.9762406666666,
+      "cases": 64,
+      "change_percent": 9792.40987573162,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        96.37510861769634,
+        101.5596724938851
+      ],
+      "runtime_ratio": 98.9240987573162,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 13.027776,
+      "candidate_total_ms": 1119.9762406666666,
+      "cases": 64,
+      "change_percent": 8496.833724088183,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        83.72275540640386,
+        88.6563691524008
+      ],
+      "runtime_ratio": 85.96833724088184,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 1337.0086210000002,
+      "candidate_total_ms": 1119.9762406666666,
+      "cases": 64,
+      "change_percent": -16.232683688382398,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8190044191066165,
+        0.8585618886135754
+      ],
+      "runtime_ratio": 0.837673163116176,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 1339.6868263333333,
+      "candidate_total_ms": 1119.9762406666666,
+      "cases": 64,
+      "change_percent": -16.400145268876408,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=4096",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8146396554931753,
+        0.857256524544148
+      ],
+      "runtime_ratio": 0.8359985473112359,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 171.34175766666667,
+      "candidate_total_ms": 5666.722563666667,
+      "cases": 64,
+      "change_percent": 3207.2630051402166,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        31.41773995856868,
+        34.970589643492424
+      ],
+      "runtime_ratio": 33.072630051402164,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 43.82177633333333,
+      "candidate_total_ms": 5666.722563666667,
+      "cases": 64,
+      "change_percent": 12831.293612021465,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        123.80934905361805,
+        136.25790856924823
+      ],
+      "runtime_ratio": 129.31293612021466,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 45.80193,
+      "candidate_total_ms": 5666.722563666667,
+      "cases": 64,
+      "change_percent": 12272.235326473508,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        117.50022205597847,
+        131.1898399813689
+      ],
+      "runtime_ratio": 123.72235326473508,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 6007.11813,
+      "candidate_total_ms": 5666.722563666667,
+      "cases": 64,
+      "change_percent": -5.666536914487697,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8942179737344511,
+        0.9990841540010211
+      ],
+      "runtime_ratio": 0.943334630855123,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 6010.550610333334,
+      "candidate_total_ms": 5666.722563666667,
+      "cases": 64,
+      "change_percent": -5.720408477645256,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/source_length=8192",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.8924745394227859,
+        1.0010060340842732
+      ],
+      "runtime_ratio": 0.9427959152235474,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 105.82333349999999,
+      "candidate_total_ms": 2754.1606755000003,
+      "cases": 96,
+      "change_percent": 2502.6024548735277,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        25.347178349060652,
+        26.788933749193937
+      ],
+      "runtime_ratio": 26.02602454873528,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 7.758431,
+      "candidate_total_ms": 2754.1606755000003,
+      "cases": 96,
+      "change_percent": 35398.938838278,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        344.994170565237,
+        364.2730245687531
+      ],
+      "runtime_ratio": 354.98938838278,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 9.6337625,
+      "candidate_total_ms": 2754.1606755000003,
+      "cases": 96,
+      "change_percent": 28488.62957748855,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        280.6069805574611,
+        291.29847692726315
+      ],
+      "runtime_ratio": 285.8862957748855,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 1411.904631,
+      "candidate_total_ms": 2754.1606755000003,
+      "cases": 96,
+      "change_percent": 95.06704737906621,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.9045934069443011,
+        1.9959843124484917
+      ],
+      "runtime_ratio": 1.9506704737906622,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 1414.1081905,
+      "candidate_total_ms": 2754.1606755000003,
+      "cases": 96,
+      "change_percent": 94.76308064704615,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=2",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.901839423960296,
+        2.0078637155219425
+      ],
+      "runtime_ratio": 1.9476308064704615,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 131.0721825,
+      "candidate_total_ms": 4085.1207785,
+      "cases": 96,
+      "change_percent": 3016.6954731222245,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        29.034092676204295,
+        33.75695872747224
+      ],
+      "runtime_ratio": 31.166954731222244,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 48.60624,
+      "candidate_total_ms": 4085.1207785,
+      "cases": 96,
+      "change_percent": 8304.5192109079,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        79.84534873583758,
+        89.12684235150269
+      ],
+      "runtime_ratio": 84.045192109079,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 50.7642265,
+      "candidate_total_ms": 4085.1207785,
+      "cases": 96,
+      "change_percent": 7947.243226487455,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        75.35504307301922,
+        86.46212165196054
+      ],
+      "runtime_ratio": 80.47243226487456,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 6011.268107,
+      "candidate_total_ms": 4085.1207785,
+      "cases": 96,
+      "change_percent": -32.042279502673324,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6364897945817006,
+        0.7293976146214747
+      ],
+      "runtime_ratio": 0.6795772049732668,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 6000.4100415,
+      "candidate_total_ms": 4085.1207785,
+      "cases": 96,
+      "change_percent": -31.919306343291343,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/gap_percent=8",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6376692544828295,
+        0.732545802935661
+      ],
+      "runtime_ratio": 0.6808069365670866,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 114.1370745,
+      "candidate_total_ms": 4308.2959835,
+      "cases": 96,
+      "change_percent": 3674.6683120917032,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        35.05632995867069,
+        40.82652220048409
+      ],
+      "runtime_ratio": 37.746683120917034,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 27.839254,
+      "candidate_total_ms": 4308.2959835,
+      "cases": 96,
+      "change_percent": 15375.615774402575,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        144.00240050946,
+        166.53499443133396
+      ],
+      "runtime_ratio": 154.75615774402576,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 29.7480675,
+      "candidate_total_ms": 4308.2959835,
+      "cases": 96,
+      "change_percent": 14382.607932431241,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        136.0835499777046,
+        154.92357978164094
+      ],
+      "runtime_ratio": 144.82607932431242,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3677.302984,
+      "candidate_total_ms": 4308.2959835,
+      "cases": 96,
+      "change_percent": 17.159124560729964,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0955766296457994,
+        1.2583268493731898
+      ],
+      "runtime_ratio": 1.1715912456072997,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3694.1611045000004,
+      "candidate_total_ms": 4308.2959835,
+      "cases": 96,
+      "change_percent": 16.62447472179538,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=deletion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0868162404484272,
+        1.2593356133289424
+      ],
+      "runtime_ratio": 1.1662447472179538,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 122.7584415,
+      "candidate_total_ms": 2530.9854705000002,
+      "cases": 96,
+      "change_percent": 1961.7608366264574,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        20.171675638327223,
+        21.022668671721394
+      ],
+      "runtime_ratio": 20.617608366264573,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 28.525417,
+      "candidate_total_ms": 2530.9854705000002,
+      "cases": 96,
+      "change_percent": 8772.737848144341,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        85.15327364436281,
+        91.91364608207684
+      ],
+      "runtime_ratio": 88.72737848144341,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 30.6499215,
+      "candidate_total_ms": 2530.9854705000002,
+      "cases": 96,
+      "change_percent": 8157.722521410046,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        80.10899095425059,
+        84.76731347828664
+      ],
+      "runtime_ratio": 82.57722521410047,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3745.869754,
+      "candidate_total_ms": 2530.9854705000002,
+      "cases": 96,
+      "change_percent": -32.432635496808025,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6641687836672543,
+        0.6855135411191576
+      ],
+      "runtime_ratio": 0.6756736450319197,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3720.3571275000004,
+      "candidate_total_ms": 2530.9854705000002,
+      "cases": 96,
+      "change_percent": -31.96928725493706,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/direction=insertion",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6660772814220045,
+        0.6930243808739684
+      ],
+      "runtime_ratio": 0.6803071274506294,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 113.5706295,
+      "candidate_total_ms": 2599.0561515,
+      "cases": 96,
+      "change_percent": 2188.493216021137,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        22.51200403723829,
+        23.242168993968583
+      ],
+      "runtime_ratio": 22.88493216021137,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 22.055077,
+      "candidate_total_ms": 2599.0561515,
+      "cases": 96,
+      "change_percent": 11684.389378917152,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        114.44669227034949,
+        120.69715696360066
+      ],
+      "runtime_ratio": 117.84389378917153,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 23.5239875,
+      "candidate_total_ms": 2599.0561515,
+      "cases": 96,
+      "change_percent": 10948.5356766152,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        107.24191043795898,
+        113.47342292526483
+      ],
+      "runtime_ratio": 110.485356766152,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3700.448004,
+      "candidate_total_ms": 2599.0561515,
+      "cases": 96,
+      "change_percent": -29.76374350644706,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6909383053378937,
+        0.7145386435280053
+      ],
+      "runtime_ratio": 0.7023625649355294,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3702.3945355,
+      "candidate_total_ms": 2599.0561515,
+      "cases": 96,
+      "change_percent": -29.800670172256417,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=low",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        0.6889152669129279,
+        0.7157517029953813
+      ],
+      "runtime_ratio": 0.7019932982774358,
+      "valid": true
+    },
+    {
+      "baseline": "edlib",
+      "baseline_total_ms": 123.32488649999999,
+      "candidate_total_ms": 4240.2253025,
+      "cases": 96,
+      "change_percent": 3338.255994259521,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        32.15215472362941,
+        37.109777728838246
+      ],
+      "runtime_ratio": 34.38255994259521,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-high",
+      "baseline_total_ms": 34.309594,
+      "candidate_total_ms": 4240.2253025,
+      "cases": 96,
+      "change_percent": 12258.716056214482,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        116.25816187979676,
+        132.93672995248872
+      ],
+      "runtime_ratio": 123.58716056214482,
+      "valid": true
+    },
+    {
+      "baseline": "wfa2-ultralow",
+      "baseline_total_ms": 36.8740015,
+      "candidate_total_ms": 4240.2253025,
+      "cases": 96,
+      "change_percent": 11399.227450267364,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        107.90943431887337,
+        123.3974500684362
+      ],
+      "runtime_ratio": 114.99227450267365,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-length",
+      "baseline_total_ms": 3722.724734,
+      "candidate_total_ms": 4240.2253025,
+      "cases": 96,
+      "change_percent": 13.901123652082514,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0698318477046356,
+        1.2255906657687694
+      ],
+      "runtime_ratio": 1.1390112365208251,
+      "valid": true
+    },
+    {
+      "baseline": "prototype-qgram",
+      "baseline_total_ms": 3712.1236965000003,
+      "candidate_total_ms": 4240.2253025,
+      "cases": 96,
+      "change_percent": 14.226401089433626,
+      "cluster_count": 8,
+      "evidence": "secondary diagnostic",
+      "group": "random_control/noise_regime=mixed",
+      "paired_locus_bootstrap_95_percentile_ci": [
+        1.0699136481790785,
+        1.2320786220613555
+      ],
+      "runtime_ratio": 1.1422640108943363,
+      "valid": true
+    }
+  ],
+  "failures_not_credited_as_speedups": true,
+  "primary_scope": "genomic",
+  "primary_success": false,
+  "raw_sha256": "1e0fd6d7676759107cb64ad4461d3784dc4fe8658e69c24cc58a83d498a17824",
+  "warmup": "one discarded 192-case invocation for each method and scope before all timed repetitions; timed invocations create fresh WFA workspaces"
+}

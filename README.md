@@ -17,6 +17,17 @@ predictor, anchors, a probabilistic assumption, or a claim that the computed
 path avoids a band edge. This package is an initial experiment, not a new
 asymptotic alignment theorem or a competitive replacement for mature aligners.
 
+**Current result: v6 external validation failed the performance gate.** The
+unchanged linear/sparse prototype was tested on a fresh semisynthetic isolated-indel
+comparison. All 18,432 returned alignments across the six methods passed validation,
+but the sparse prototype took 29.56 times as long as Edlib
+and 116.76–125.78 times as long as WFA2 on the primary workload. Its 6.55% gain
+over the internal q-gram baseline does not establish a practical advantage.
+See [the v6 report](RESULTS_V6.md), [the protocol](EXTERNAL_BENCHMARK_PLAN.md),
+and [reproduction instructions](EXTERNAL_REPRODUCTION.md). The protocol and
+inputs were committed before timing; published runs are preserved alongside
+source, proofs and earlier results.
+
 **Version 4** evaluates that ordered relaxation on demand, proving only the
 threshold needed at each band exit and retaining sparse cached intervals.
 Work and memory caps preserve admissibility. See `SPARSE_BOUND.md` for the

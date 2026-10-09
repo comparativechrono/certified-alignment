@@ -1,5 +1,5 @@
 {
-  "format": "lossless gzip of historical recorded outputs; no result values changed",
+  "format": "lossless gzip of recorded outputs; no result values changed",
   "files": [
     {
       "path": "results/benchmark/raw_results.json",
@@ -104,6 +104,14 @@
       "bytes": 10465014,
       "compressed_sha256": "8ec130e51744b6836de8a520027346744f327d27d78db9e5716ba6209aafb892",
       "compressed_bytes": 398525
+    },
+    {
+      "path": "results/external_benchmark/raw.jsonl",
+      "compressed_path": "results/external_benchmark/raw.jsonl.gz",
+      "sha256": "1e0fd6d7676759107cb64ad4461d3784dc4fe8658e69c24cc58a83d498a17824",
+      "bytes": 21304031,
+      "compressed_sha256": "ba86bb41a1c290bdcdfc35a9f6e6017db3a9ced6bb4b7932a5436d1f27961b12",
+      "compressed_bytes": 3612562
     }
   ]
 }

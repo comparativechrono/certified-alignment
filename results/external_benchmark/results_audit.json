@@ -1,0 +1,163 @@
+{
+  "aggregate_ms": {
+    "genomic/edlib": 234.652785,
+    "genomic/prototype-length": 7526.983209,
+    "genomic/prototype-qgram": 7423.545802000001,
+    "genomic/prototype-sparse": 6937.078135,
+    "genomic/wfa2-high": 55.153342,
+    "genomic/wfa2-ultralow": 59.41227,
+    "random_control/edlib": 236.895516,
+    "random_control/prototype-length": 7423.172738,
+    "random_control/prototype-qgram": 7414.518232,
+    "random_control/prototype-sparse": 6839.281454,
+    "random_control/wfa2-high": 56.364671,
+    "random_control/wfa2-ultralow": 60.397989
+  },
+  "aggregate_totals_reproduced": 12,
+  "alignment_outputs_checked": 18432,
+  "batch_outputs_checked": 96,
+  "bootstrap_comparisons_reproduced": 100,
+  "bootstrap_replicates": 9999,
+  "bootstrap_seed": 2026101002,
+  "complete_case_method_repeat_cartesian_product": true,
+  "finite_round_bounds_checked": 97920,
+  "frozen_runtime_hashes_unchanged": true,
+  "independence": "Separate post-run auditor; no benchmark analysis functions imported. Replayed every CIGAR and independently reaggregated raw timings and all predefined cluster-bootstrap comparisons. No CPU audit work ran during timed batches.",
+  "interpretation": "The frozen sparse prototype loses decisively to every external configuration on the primary semisynthetic suite. Actual batch wallcompute corroborates the primary estimator. These results reject practical competitiveness on this workload, without testing affine gaps, actual reads, variant calls, associations or all possible alignment algorithms.",
+  "main_comparisons": [
+    {
+      "actual_wallcompute_ratio": 29.577989010340712,
+      "baseline": "edlib",
+      "candidate_over_baseline": 29.56316131087044,
+      "paired_locus_bootstrap_95_ci": [
+        27.91828121766772,
+        31.252931312421268
+      ],
+      "scope": "genomic"
+    },
+    {
+      "actual_wallcompute_ratio": 115.25339174829855,
+      "baseline": "wfa2-high",
+      "candidate_over_baseline": 125.7780196710473,
+      "paired_locus_bootstrap_95_ci": [
+        118.84753856231418,
+        132.9329697488601
+      ],
+      "scope": "genomic"
+    },
+    {
+      "actual_wallcompute_ratio": 110.85763624428371,
+      "baseline": "wfa2-ultralow",
+      "candidate_over_baseline": 116.76170822963,
+      "paired_locus_bootstrap_95_ci": [
+        111.09413823028295,
+        122.47477776265461
+      ],
+      "scope": "genomic"
+    },
+    {
+      "actual_wallcompute_ratio": 0.907133668955393,
+      "baseline": "prototype-length",
+      "candidate_over_baseline": 0.9216279540394547,
+      "paired_locus_bootstrap_95_ci": [
+        0.8791257239311018,
+        0.9632143200078711
+      ],
+      "scope": "genomic"
+    },
+    {
+      "actual_wallcompute_ratio": 0.9395906361855237,
+      "baseline": "prototype-qgram",
+      "candidate_over_baseline": 0.9344696348651961,
+      "paired_locus_bootstrap_95_ci": [
+        0.8849600856748233,
+        0.9834840978682478
+      ],
+      "scope": "genomic"
+    },
+    {
+      "actual_wallcompute_ratio": 28.412048150528033,
+      "baseline": "edlib",
+      "candidate_over_baseline": 28.87045550494928,
+      "paired_locus_bootstrap_95_ci": [
+        27.601649265823557,
+        30.315534919799884
+      ],
+      "scope": "random_control"
+    },
+    {
+      "actual_wallcompute_ratio": 115.31236986722986,
+      "baseline": "wfa2-high",
+      "candidate_over_baseline": 121.33986294358039,
+      "paired_locus_bootstrap_95_ci": [
+        117.18298807682177,
+        126.43367639571991
+      ],
+      "scope": "random_control"
+    },
+    {
+      "actual_wallcompute_ratio": 106.31597956764627,
+      "baseline": "wfa2-ultralow",
+      "candidate_over_baseline": 113.23690684469643,
+      "paired_locus_bootstrap_95_ci": [
+        108.28747359601596,
+        119.10287456956253
+      ],
+      "scope": "random_control"
+    },
+    {
+      "actual_wallcompute_ratio": 0.9110989804906389,
+      "baseline": "prototype-length",
+      "candidate_over_baseline": 0.9213420858427558,
+      "paired_locus_bootstrap_95_ci": [
+        0.8826333063023105,
+        0.9678432916833957
+      ],
+      "scope": "random_control"
+    },
+    {
+      "actual_wallcompute_ratio": 0.914905490036822,
+      "baseline": "prototype-qgram",
+      "candidate_over_baseline": 0.9224175111583972,
+      "paired_locus_bootstrap_95_ci": [
+        0.8822392724522246,
+        0.9704358235974286
+      ],
+      "scope": "random_control"
+    }
+  ],
+  "optimal_scores_and_paths_verified": 18432,
+  "oracle_cases": 384,
+  "primary_success": false,
+  "raw_sha256": "1e0fd6d7676759107cb64ad4461d3784dc4fe8658e69c24cc58a83d498a17824",
+  "report_claim_review": {
+    "checked": [
+      "All main ratios and bootstrap intervals",
+      "Actual batch medians corroborate estimator",
+      "Primary DP reduction 42.46% and certificate times",
+      "14 genomic and 13 control cases hit only sparse proof-work fallback; exact results retained",
+      "Peak whole-process RSS values with appropriate limitations",
+      "All 18432 outputs attributed across all six methods, not exclusively to candidate",
+      "Adapter-test counts matched results/external_adapter_validation.json",
+      "Compressed raw bytes exactly reproduce original raw.jsonl"
+    ],
+    "report_sha256": {
+      "README.md": "2408a8a1f5e9dcabdc57cac8703639ad83cfd4f1248663deebdae66eca119384",
+      "RESULTS_V6.md": "27c2b061aba85f2598c35a3f79d6a4ede11961a1e56903fdb3bba2c17b95785e"
+    },
+    "reports": [
+      "RESULTS_V6.md",
+      "README.md"
+    ],
+    "sparse_fallback_reason": "sparse-max-work limit stopped sparse proof",
+    "status": "passed_after_readme_attribution_correction",
+    "unique_sparse_fallback_cases": {
+      "genomic": 14,
+      "random_control": 13
+    }
+  },
+  "status": "passed",
+  "summary_sha256": "11f96b41f3547b807c3e621838a4183414abd990126987a17a39b6b3a7be4e0a",
+  "timed_alignment_outputs": 16128,
+  "warmup_alignment_outputs": 2304
+}

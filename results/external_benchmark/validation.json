@@ -1,0 +1,12 @@
+{
+  "alignment_outputs": 18432,
+  "all_correct": true,
+  "batch_outputs": 96,
+  "elapsed_seconds_including_subprocess_io_validation": 411.4458267688751,
+  "expected_alignment_outputs": 18432,
+  "failures": [],
+  "finite_lower_bounds_checked": 18432,
+  "finite_round_lower_bounds_checked": 48960,
+  "finite_round_upper_bounds_checked": 48960,
+  "oracle_scores": 384
+}
