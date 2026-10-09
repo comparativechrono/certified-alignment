@@ -1,0 +1,54 @@
+{
+  "archive": {
+    "url": "https://zenodo.org/records/21903460/files/data.tar.xz?download=1",
+    "bytes": 107320572,
+    "md5": "505077b0fea95e5054f0a7ba0b981721",
+    "sha256": "f5c199e31723b361a5200e409a35b65e0df98bc7cc3e0fb84322ed48f72fe495"
+  },
+  "panels": [
+    {
+      "file": "data/panels/NDUFB1.fa.br",
+      "sha256": "b056f7bed221607cd75eaff2549d3330af7602c4bd23bb47e8e22b4da8286c60",
+      "records": 588,
+      "donors": 295,
+      "truth_haplotypes": {
+        "HG00733.2": 25589,
+        "HG00733.1": 25589
+      },
+      "min_haplotype_bases": 25550,
+      "max_haplotype_bases": 25898
+    },
+    {
+      "file": "data/panels/NDUFA6.fa.br",
+      "sha256": "138545ed786fa744c3024b56731694dc873f89b36a1fab76cf3be1daa6a5c384",
+      "records": 586,
+      "donors": 294,
+      "truth_haplotypes": {
+        "HG00733.2": 25251,
+        "HG00733.1": 25226
+      },
+      "min_haplotype_bases": 25220,
+      "max_haplotype_bases": 25281
+    }
+  ],
+  "reads": [
+    {
+      "file": "data/HG00733.2.fastq.gz",
+      "sha256": "3aad5d8a6b4325341c4ef90f5e3a4d03ed0c8f3e1ce753474a8f110e63ff625c",
+      "records": 878832,
+      "length_histogram": {
+        "150": 878832
+      }
+    },
+    {
+      "file": "data/HG00733.1.fastq.gz",
+      "sha256": "8e5d82d6ca07fceeabdacd2c5829189062bbf0ff00badb60d6d16277c66b4d8d",
+      "records": 878832,
+      "length_histogram": {
+        "150": 878832
+      }
+    }
+  ],
+  "data_record": "https://zenodo.org/records/21903460",
+  "status": "Prepared only: no fresh genotype calls or accuracy measurements were run."
+}

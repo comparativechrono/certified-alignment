@@ -1,0 +1,97 @@
+{
+  "image": "docker.io/tprodanov/locityper",
+  "resolved_tag": "latest",
+  "platform_manifest_digest": "sha256:a9575354804c47be19b4cb5da74f551d3f018ebaaef86da501808ae20d4abbae",
+  "version": "1.7.4",
+  "release_tag_commit": "7881f454517552cae8d8d62e6f6f91bb7f06375d",
+  "manifest": {
+    "schemaVersion": 2,
+    "mediaType": "application/vnd.oci.image.manifest.v1+json",
+    "config": {
+      "mediaType": "application/vnd.oci.image.config.v1+json",
+      "digest": "sha256:4d3399c7472d11a0ffcb646884c98fc12994c15514ce1d16b361e48cb61a6757",
+      "size": 2388
+    },
+    "layers": [
+      {
+        "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+        "digest": "sha256:e6f31ffc071e5560b82a8685fba8214954e5721e3e49269d00958316edbe89fe",
+        "size": 3844421
+      },
+      {
+        "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+        "digest": "sha256:5d74f83a7c9717a1cd324073481373360c4d55f0de1060c2c27b31cb4964167f",
+        "size": 12782436
+      },
+      {
+        "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+        "digest": "sha256:b601a14c1783673ced08c4d914a70b62e38b8304543b1e150aac825129456d8d",
+        "size": 1997188
+      },
+      {
+        "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+        "digest": "sha256:011339f2f0aba1f71bfb8a9a3cc9be2887204fa95c0c40f74cc88bebda821c25",
+        "size": 18463520
+      }
+    ]
+  },
+  "runtime_verification": [
+    {
+      "executable": "locityper",
+      "sha256": "8adca25df8183eccec94ff4e080bed29815d659c583fb36e84850ec1aeab4a8b",
+      "command": [
+        "locityper",
+        "version"
+      ],
+      "returncode": 0,
+      "output": "locityper v1.7.4\nCreated by Timofey Prodanov <timofey.prodanov@hhu.de> and Tobias Marschall <tobias.marschall@hhu.de>"
+    },
+    {
+      "executable": "samtools",
+      "sha256": "1113e68f6e96f844763d82aa6e934105f8176416677427857890d9ddb01cd6fa",
+      "command": [
+        "samtools",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "samtools 1.19\nUsing htslib 1.19\nCopyright (C) 2023 Genome Research Ltd.\n\nSamtools compilation details:\n    Features:       build=configure curses=yes \n    CC:             gcc\n    CPPFLAGS:       \n    CFLAGS:         -Wall -g -O2\n    LDFLAGS:        \n    HTSDIR:         htslib-1.19\n    LIBS:           \n    CURSES_LIB:     -lncursesw\n\nHTSlib compilation details:\n    Features:       build=configure libcurl=no S3=no GCS=no libdeflate=no lzma=yes bzip2=yes plugins=no htscodecs=1.6.0\n    CC:             gcc\n    CPPFLAGS:       \n    CFLAGS:         -Wall -g -O2 -fvisibility=hidden\n    LDFLAGS:        -fvisibility=hidden \n\nHTSlib URL scheme handlers present:\n    built-in:\t preload, data, file\n    crypt4gh-needed:\t crypt4gh\n    mem:\t mem"
+    },
+    {
+      "executable": "strobealign",
+      "sha256": "704e4ed6468f5ba68c35e7d7593f24025b523542ff0d19029d560d0cf6db2c23",
+      "command": [
+        "strobealign",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "strobealign 0.18.0"
+    },
+    {
+      "executable": "jellyfish",
+      "sha256": "0f899553e9e5e1b5351f4e7d3063961d805ca88c2c005dd67b8a48989465c7dd",
+      "command": [
+        "jellyfish",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "jellyfish 2.3.1"
+    },
+    {
+      "executable": "minimap2",
+      "sha256": "2afe8e2329d631ff8614de9de07992beb2c1f2869f01c13c0376092500870909",
+      "command": [
+        "minimap2",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "2.31-r1302"
+    }
+  ],
+  "notes": [
+    "All compressed layer byte lengths and SHA256 digests verified.",
+    "Dynamic binaries were invoked with the bundled musl loader and a local library path.",
+    "Strobealign is static PIE and was invoked directly.",
+    "No privileged container execution or global installation was required.",
+    "Version/help checks only; no genotype calls performed."
+  ]
+}

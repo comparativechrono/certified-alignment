@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "study": "Panel adequacy baseline source snapshot",
+  "selection": "All archived Illumina full/LOO Locityper cases, and all main modern30X COSIGT CMRG/SV full/all-out cases. No outcome-based selection.",
+  "sources": {
+    "locityper": {
+      "record": "https://zenodo.org/records/15879519",
+      "doi": "10.5281/zenodo.15879519",
+      "creator": "Timofey Prodanov",
+      "publication_date": "2025-07-14",
+      "license": "CC-BY-4.0",
+      "archive_bytes": 14709179,
+      "archive_md5": "10e629a4793e3ef6fe7bb6796417a77b",
+      "archive_sha256": "fd0e8ab023d8173c1cacf7627f07f7cacc62bcea5a2ab5f171d096bcc090312f",
+      "version_ambiguity": {
+        "record_README": "Benchmark v0.17.3",
+        "archived_table_comments": "Input and output summary filenames contain v0.17.0",
+        "website_available_data": "v0.14.2-4, stale relative to pinned record",
+        "interpretation": "Analyze exact archived bytes; these are not freshly rerun caller results. The version discrepancy is unresolved."
+      },
+      "format": "Tab-separated despite csv extension; skip initial # provenance comment. One gt and two hap evaluation rows per donor-locus; use gt cases for genotype-level analysis.",
+      "paired_gt_cases": 13040,
+      "donors": 40,
+      "loci": 326,
+      "deployable_predictors": [
+        "quality",
+        "total_reads",
+        "unexpl_reads",
+        "weight_dist",
+        "warnings"
+      ],
+      "truth_only_fields": [
+        "edit",
+        "size",
+        "div",
+        "qv",
+        "avail_edit",
+        "avail_size",
+        "avail_div",
+        "avail_qv"
+      ],
+      "warnings_schema": "Constant * on archived Illumina gt rows; numeric native predictors are all finite."
+    },
+    "cosigt": {
+      "repository": "https://github.com/davidebolo1993/cosigt_paper",
+      "commit": "3d84bf8490bbff5ec33cf72706e713d1a41730ed",
+      "license": "MIT",
+      "paper": "https://doi.org/10.1186/s13059-026-04242-4",
+      "metrics_warning": "All QV/error columns are truth-derived sequence evaluation, not deployable caller confidence. No native confidence scores are present.",
+      "matched_unique_cases": {
+        "cmrg": 11674,
+        "sv": 14838
+      },
+      "sv_all_out_duplicates": "24 byte-identical repeated donor-region records, preserved in source; analysis must deterministically deduplicate identical full rows.",
+      "scope": "Alternate-pangenome leave-all-out, not controlled structural allele-family exclusion."
+    }
+  },
+  "files": [
+    {
+      "path": "data/panel_adequacy/cosigt/cmrg_full_30x.tsv.gz",
+      "bytes": 1033315,
+      "sha256": "c5402d6d6b7b19585ba47a948dda64dca331899b2790c91342caf255f13df84e",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/leave_zero_out/cmrgs_predictions/modern/cosigt_locityper_cmrgs_hprcy1_30X.tsv.gz",
+      "source_path": "resources/benchmarking/leave_zero_out/cmrgs_predictions/modern/cosigt_locityper_cmrgs_hprcy1_30X.tsv.gz",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte.",
+      "rows": 12324,
+      "donors": 38,
+      "loci": 326,
+      "duplicate_sample_region_keys": 0
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/sv_full_30x.tsv.gz",
+      "bytes": 1319812,
+      "sha256": "da7b88f9ce73e869e3f2e749d6fbc800cbdb225361316c54bed142b2e3d21769",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/leave_zero_out/svs_predictions/cosigt_locityper_svs_hgsvcv3_30X.tsv.gz",
+      "source_path": "resources/benchmarking/leave_zero_out/svs_predictions/cosigt_locityper_svs_hgsvcv3_30X.tsv.gz",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte.",
+      "rows": 15307,
+      "donors": 64,
+      "loci": 265,
+      "duplicate_sample_region_keys": 0
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/cmrg_all_out_30x.tsv.gz",
+      "bytes": 1292888,
+      "sha256": "51c99d26dacb5259119d8e6b13b771d9ce624c35a03a58a7d150c792b110e3a2",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/leave_all_out/cmrgs_predictions/cosigt_cmrgs_hprcy1_samples_on_hgsvcv3_assemblies.tsv.gz",
+      "source_path": "resources/benchmarking/leave_all_out/cmrgs_predictions/cosigt_cmrgs_hprcy1_samples_on_hgsvcv3_assemblies.tsv.gz",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte.",
+      "rows": 11674,
+      "donors": 36,
+      "loci": 326,
+      "duplicate_sample_region_keys": 0
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/sv_all_out_30x.tsv.gz",
+      "bytes": 1695219,
+      "sha256": "b9966d90570397e19ff4e69ab69a91b23768f9eb333768d38a7fc6ced2d6fc17",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/leave_all_out/svs_predictions/cosigt_svs_hgsvcv3_samples_on_hprcy1_assemblies.tsv.gz",
+      "source_path": "resources/benchmarking/leave_all_out/svs_predictions/cosigt_svs_hgsvcv3_samples_on_hprcy1_assemblies.tsv.gz",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte.",
+      "rows": 14862,
+      "donors": 62,
+      "loci": 265,
+      "duplicate_sample_region_keys": 24
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/SOURCE_README.md",
+      "bytes": 1628,
+      "sha256": "f43e0dcfbd93a8980dba514cfab32932451f63fd4b25cd54a99fb4b6e31bf424",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/README.md",
+      "source_path": "README.md",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/LICENSE",
+      "bytes": 1073,
+      "sha256": "e1e50869eed2f27c517368378e4c6c0d1175103ab613760f4b6cfd1f33c1110b",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/LICENSE",
+      "source_path": "LICENSE",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/BENCHMARKING_README.md",
+      "bytes": 1228,
+      "sha256": "740833658336352e359a3bdb0461820b7d63adf992e0fb049f456335fe98068a",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/README.md",
+      "source_path": "resources/benchmarking/README.md",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/FULL_README.md",
+      "bytes": 1855,
+      "sha256": "c0beafe53f0a26f182aa74e92d863efd94ace803881bc58ba811b11003581bd0",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/leave_zero_out/README.md",
+      "source_path": "resources/benchmarking/leave_zero_out/README.md",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/ALL_OUT_README.md",
+      "bytes": 1522,
+      "sha256": "8bea5f670de541ec35a26be98019d75ee1ecf29d3071712f53eb72607dd3d3a8",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/leave_all_out/README.md",
+      "source_path": "resources/benchmarking/leave_all_out/README.md",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/CMRG_README.md",
+      "bytes": 530,
+      "sha256": "745f08c8ebb3495a5143eedc57c063fc3fd06decf53753bce3cf822f5340e80a",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/cmrgs/README.md",
+      "source_path": "resources/benchmarking/cmrgs/README.md",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/cmrgs_original.bed",
+      "bytes": 9647,
+      "sha256": "e965dd1613e8f927ef7f65f8953a0d746ca6ec9444d367db6d6b89cd4846336f",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/cmrgs/cmrgs.hprcy1.bed",
+      "source_path": "resources/benchmarking/cmrgs/cmrgs.hprcy1.bed",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/cmrgs_refined.bed",
+      "bytes": 9647,
+      "sha256": "b30062472f4ee68ab5e8a3b0b310c43df258e36b39030634bfdb54143d5723d6",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/cmrgs/cmrgs_refined.hprcy1.bed",
+      "source_path": "resources/benchmarking/cmrgs/cmrgs_refined.hprcy1.bed",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/SV_README.md",
+      "bytes": 757,
+      "sha256": "911e8b1027ccf630f53fd3b2d711611be51ebb271d59e3492bc656667ee5ba27",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/svs/README.md",
+      "source_path": "resources/benchmarking/svs/README.md",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/svs_refined.bed",
+      "bytes": 8030,
+      "sha256": "daae9698e40d9bf14834194755e7dd55c11a82d8cb881b7ef0d2a53f23a70d71",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/svs/svs_refined.hgsvcv3.bed",
+      "source_path": "resources/benchmarking/svs/svs_refined.hgsvcv3.bed",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/cosigt/svs_annotation.bed",
+      "bytes": 15403,
+      "sha256": "27fe47b4e9b80e6572bb726ea384e46d2d759345ee74f0b6e4ef25bb19949c44",
+      "source_url": "https://github.com/davidebolo1993/cosigt_paper/blob/3d84bf8490bbff5ec33cf72706e713d1a41730ed/resources/benchmarking/svs/svs_refined.annotation.bed",
+      "source_path": "resources/benchmarking/svs/svs_refined.annotation.bed",
+      "license": "MIT",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/locityper/full_illumina.csv.gz",
+      "bytes": 552975,
+      "sha256": "08e9b822b547a653b52687cb6d4e7559c3aafe95a96f16c40269251433030292",
+      "source_url": "https://zenodo.org/records/15879519/files/locityper-benchmarking.tar.gz?download=1",
+      "source_path": "locityper-benchmarking/QV/full_illumina.csv.gz",
+      "license": "CC-BY-4.0",
+      "modifications": "None; copied byte-for-byte.",
+      "rows": 39120,
+      "donors": 40,
+      "loci": 326,
+      "gt_keys": 13040,
+      "gt_duplicate_keys": 0,
+      "query_types": {
+        "hap": 26080,
+        "gt": 13040
+      },
+      "comments": [
+        "# /home/zak19ziq/Code/locityper/extra/eval_accuracy.py -i summaries/327/full_illumina_v0.17.0.csv.gz -o summaries/327/eval/full_illumina_v0.17.0.csv.gz -a dbs/327/loci/{}/haplotypes.paf.gz -d dbs/327"
+      ]
+    },
+    {
+      "path": "data/panel_adequacy/locityper/loo_illumina.csv.gz",
+      "bytes": 1310480,
+      "sha256": "88f21d04e4cb09e5c4640847228fa89062e831bccbf373130db2ad1481fb6f0f",
+      "source_url": "https://zenodo.org/records/15879519/files/locityper-benchmarking.tar.gz?download=1",
+      "source_path": "locityper-benchmarking/QV/loo_illumina.csv.gz",
+      "license": "CC-BY-4.0",
+      "modifications": "None; copied byte-for-byte.",
+      "rows": 39120,
+      "donors": 40,
+      "loci": 326,
+      "gt_keys": 13040,
+      "gt_duplicate_keys": 0,
+      "query_types": {
+        "hap": 26080,
+        "gt": 13040
+      },
+      "comments": [
+        "# /home/zak19ziq/Code/locityper/extra/eval_accuracy.py -i summaries/327/loo_illumina_v0.17.0.csv.gz -o summaries/327/eval/loo_illumina_v0.17.0.csv.gz -a dbs/327/loci/{}/haplotypes.paf.gz -d dbs/327 --loo"
+      ]
+    },
+    {
+      "path": "data/panel_adequacy/locityper/SOURCE_README.md",
+      "bytes": 4652,
+      "sha256": "b00de65ec8de9d32b922dcfe50bc8319bf3ed18869986cd03c191c615ba3dc82",
+      "source_url": "https://zenodo.org/records/15879519/files/README.md?download=1",
+      "source_path": "README.md",
+      "license": "CC-BY-4.0",
+      "modifications": "None; copied byte-for-byte."
+    },
+    {
+      "path": "data/panel_adequacy/locityper/RECORD_METADATA.json",
+      "bytes": 5010,
+      "sha256": "1c3a6846b95d3331ffc1c7ef6df99f0b6001b710084c16050751d098c75263da",
+      "source_url": "https://zenodo.org/api/records/15879519",
+      "source_path": "record metadata",
+      "license": "CC-BY-4.0",
+      "modifications": "None; copied byte-for-byte."
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "data/panel_adequacy/locus_groups.tsv",
+      "bytes": 11787,
+      "sha256": "daba72c6cc5e1f57eecda25e6a87c6ba4f633b8e41a2797037d2453976ee1253",
+      "source": "data/panel_adequacy/cosigt/cmrgs_original.bed",
+      "method": "Connected components of positive-length overlap on same chromosome, with BED half-open intervals; adjacency alone is not overlap. Group ID is comma-joined lexicographically sorted member locus names.",
+      "loci": 326,
+      "components": 317,
+      "component_size_counts": {
+        "1": 308,
+        "2": 9
+      },
+      "limitation": "Coordinates come from COSIGT original Locityper-adapted BED and match all archived Locityper locus names. No curated gene-family or donor-pedigree metadata are bundled; overlap grouping does not guarantee family independence."
+    }
+  ]
+}
