@@ -1,0 +1,4533 @@
+{
+  "all_cohort_descriptive": {
+    "full": {
+      "available_is_not_a_strict_floor": true,
+      "called_below_available_count": 0,
+      "called_minus_available_divergence": {
+        "finite": 0,
+        "mean": null,
+        "n": 0,
+        "nonfinite": 0,
+        "quantiles": {}
+      },
+      "closest_available_divergence": {
+        "finite": 0,
+        "mean": null,
+        "n": 13040,
+        "nonfinite": 13040,
+        "quantiles": {}
+      },
+      "divergence": {
+        "finite": 12869,
+        "mean": 0.0012141444280829902,
+        "n": 12869,
+        "nonfinite": 0,
+        "quantiles": {
+          ".5": 0.0,
+          ".9": 0.00019715920000000001,
+          ".95": 0.0012675005999999915,
+          ".99": 0.023810665119999675,
+          "0": 0.0,
+          "1": 0.330575364
+        }
+      },
+      "gt_rows": 13040,
+      "truth_missing_excluded": 171,
+      "wrong_counts": {
+        "0.001": 705,
+        "0.005": 357,
+        "0.01": 224
+      }
+    },
+    "loo": {
+      "available_is_not_a_strict_floor": true,
+      "called_below_available_count": 0,
+      "called_minus_available_divergence": {
+        "finite": 12869,
+        "mean": 0.0027724858110964334,
+        "n": 12869,
+        "nonfinite": 0,
+        "quantiles": {
+          ".5": 4.034699999999982e-05,
+          ".9": 0.004492450600000006,
+          ".95": 0.011468204999999999,
+          ".99": 0.05357208119999999,
+          "0": 0.0,
+          "1": 0.385197798
+        }
+      },
+      "closest_available_divergence": {
+        "finite": 12869,
+        "mean": 0.0017582637661822985,
+        "n": 13040,
+        "nonfinite": 171,
+        "quantiles": {
+          ".5": 0.000263004,
+          ".9": 0.003459767600000002,
+          ".95": 0.007925631599999997,
+          ".99": 0.02190470899999992,
+          "0": 0.0,
+          "1": 0.326270828
+        }
+      },
+      "divergence": {
+        "finite": 12869,
+        "mean": 0.0045307495772787315,
+        "n": 12869,
+        "nonfinite": 0,
+        "quantiles": {
+          ".5": 0.00039564,
+          ".9": 0.009423460800000017,
+          ".95": 0.02064518279999999,
+          ".99": 0.07833987979999998,
+          "0": 0.0,
+          "1": 0.387224168
+        }
+      },
+      "gt_rows": 13040,
+      "truth_missing_excluded": 171,
+      "wrong_counts": {
+        "0.001": 4329,
+        "0.005": 1875,
+        "0.01": 1240
+      }
+    }
+  },
+  "analysis_sha256": "0147a6d73d21934f29637c9252d96e985c8cd93239f49adb92f70e33ad6bd5fd",
+  "calibration": {
+    "hash_control": {
+      "accepted": 796.0,
+      "accepted_wrong": 104.0,
+      "coverage": 0.951015531660693,
+      "eligible": 837.0,
+      "error_per_accepted": 0.1306532663316583,
+      "error_per_eligible": 0.12425328554360812,
+      "fraction_errors_removed": 0.04587155963302747,
+      "total_wrong": 109.0
+    },
+    "logistic": {
+      "accepted": 796.0,
+      "accepted_wrong": 93.0,
+      "coverage": 0.951015531660693,
+      "eligible": 837.0,
+      "error_per_accepted": 0.11683417085427136,
+      "error_per_eligible": 0.1111111111111111,
+      "fraction_errors_removed": 0.14678899082568808,
+      "total_wrong": 109.0
+    },
+    "no_filter": {
+      "accepted": 837.0,
+      "accepted_wrong": 109.0,
+      "coverage": 1.0,
+      "eligible": 837.0,
+      "error_per_accepted": 0.13022700119474312,
+      "error_per_eligible": 0.13022700119474312,
+      "fraction_errors_removed": 0.0,
+      "total_wrong": 109.0
+    },
+    "quality": {
+      "accepted": 796.0,
+      "accepted_wrong": 102.0,
+      "coverage": 0.951015531660693,
+      "eligible": 837.0,
+      "error_per_accepted": 0.12814070351758794,
+      "error_per_eligible": 0.12186379928315412,
+      "fraction_errors_removed": 0.06422018348623848,
+      "total_wrong": 109.0
+    },
+    "total_reads": {
+      "accepted": 796.0,
+      "accepted_wrong": 97.0,
+      "coverage": 0.951015531660693,
+      "eligible": 837.0,
+      "error_per_accepted": 0.12185929648241206,
+      "error_per_eligible": 0.11589008363201912,
+      "fraction_errors_removed": 0.11009174311926606,
+      "total_wrong": 109.0
+    },
+    "unexpl_fraction": {
+      "accepted": 796.0,
+      "accepted_wrong": 91.0,
+      "coverage": 0.951015531660693,
+      "eligible": 837.0,
+      "error_per_accepted": 0.114321608040201,
+      "error_per_eligible": 0.1087216248506571,
+      "fraction_errors_removed": 0.1651376146788991,
+      "total_wrong": 109.0
+    },
+    "unexpl_reads": {
+      "accepted": 796.0,
+      "accepted_wrong": 92.0,
+      "coverage": 0.951015531660693,
+      "eligible": 837.0,
+      "error_per_accepted": 0.11557788944723618,
+      "error_per_eligible": 0.10991636798088411,
+      "fraction_errors_removed": 0.15596330275229353,
+      "total_wrong": 109.0
+    },
+    "weight_dist": {
+      "accepted": 796.0,
+      "accepted_wrong": 99.0,
+      "coverage": 0.951015531660693,
+      "eligible": 837.0,
+      "error_per_accepted": 0.12437185929648241,
+      "error_per_eligible": 0.11827956989247312,
+      "fraction_errors_removed": 0.09174311926605505,
+      "total_wrong": 109.0
+    }
+  },
+  "cutoffs": {
+    "hash_control": {
+      "risk": 0.0,
+      "risk_nonfinite": false,
+      "tie_hash": "f4aaff77ccb9bef2359db12f8431c62b3669f32e2ff6c5ade21fda61283166a2"
+    },
+    "logistic": {
+      "risk": 0.5282617501876274,
+      "risk_nonfinite": false,
+      "tie_hash": "fd976659f2eec93da69f28d073842b424febfcf942fec54ad28a46980482f434"
+    },
+    "quality": {
+      "risk": -3.0,
+      "risk_nonfinite": false,
+      "tie_hash": "59a27c06fb70bcb28cdeca0d63e913a6fb795db17999aa7c8794e357a37bd6c4"
+    },
+    "total_reads": {
+      "risk": -1222.0,
+      "risk_nonfinite": false,
+      "tie_hash": "eec50fabcd988e82c9a9dcfe4b8158b70049b11f472ae23cba2928d0d79d99b8"
+    },
+    "unexpl_fraction": {
+      "risk": 0.02129249159506911,
+      "risk_nonfinite": false,
+      "tie_hash": "5c3922b8d9a90cb261420f9363f7ee4ce91f8574f0b39493955f27f949c2938f"
+    },
+    "unexpl_reads": {
+      "risk": 166.0,
+      "risk_nonfinite": false,
+      "tie_hash": "8060a633d81d6aeb79ad2ad0094a6ccc200db2dc14eb542bfc6e5a6a31499e3b"
+    },
+    "weight_dist": {
+      "risk": 31.70316,
+      "risk_nonfinite": false,
+      "tie_hash": "0a307d69f12b55a5d4ef2bec32cc2ee04770b20143f5dbdd2fe2d0dd36bf4821"
+    }
+  },
+  "feature_whitelist": [
+    "quality",
+    "weight_dist",
+    "unexpl_reads",
+    "total_reads"
+  ],
+  "full_control_pairing": {
+    "loo_finite_test_cases": 806,
+    "paired_finite_full_cases": 806
+  },
+  "full_input": {
+    "comments": [
+      "# /home/zak19ziq/Code/locityper/extra/eval_accuracy.py -i summaries/327/full_illumina_v0.17.0.csv.gz -o summaries/327/eval/full_illumina_v0.17.0.csv.gz -a dbs/327/loci/{}/haplotypes.paf.gz -d dbs/327"
+    ],
+    "gt_rows": 13040,
+    "path": "data/panel_adequacy/locityper/full_illumina.csv.gz",
+    "rows": 39120,
+    "sha256": "08e9b822b547a653b52687cb6d4e7559c3aafe95a96f16c40269251433030292"
+  },
+  "groups_sha256": "daba72c6cc5e1f57eecda25e6a87c6ba4f633b8e41a2797037d2453976ee1253",
+  "loo_input": {
+    "comments": [
+      "# /home/zak19ziq/Code/locityper/extra/eval_accuracy.py -i summaries/327/loo_illumina_v0.17.0.csv.gz -o summaries/327/eval/loo_illumina_v0.17.0.csv.gz -a dbs/327/loci/{}/haplotypes.paf.gz -d dbs/327 --loo"
+    ],
+    "gt_rows": 13040,
+    "path": "data/panel_adequacy/locityper/loo_illumina.csv.gz",
+    "rows": 39120,
+    "sha256": "88f21d04e4cb09e5c4640847228fa89062e831bccbf373130db2ad1481fb6f0f"
+  },
+  "never_features": [
+    "edit",
+    "size",
+    "div",
+    "qv",
+    "avail_edit",
+    "avail_size",
+    "avail_div",
+    "avail_qv",
+    "sample",
+    "locus",
+    "genotype",
+    "panel_condition"
+  ],
+  "primary_error": "gt div > 0.005 among finite nonnegative div and finite positive size",
+  "runtime": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scikit_learn": "1.8.0",
+    "scipy": "1.17.0"
+  },
+  "scope": "Retrospective analysis of archived outputs; not rerun alignments or novel algorithm",
+  "selected_native": "unexpl_fraction",
+  "selection_criterion": "fewest calibration errors retained at ceil(0.95*N); fixed native-order ties",
+  "split_counts": {
+    "calibration": {
+      "all_cases": 840,
+      "scorable_full_truth": 837,
+      "scorable_loo_truth": 837,
+      "unscorable_full_truth": 3,
+      "unscorable_loo_truth": 3
+    },
+    "development": {
+      "all_cases": 3220,
+      "scorable_full_truth": 3134,
+      "scorable_loo_truth": 3134,
+      "unscorable_full_truth": 86,
+      "unscorable_loo_truth": 86
+    },
+    "off_diagonal_unused": {
+      "all_cases": 8170,
+      "scorable_full_truth": 8092,
+      "scorable_loo_truth": 8092,
+      "unscorable_full_truth": 78,
+      "unscorable_loo_truth": 78
+    },
+    "test": {
+      "all_cases": 810,
+      "scorable_full_truth": 806,
+      "scorable_loo_truth": 806,
+      "unscorable_full_truth": 4,
+      "unscorable_loo_truth": 4
+    }
+  },
+  "strict_inequality": true,
+  "test": {
+    "full": {
+      "bootstrap_primary": {
+        "conditional_on_frozen_model_rankings_and_decisions": true,
+        "intervals": {
+          "cutoff:hash_control": {
+            "coverage": {
+              "high": 0.98875,
+              "low": 0.9463368902439024,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03995506242978507,
+              "low": 0.0025029724655819775,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03902439024390244,
+              "low": 0.0024390243902439024,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:logistic": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9886792452830189,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04061430361271491,
+              "low": 0.0024998439450686642,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:no_filter": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:quality": {
+            "coverage": {
+              "high": 0.9938271604938271,
+              "low": 0.9611917412488882,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.038270199384101485,
+              "low": 0.0025348542458808617,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.037556379436559886,
+              "low": 0.0024934554161859033,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:total_reads": {
+            "coverage": {
+              "high": 0.955,
+              "low": 0.8276657181118179,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.031335149863760216,
+              "low": 0.0013280212483399733,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02771130702490905,
+              "low": 0.0012195121951219512,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:unexpl_fraction": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:unexpl_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:weight_dist": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9697732997481109,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03713402415166907,
+              "low": 0.0012658227848101266,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03659154059895031,
+              "low": 0.00125,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:hash_control": {
+            "coverage": {
+              "high": 0.8462548803526448,
+              "low": 0.7525,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04854442594693342,
+              "low": 0.0029850746268656717,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03902439024390244,
+              "low": 0.0024390243902439024,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:logistic": {
+            "coverage": {
+              "high": 0.8592611204168993,
+              "low": 0.7370239761171751,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.02619819339228347,
+              "low": 0.0,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02073551362808611,
+              "low": 0.0,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:quality": {
+            "coverage": {
+              "high": 0.8592699474882662,
+              "low": 0.7378840327223148,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.0440251572327044,
+              "low": 0.002980183044977335,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.035110098097891305,
+              "low": 0.0024446896058202636,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:total_reads": {
+            "coverage": {
+              "high": 0.8827160493827161,
+              "low": 0.7074028906955736,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03540027544077342,
+              "low": 0.0014614578293823577,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02771130702490905,
+              "low": 0.0012195121951219512,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:unexpl_fraction": {
+            "coverage": {
+              "high": 0.8627960383343248,
+              "low": 0.733921269649033,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.026103274371194925,
+              "low": 0.0,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02073551362808611,
+              "low": 0.0,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:unexpl_reads": {
+            "coverage": {
+              "high": 0.8649040404040405,
+              "low": 0.7276019938650307,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04095832301547142,
+              "low": 0.0,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.032532687139535596,
+              "low": 0.0,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:weight_dist": {
+            "coverage": {
+              "high": 0.8634085213032582,
+              "low": 0.735,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.029201984336833683,
+              "low": 0.0,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.022929936305732482,
+              "low": 0.0,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:hash_control": {
+            "coverage": {
+              "high": 0.9763710911941533,
+              "low": 0.9183911786913844,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.040631761626127014,
+              "low": 0.0025603295095246803,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03902439024390244,
+              "low": 0.0024390243902439024,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:logistic": {
+            "coverage": {
+              "high": 0.98,
+              "low": 0.9131459704390981,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.029896087239952403,
+              "low": 0.0024937655860349127,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02818800372909901,
+              "low": 0.0024096385542168677,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:quality": {
+            "coverage": {
+              "high": 0.97625,
+              "low": 0.9180082658887008,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.039780885119327015,
+              "low": 0.00261437908496732,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.037556379436559886,
+              "low": 0.0024934554161859033,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:total_reads": {
+            "coverage": {
+              "high": 0.9885372142649294,
+              "low": 0.9028904470813857,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.02917822375419085,
+              "low": 0.00127697651528093,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02771130702490905,
+              "low": 0.0012195121951219512,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:unexpl_fraction": {
+            "coverage": {
+              "high": 0.9778651984806261,
+              "low": 0.9148148148148149,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.036083163349688516,
+              "low": 0.0013191743058669754,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03392173129799944,
+              "low": 0.001254626528680547,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:unexpl_reads": {
+            "coverage": {
+              "high": 0.982368867132424,
+              "low": 0.9093164697664987,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.040820119869509154,
+              "low": 0.002563774673749098,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03894717297177713,
+              "low": 0.002450830393356853,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:weight_dist": {
+            "coverage": {
+              "high": 0.9806575416037366,
+              "low": 0.9152521239274695,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.027437445686912438,
+              "low": 0.001295253001226632,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.025865261813537686,
+              "low": 0.00124061791827711,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:hash_control": {
+            "coverage": {
+              "high": 0.998748513767209,
+              "low": 0.9780460969646371,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03936187837100735,
+              "low": 0.0024629027078448126,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03902439024390244,
+              "low": 0.0024390243902439024,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:logistic": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9679012345679012,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04097414526685807,
+              "low": 0.002512562814070352,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:quality": {
+            "coverage": {
+              "high": 0.998780487804878,
+              "low": 0.9764545493679683,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04092071611253197,
+              "low": 0.0025157232704402514,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:total_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9690308578304968,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04076953738275945,
+              "low": 0.0025,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:unexpl_fraction": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.97625,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03856265226480391,
+              "low": 0.002509253057361094,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.0380952380952381,
+              "low": 0.0024934554161859033,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:unexpl_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9697732997481109,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04084292768357296,
+              "low": 0.002506265664160401,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:weight_dist": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9697732997481109,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03713402415166907,
+              "low": 0.0012658227848101266,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03659154059895031,
+              "low": 0.00125,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:hash_control": {
+            "coverage": {
+              "high": 0.9392425454488417,
+              "low": 0.8554202102527758,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.043042958574625735,
+              "low": 0.0026845637583892616,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03902439024390244,
+              "low": 0.0024390243902439024,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:logistic": {
+            "coverage": {
+              "high": 0.944313806380638,
+              "low": 0.8512195121951219,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03185595567867036,
+              "low": 0.002610795851048982,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02818800372909901,
+              "low": 0.0024096385542168677,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:quality": {
+            "coverage": {
+              "high": 0.9395541941445261,
+              "low": 0.8569648535672155,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03905706566794435,
+              "low": 0.0026952364022883846,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.035110098097891305,
+              "low": 0.0024446896058202636,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:total_reads": {
+            "coverage": {
+              "high": 0.9575,
+              "low": 0.8345565557496231,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.03116710847295681,
+              "low": 0.0013225768172997724,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.02771130702490905,
+              "low": 0.0012195121951219512,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:unexpl_fraction": {
+            "coverage": {
+              "high": 0.94125,
+              "low": 0.8521717336820311,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.037958943601298964,
+              "low": 0.0014042976741258301,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03392173129799944,
+              "low": 0.001254626528680547,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:unexpl_reads": {
+            "coverage": {
+              "high": 0.9475,
+              "low": 0.8449956575682382,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04178272980501393,
+              "low": 0.001375421346191635,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.03827160493827161,
+              "low": 0.0012406947890818859,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:weight_dist": {
+            "coverage": {
+              "high": 0.9432098765432099,
+              "low": 0.8525,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.027111707700366697,
+              "low": 0.001336898395721925,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.024053685022167974,
+              "low": 0.0012345679012345679,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:hash_control": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:logistic": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:quality": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:total_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:unexpl_fraction": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:unexpl_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:weight_dist": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.04044187365211572,
+              "low": 0.0024996882793017457,
+              "valid_replicates": 4999
+            }
+          }
+        },
+        "method": "percentile two-way donor x positive-overlap locus-group bootstrap",
+        "paired_logistic_minus_selected_native": {
+          "cutoff": {
+            "error_per_accepted": {
+              "high": 0.0002448347402467597,
+              "low": 0.0,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.0,
+              "low": 0.0,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95": {
+            "error_per_accepted": {
+              "high": 0.005308702102329222,
+              "low": -0.014833108950029974,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.005063291139240507,
+              "low": -0.014120327463700955,
+              "valid_replicates": 4999
+            }
+          }
+        },
+        "replicates": 4999,
+        "seed": 20261009
+      },
+      "calibration_cutoffs_transferred_unchanged": true,
+      "descriptive": {
+        "available_is_not_a_strict_floor": true,
+        "called_below_available_count": 0,
+        "called_minus_available_divergence": {
+          "finite": 0,
+          "mean": null,
+          "n": 0,
+          "nonfinite": 0,
+          "quantiles": {}
+        },
+        "closest_available_divergence": {
+          "finite": 0,
+          "mean": null,
+          "n": 806,
+          "nonfinite": 806,
+          "quantiles": {}
+        },
+        "divergence": {
+          "finite": 806,
+          "mean": 0.0008547984776674938,
+          "n": 806,
+          "nonfinite": 0,
+          "quantiles": {
+            ".5": 0.0,
+            ".9": 0.00018180650000000002,
+            ".95": 0.0008444915,
+            ".99": 0.013610784300000138,
+            "0": 0.0,
+            "1": 0.129198241
+          }
+        },
+        "gt_rows": 806,
+        "truth_missing_excluded": 0,
+        "wrong_counts": {
+          "0.001": 37,
+          "0.005": 15,
+          "0.01": 10
+        }
+      },
+      "matched_retention_is_retrospective_batch_ranking_not_deployment_threshold": true,
+      "metrics_by_divergence_threshold": {
+        "0.001": {
+          "cutoff:hash_control": {
+            "accepted": 782.0,
+            "accepted_wrong": 36.0,
+            "coverage": 0.9702233250620348,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04603580562659847,
+            "error_per_eligible": 0.04466501240694789,
+            "fraction_errors_removed": 0.027027027027026973,
+            "total_wrong": 37.0
+          },
+          "cutoff:logistic": {
+            "accepted": 804.0,
+            "accepted_wrong": 35.0,
+            "coverage": 0.9975186104218362,
+            "eligible": 806.0,
+            "error_per_accepted": 0.043532338308457715,
+            "error_per_eligible": 0.043424317617866005,
+            "fraction_errors_removed": 0.05405405405405406,
+            "total_wrong": 37.0
+          },
+          "cutoff:no_filter": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "cutoff:quality": {
+            "accepted": 790.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.9801488833746899,
+            "eligible": 806.0,
+            "error_per_accepted": 0.043037974683544304,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.08108108108108103,
+            "total_wrong": 37.0
+          },
+          "cutoff:total_reads": {
+            "accepted": 722.0,
+            "accepted_wrong": 29.0,
+            "coverage": 0.8957816377171216,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04016620498614958,
+            "error_per_eligible": 0.03598014888337469,
+            "fraction_errors_removed": 0.21621621621621623,
+            "total_wrong": 37.0
+          },
+          "cutoff:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "cutoff:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "cutoff:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 33.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.041353383458646614,
+            "error_per_eligible": 0.04094292803970223,
+            "fraction_errors_removed": 0.10810810810810811,
+            "total_wrong": 37.0
+          },
+          "matched_0.8:hash_control": {
+            "accepted": 645.0,
+            "accepted_wrong": 30.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.046511627906976744,
+            "error_per_eligible": 0.03722084367245657,
+            "fraction_errors_removed": 0.18918918918918914,
+            "total_wrong": 37.0
+          },
+          "matched_0.8:logistic": {
+            "accepted": 645.0,
+            "accepted_wrong": 21.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03255813953488372,
+            "error_per_eligible": 0.026054590570719603,
+            "fraction_errors_removed": 0.43243243243243246,
+            "total_wrong": 37.0
+          },
+          "matched_0.8:quality": {
+            "accepted": 645.0,
+            "accepted_wrong": 24.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.037209302325581395,
+            "error_per_eligible": 0.02977667493796526,
+            "fraction_errors_removed": 0.3513513513513513,
+            "total_wrong": 37.0
+          },
+          "matched_0.8:total_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 26.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.040310077519379844,
+            "error_per_eligible": 0.03225806451612903,
+            "fraction_errors_removed": 0.29729729729729726,
+            "total_wrong": 37.0
+          },
+          "matched_0.8:unexpl_fraction": {
+            "accepted": 645.0,
+            "accepted_wrong": 23.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03565891472868217,
+            "error_per_eligible": 0.028535980148883373,
+            "fraction_errors_removed": 0.3783783783783784,
+            "total_wrong": 37.0
+          },
+          "matched_0.8:unexpl_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 28.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.043410852713178294,
+            "error_per_eligible": 0.034739454094292806,
+            "fraction_errors_removed": 0.2432432432432432,
+            "total_wrong": 37.0
+          },
+          "matched_0.8:weight_dist": {
+            "accepted": 645.0,
+            "accepted_wrong": 17.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.02635658914728682,
+            "error_per_eligible": 0.02109181141439206,
+            "fraction_errors_removed": 0.5405405405405406,
+            "total_wrong": 37.0
+          },
+          "matched_0.95:hash_control": {
+            "accepted": 766.0,
+            "accepted_wrong": 36.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04699738903394256,
+            "error_per_eligible": 0.04466501240694789,
+            "fraction_errors_removed": 0.027027027027026973,
+            "total_wrong": 37.0
+          },
+          "matched_0.95:logistic": {
+            "accepted": 766.0,
+            "accepted_wrong": 27.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03524804177545692,
+            "error_per_eligible": 0.033498759305210915,
+            "fraction_errors_removed": 0.2702702702702703,
+            "total_wrong": 37.0
+          },
+          "matched_0.95:quality": {
+            "accepted": 766.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.044386422976501305,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.08108108108108103,
+            "total_wrong": 37.0
+          },
+          "matched_0.95:total_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 29.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.037859007832898174,
+            "error_per_eligible": 0.03598014888337469,
+            "fraction_errors_removed": 0.21621621621621623,
+            "total_wrong": 37.0
+          },
+          "matched_0.95:unexpl_fraction": {
+            "accepted": 766.0,
+            "accepted_wrong": 29.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.037859007832898174,
+            "error_per_eligible": 0.03598014888337469,
+            "fraction_errors_removed": 0.21621621621621623,
+            "total_wrong": 37.0
+          },
+          "matched_0.95:unexpl_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 33.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04308093994778068,
+            "error_per_eligible": 0.04094292803970223,
+            "fraction_errors_removed": 0.10810810810810811,
+            "total_wrong": 37.0
+          },
+          "matched_0.95:weight_dist": {
+            "accepted": 766.0,
+            "accepted_wrong": 22.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.028720626631853787,
+            "error_per_eligible": 0.02729528535980149,
+            "fraction_errors_removed": 0.4054054054054054,
+            "total_wrong": 37.0
+          },
+          "matched_0.99:hash_control": {
+            "accepted": 798.0,
+            "accepted_wrong": 36.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.045112781954887216,
+            "error_per_eligible": 0.04466501240694789,
+            "fraction_errors_removed": 0.027027027027026973,
+            "total_wrong": 37.0
+          },
+          "matched_0.99:logistic": {
+            "accepted": 798.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.042606516290726815,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.08108108108108103,
+            "total_wrong": 37.0
+          },
+          "matched_0.99:quality": {
+            "accepted": 798.0,
+            "accepted_wrong": 35.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.043859649122807015,
+            "error_per_eligible": 0.043424317617866005,
+            "fraction_errors_removed": 0.05405405405405406,
+            "total_wrong": 37.0
+          },
+          "matched_0.99:total_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 36.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.045112781954887216,
+            "error_per_eligible": 0.04466501240694789,
+            "fraction_errors_removed": 0.027027027027026973,
+            "total_wrong": 37.0
+          },
+          "matched_0.99:unexpl_fraction": {
+            "accepted": 798.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.042606516290726815,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.08108108108108103,
+            "total_wrong": 37.0
+          },
+          "matched_0.99:unexpl_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 36.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.045112781954887216,
+            "error_per_eligible": 0.04466501240694789,
+            "fraction_errors_removed": 0.027027027027026973,
+            "total_wrong": 37.0
+          },
+          "matched_0.99:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 33.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.041353383458646614,
+            "error_per_eligible": 0.04094292803970223,
+            "fraction_errors_removed": 0.10810810810810811,
+            "total_wrong": 37.0
+          },
+          "matched_0.9:hash_control": {
+            "accepted": 726.0,
+            "accepted_wrong": 32.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0440771349862259,
+            "error_per_eligible": 0.03970223325062035,
+            "fraction_errors_removed": 0.1351351351351351,
+            "total_wrong": 37.0
+          },
+          "matched_0.9:logistic": {
+            "accepted": 726.0,
+            "accepted_wrong": 27.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0371900826446281,
+            "error_per_eligible": 0.033498759305210915,
+            "fraction_errors_removed": 0.2702702702702703,
+            "total_wrong": 37.0
+          },
+          "matched_0.9:quality": {
+            "accepted": 726.0,
+            "accepted_wrong": 28.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03856749311294766,
+            "error_per_eligible": 0.034739454094292806,
+            "fraction_errors_removed": 0.2432432432432432,
+            "total_wrong": 37.0
+          },
+          "matched_0.9:total_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 29.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03994490358126722,
+            "error_per_eligible": 0.03598014888337469,
+            "fraction_errors_removed": 0.21621621621621623,
+            "total_wrong": 37.0
+          },
+          "matched_0.9:unexpl_fraction": {
+            "accepted": 726.0,
+            "accepted_wrong": 28.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03856749311294766,
+            "error_per_eligible": 0.034739454094292806,
+            "fraction_errors_removed": 0.2432432432432432,
+            "total_wrong": 37.0
+          },
+          "matched_0.9:unexpl_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 32.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0440771349862259,
+            "error_per_eligible": 0.03970223325062035,
+            "fraction_errors_removed": 0.1351351351351351,
+            "total_wrong": 37.0
+          },
+          "matched_0.9:weight_dist": {
+            "accepted": 726.0,
+            "accepted_wrong": 18.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.024793388429752067,
+            "error_per_eligible": 0.022332506203473945,
+            "fraction_errors_removed": 0.5135135135135135,
+            "total_wrong": 37.0
+          },
+          "matched_1.0:hash_control": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "matched_1.0:logistic": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "matched_1.0:quality": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "matched_1.0:total_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "matched_1.0:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "matched_1.0:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          },
+          "matched_1.0:weight_dist": {
+            "accepted": 806.0,
+            "accepted_wrong": 37.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04590570719602978,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 37.0
+          }
+        },
+        "0.005": {
+          "cutoff:hash_control": {
+            "accepted": 782.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9702233250620348,
+            "eligible": 806.0,
+            "error_per_accepted": 0.017902813299232736,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "cutoff:logistic": {
+            "accepted": 804.0,
+            "accepted_wrong": 15.0,
+            "coverage": 0.9975186104218362,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018656716417910446,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "cutoff:no_filter": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "cutoff:quality": {
+            "accepted": 790.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9801488833746899,
+            "eligible": 806.0,
+            "error_per_accepted": 0.017721518987341773,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "cutoff:total_reads": {
+            "accepted": 722.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.8957816377171216,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012465373961218837,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.4,
+            "total_wrong": 15.0
+          },
+          "cutoff:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "cutoff:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "cutoff:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 13.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.016290726817042606,
+            "error_per_eligible": 0.016129032258064516,
+            "fraction_errors_removed": 0.1333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.8:hash_control": {
+            "accepted": 645.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.021705426356589147,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "matched_0.8:logistic": {
+            "accepted": 645.0,
+            "accepted_wrong": 7.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.010852713178294573,
+            "error_per_eligible": 0.008684863523573201,
+            "fraction_errors_removed": 0.5333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.8:quality": {
+            "accepted": 645.0,
+            "accepted_wrong": 13.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.020155038759689922,
+            "error_per_eligible": 0.016129032258064516,
+            "fraction_errors_removed": 0.1333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.8:total_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.013953488372093023,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.4,
+            "total_wrong": 15.0
+          },
+          "matched_0.8:unexpl_fraction": {
+            "accepted": 645.0,
+            "accepted_wrong": 7.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.010852713178294573,
+            "error_per_eligible": 0.008684863523573201,
+            "fraction_errors_removed": 0.5333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.8:unexpl_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.015503875968992248,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.33333333333333337,
+            "total_wrong": 15.0
+          },
+          "matched_0.8:weight_dist": {
+            "accepted": 645.0,
+            "accepted_wrong": 7.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.010852713178294573,
+            "error_per_eligible": 0.008684863523573201,
+            "fraction_errors_removed": 0.5333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.95:hash_control": {
+            "accepted": 766.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018276762402088774,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "matched_0.95:logistic": {
+            "accepted": 766.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.013054830287206266,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.33333333333333337,
+            "total_wrong": 15.0
+          },
+          "matched_0.95:quality": {
+            "accepted": 766.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018276762402088774,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "matched_0.95:total_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01174934725848564,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.4,
+            "total_wrong": 15.0
+          },
+          "matched_0.95:unexpl_fraction": {
+            "accepted": 766.0,
+            "accepted_wrong": 12.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.015665796344647518,
+            "error_per_eligible": 0.01488833746898263,
+            "fraction_errors_removed": 0.19999999999999996,
+            "total_wrong": 15.0
+          },
+          "matched_0.95:unexpl_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018276762402088774,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "matched_0.95:weight_dist": {
+            "accepted": 766.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01174934725848564,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.4,
+            "total_wrong": 15.0
+          },
+          "matched_0.99:hash_control": {
+            "accepted": 798.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.017543859649122806,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "matched_0.99:logistic": {
+            "accepted": 798.0,
+            "accepted_wrong": 15.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018796992481203006,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_0.99:quality": {
+            "accepted": 798.0,
+            "accepted_wrong": 15.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018796992481203006,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_0.99:total_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 15.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018796992481203006,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_0.99:unexpl_fraction": {
+            "accepted": 798.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.017543859649122806,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "matched_0.99:unexpl_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 15.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018796992481203006,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_0.99:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 13.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.016290726817042606,
+            "error_per_eligible": 0.016129032258064516,
+            "fraction_errors_removed": 0.1333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.9:hash_control": {
+            "accepted": 726.0,
+            "accepted_wrong": 14.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01928374655647383,
+            "error_per_eligible": 0.017369727047146403,
+            "fraction_errors_removed": 0.06666666666666665,
+            "total_wrong": 15.0
+          },
+          "matched_0.9:logistic": {
+            "accepted": 726.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.013774104683195593,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.33333333333333337,
+            "total_wrong": 15.0
+          },
+          "matched_0.9:quality": {
+            "accepted": 726.0,
+            "accepted_wrong": 13.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01790633608815427,
+            "error_per_eligible": 0.016129032258064516,
+            "fraction_errors_removed": 0.1333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.9:total_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012396694214876033,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.4,
+            "total_wrong": 15.0
+          },
+          "matched_0.9:unexpl_fraction": {
+            "accepted": 726.0,
+            "accepted_wrong": 12.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01652892561983471,
+            "error_per_eligible": 0.01488833746898263,
+            "fraction_errors_removed": 0.19999999999999996,
+            "total_wrong": 15.0
+          },
+          "matched_0.9:unexpl_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 13.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01790633608815427,
+            "error_per_eligible": 0.016129032258064516,
+            "fraction_errors_removed": 0.1333333333333333,
+            "total_wrong": 15.0
+          },
+          "matched_0.9:weight_dist": {
+            "accepted": 726.0,
+            "accepted_wrong": 8.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.011019283746556474,
+            "error_per_eligible": 0.009925558312655087,
+            "fraction_errors_removed": 0.4666666666666667,
+            "total_wrong": 15.0
+          },
+          "matched_1.0:hash_control": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_1.0:logistic": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_1.0:quality": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_1.0:total_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_1.0:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_1.0:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          },
+          "matched_1.0:weight_dist": {
+            "accepted": 806.0,
+            "accepted_wrong": 15.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.018610421836228287,
+            "error_per_eligible": 0.018610421836228287,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 15.0
+          }
+        },
+        "0.01": {
+          "cutoff:hash_control": {
+            "accepted": 782.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9702233250620348,
+            "eligible": 806.0,
+            "error_per_accepted": 0.011508951406649617,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "cutoff:logistic": {
+            "accepted": 804.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.9975186104218362,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012437810945273632,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "cutoff:no_filter": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "cutoff:quality": {
+            "accepted": 790.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9801488833746899,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01139240506329114,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "cutoff:total_reads": {
+            "accepted": 722.0,
+            "accepted_wrong": 4.0,
+            "coverage": 0.8957816377171216,
+            "eligible": 806.0,
+            "error_per_accepted": 0.00554016620498615,
+            "error_per_eligible": 0.004962779156327543,
+            "fraction_errors_removed": 0.6,
+            "total_wrong": 10.0
+          },
+          "cutoff:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "cutoff:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "cutoff:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.011278195488721804,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.8:hash_control": {
+            "accepted": 645.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.013953488372093023,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.8:logistic": {
+            "accepted": 645.0,
+            "accepted_wrong": 5.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.007751937984496124,
+            "error_per_eligible": 0.00620347394540943,
+            "fraction_errors_removed": 0.5,
+            "total_wrong": 10.0
+          },
+          "matched_0.8:quality": {
+            "accepted": 645.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.013953488372093023,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.8:total_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 4.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.006201550387596899,
+            "error_per_eligible": 0.004962779156327543,
+            "fraction_errors_removed": 0.6,
+            "total_wrong": 10.0
+          },
+          "matched_0.8:unexpl_fraction": {
+            "accepted": 645.0,
+            "accepted_wrong": 5.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.007751937984496124,
+            "error_per_eligible": 0.00620347394540943,
+            "fraction_errors_removed": 0.5,
+            "total_wrong": 10.0
+          },
+          "matched_0.8:unexpl_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 8.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012403100775193798,
+            "error_per_eligible": 0.009925558312655087,
+            "fraction_errors_removed": 0.19999999999999996,
+            "total_wrong": 10.0
+          },
+          "matched_0.8:weight_dist": {
+            "accepted": 645.0,
+            "accepted_wrong": 3.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.004651162790697674,
+            "error_per_eligible": 0.0037220843672456576,
+            "fraction_errors_removed": 0.7,
+            "total_wrong": 10.0
+          },
+          "matched_0.95:hash_control": {
+            "accepted": 766.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01174934725848564,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.95:logistic": {
+            "accepted": 766.0,
+            "accepted_wrong": 6.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.007832898172323759,
+            "error_per_eligible": 0.007444168734491315,
+            "fraction_errors_removed": 0.4,
+            "total_wrong": 10.0
+          },
+          "matched_0.95:quality": {
+            "accepted": 766.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01174934725848564,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.95:total_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 4.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.005221932114882507,
+            "error_per_eligible": 0.004962779156327543,
+            "fraction_errors_removed": 0.6,
+            "total_wrong": 10.0
+          },
+          "matched_0.95:unexpl_fraction": {
+            "accepted": 766.0,
+            "accepted_wrong": 8.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.010443864229765013,
+            "error_per_eligible": 0.009925558312655087,
+            "fraction_errors_removed": 0.19999999999999996,
+            "total_wrong": 10.0
+          },
+          "matched_0.95:unexpl_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01174934725848564,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.95:weight_dist": {
+            "accepted": 766.0,
+            "accepted_wrong": 5.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.006527415143603133,
+            "error_per_eligible": 0.00620347394540943,
+            "fraction_errors_removed": 0.5,
+            "total_wrong": 10.0
+          },
+          "matched_0.99:hash_control": {
+            "accepted": 798.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.011278195488721804,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.99:logistic": {
+            "accepted": 798.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012531328320802004,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_0.99:quality": {
+            "accepted": 798.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012531328320802004,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_0.99:total_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012531328320802004,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_0.99:unexpl_fraction": {
+            "accepted": 798.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.011278195488721804,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.99:unexpl_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 10.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012531328320802004,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_0.99:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.011278195488721804,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.9:hash_control": {
+            "accepted": 726.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012396694214876033,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.9:logistic": {
+            "accepted": 726.0,
+            "accepted_wrong": 6.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.008264462809917356,
+            "error_per_eligible": 0.007444168734491315,
+            "fraction_errors_removed": 0.4,
+            "total_wrong": 10.0
+          },
+          "matched_0.9:quality": {
+            "accepted": 726.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012396694214876033,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.9:total_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 4.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.005509641873278237,
+            "error_per_eligible": 0.004962779156327543,
+            "fraction_errors_removed": 0.6,
+            "total_wrong": 10.0
+          },
+          "matched_0.9:unexpl_fraction": {
+            "accepted": 726.0,
+            "accepted_wrong": 8.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.011019283746556474,
+            "error_per_eligible": 0.009925558312655087,
+            "fraction_errors_removed": 0.19999999999999996,
+            "total_wrong": 10.0
+          },
+          "matched_0.9:unexpl_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 9.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.012396694214876033,
+            "error_per_eligible": 0.011166253101736972,
+            "fraction_errors_removed": 0.09999999999999998,
+            "total_wrong": 10.0
+          },
+          "matched_0.9:weight_dist": {
+            "accepted": 726.0,
+            "accepted_wrong": 4.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.005509641873278237,
+            "error_per_eligible": 0.004962779156327543,
+            "fraction_errors_removed": 0.6,
+            "total_wrong": 10.0
+          },
+          "matched_1.0:hash_control": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_1.0:logistic": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_1.0:quality": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_1.0:total_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_1.0:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_1.0:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          },
+          "matched_1.0:weight_dist": {
+            "accepted": 806.0,
+            "accepted_wrong": 10.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.01240694789081886,
+            "error_per_eligible": 0.01240694789081886,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 10.0
+          }
+        }
+      },
+      "n": 806,
+      "truth_missing_excluded_from_loo_test_keys": 0
+    },
+    "loo": {
+      "bootstrap_primary": {
+        "conditional_on_frozen_model_rankings_and_decisions": true,
+        "intervals": {
+          "cutoff:hash_control": {
+            "coverage": {
+              "high": 0.98875,
+              "low": 0.9463368902439024,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15642264176206738,
+              "low": 0.054827626349137716,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.15233826256131092,
+              "low": 0.05308641975308642,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:logistic": {
+            "coverage": {
+              "high": 0.980246913580247,
+              "low": 0.9154017412935324,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1347163948227596,
+              "low": 0.042736467864623526,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.12732001427821,
+              "low": 0.040474439775910365,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:no_filter": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:quality": {
+            "coverage": {
+              "high": 0.9863540463847874,
+              "low": 0.9382871536523929,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1616707792832072,
+              "low": 0.0587467362924282,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.15680237607792052,
+              "low": 0.055970149253731345,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:total_reads": {
+            "coverage": {
+              "high": 0.955,
+              "low": 0.8276657181118179,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1479454318448884,
+              "low": 0.05209324915007285,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1336669450077538,
+              "low": 0.046248154685494224,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:unexpl_fraction": {
+            "coverage": {
+              "high": 0.9836282337658223,
+              "low": 0.92,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1311699612302022,
+              "low": 0.04242912032922041,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.12516221017900603,
+              "low": 0.040251188832643045,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:unexpl_reads": {
+            "coverage": {
+              "high": 0.988997555012225,
+              "low": 0.9222033946394457,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.12796891708021174,
+              "low": 0.040814983888292154,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1225,
+              "low": 0.03925275455486703,
+              "valid_replicates": 4999
+            }
+          },
+          "cutoff:weight_dist": {
+            "coverage": {
+              "high": 0.9889712632298941,
+              "low": 0.9428915881073242,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15112145959222384,
+              "low": 0.0532994923857868,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.14670432827258703,
+              "low": 0.05185185185185185,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:hash_control": {
+            "coverage": {
+              "high": 0.8462548803526448,
+              "low": 0.7525,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1543654347322983,
+              "low": 0.052627511591962904,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1259259259259259,
+              "low": 0.04155679793573754,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:logistic": {
+            "coverage": {
+              "high": 0.8728395061728395,
+              "low": 0.7199353901174484,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.0825245095261303,
+              "low": 0.018833889324960752,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.06658291457286432,
+              "low": 0.014832211692533077,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:quality": {
+            "coverage": {
+              "high": 0.8541409147095179,
+              "low": 0.74375,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15538516878804648,
+              "low": 0.05306360032069234,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1259530876478044,
+              "low": 0.041232109665427515,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:total_reads": {
+            "coverage": {
+              "high": 0.88375,
+              "low": 0.7085315923258488,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1628679234159211,
+              "low": 0.05487709304992736,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.13075395556367736,
+              "low": 0.04389481707317073,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:unexpl_fraction": {
+            "coverage": {
+              "high": 0.8692484805115147,
+              "low": 0.7205513784461153,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.09282796755486196,
+              "low": 0.018272045995843384,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.07471078416861554,
+              "low": 0.014668137634921582,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:unexpl_reads": {
+            "coverage": {
+              "high": 0.875,
+              "low": 0.7155119047619047,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.0990573339564227,
+              "low": 0.020399315795682434,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.08024962436296607,
+              "low": 0.016108049001926215,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.8:weight_dist": {
+            "coverage": {
+              "high": 0.8537514714993805,
+              "low": 0.74069246858041,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.14009084754406095,
+              "low": 0.042260511405115934,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1123770600744285,
+              "low": 0.03391111809045226,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:hash_control": {
+            "coverage": {
+              "high": 0.9763710911941533,
+              "low": 0.9183911786913844,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15756277277498482,
+              "low": 0.055401279515558746,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.15,
+              "low": 0.05242901346923917,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:logistic": {
+            "coverage": {
+              "high": 0.9802004644908935,
+              "low": 0.9119070760230263,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.13474240422721268,
+              "low": 0.042794811932555125,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.12732001427821,
+              "low": 0.040474439775910365,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:quality": {
+            "coverage": {
+              "high": 0.9749702753441802,
+              "low": 0.9213731151548411,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.16282811820947418,
+              "low": 0.05783837106448849,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.15587983167082303,
+              "low": 0.05471957828722393,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:total_reads": {
+            "coverage": {
+              "high": 0.9885372142649294,
+              "low": 0.9028904470813857,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.14378431873323974,
+              "low": 0.05053122588468746,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1373762376237624,
+              "low": 0.0475609756097561,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:unexpl_fraction": {
+            "coverage": {
+              "high": 0.9801525640514437,
+              "low": 0.9098657775299348,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.13093709884467267,
+              "low": 0.041218789312476065,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.12346229456632855,
+              "low": 0.03950617283950617,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:unexpl_reads": {
+            "coverage": {
+              "high": 0.9821667395990341,
+              "low": 0.9095359002032464,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.12141963257323712,
+              "low": 0.03875968992248062,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.11529545318754857,
+              "low": 0.03712412907957462,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95:weight_dist": {
+            "coverage": {
+              "high": 0.9773596136567835,
+              "low": 0.9175,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15026941625328583,
+              "low": 0.0517464424320828,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.14286610503674496,
+              "low": 0.0493725966403562,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:hash_control": {
+            "coverage": {
+              "high": 0.998748513767209,
+              "low": 0.9780460969646371,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15644770657978962,
+              "low": 0.05624004777070064,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.155,
+              "low": 0.05555555555555555,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:logistic": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9728395061728395,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15652773237441434,
+              "low": 0.05367954956553685,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.15544617156016122,
+              "low": 0.053082701175070655,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:quality": {
+            "coverage": {
+              "high": 0.998780487804878,
+              "low": 0.9753086419753086,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15945799627607143,
+              "low": 0.05739795918367347,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:total_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9686746987951808,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15696928564664292,
+              "low": 0.05674295869716442,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.15577889447236182,
+              "low": 0.05624298628428928,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:unexpl_fraction": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9733945989520355,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15602420405762443,
+              "low": 0.05402010050251256,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1550976577186255,
+              "low": 0.05365853658536585,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:unexpl_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9714640198511166,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.14925857724365188,
+              "low": 0.05289008012353961,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.14692639180060568,
+              "low": 0.0524390243902439,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.99:weight_dist": {
+            "coverage": {
+              "high": 1.0,
+              "low": 0.9723253013956878,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15525903904571386,
+              "low": 0.05465735910407475,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.15357563285537265,
+              "low": 0.054289126201776804,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:hash_control": {
+            "coverage": {
+              "high": 0.9392425454488417,
+              "low": 0.8554202102527758,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.15803470948178222,
+              "low": 0.05694444444444444,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.14285714285714285,
+              "low": 0.05092851748531973,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:logistic": {
+            "coverage": {
+              "high": 0.9459832884623872,
+              "low": 0.8452970297029703,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.11564625850340136,
+              "low": 0.0314949365234925,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.10441198177384164,
+              "low": 0.028567888121791465,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:quality": {
+            "coverage": {
+              "high": 0.9368080633740485,
+              "low": 0.8591353152651366,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.16828748333015817,
+              "low": 0.059216655833101185,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1525558410343542,
+              "low": 0.053083613916947256,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:total_reads": {
+            "coverage": {
+              "high": 0.9575,
+              "low": 0.8345565557496231,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.14911581195155318,
+              "low": 0.052407622747009414,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.13537095999038812,
+              "low": 0.04691358024691358,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:unexpl_fraction": {
+            "coverage": {
+              "high": 0.94625,
+              "low": 0.845,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.11266024872446628,
+              "low": 0.031071254970396756,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.10227272727272728,
+              "low": 0.02804878048780488,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:unexpl_reads": {
+            "coverage": {
+              "high": 0.9484074240983789,
+              "low": 0.8419751525651231,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1059539800632951,
+              "low": 0.02891769500735877,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.09547738693467336,
+              "low": 0.025925925925925925,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.9:weight_dist": {
+            "coverage": {
+              "high": 0.9373493975903614,
+              "low": 0.8567749122973357,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.14681440443213298,
+              "low": 0.04973496903124251,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.13283604581072936,
+              "low": 0.044829092396052116,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:hash_control": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:logistic": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:quality": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:total_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:unexpl_fraction": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:unexpl_reads": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_1.0:weight_dist": {
+            "coverage": {
+              "high": 1.0,
+              "low": 1.0,
+              "valid_replicates": 4999
+            },
+            "error_per_accepted": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.1584903255528256,
+              "low": 0.056788781535158345,
+              "valid_replicates": 4999
+            }
+          }
+        },
+        "method": "percentile two-way donor x positive-overlap locus-group bootstrap",
+        "paired_logistic_minus_selected_native": {
+          "cutoff": {
+            "error_per_accepted": {
+              "high": 0.012678468457718946,
+              "low": -0.007431813181582099,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.01240694789081885,
+              "low": -0.007614213197969538,
+              "valid_replicates": 4999
+            }
+          },
+          "matched_0.95": {
+            "error_per_accepted": {
+              "high": 0.016978766253177752,
+              "low": -0.007481092646684893,
+              "valid_replicates": 4999
+            },
+            "error_per_eligible": {
+              "high": 0.01687775492212757,
+              "low": -0.007519268686144469,
+              "valid_replicates": 4999
+            }
+          }
+        },
+        "replicates": 4999,
+        "seed": 20261009
+      },
+      "calibration_cutoffs_transferred_unchanged": true,
+      "descriptive": {
+        "available_is_not_a_strict_floor": true,
+        "called_below_available_count": 0,
+        "called_minus_available_divergence": {
+          "finite": 806,
+          "mean": 0.0018633106153846152,
+          "n": 806,
+          "nonfinite": 0,
+          "quantiles": {
+            ".5": 2.3874999999999984e-05,
+            ".9": 0.001761715,
+            ".95": 0.0063406682500000006,
+            ".99": 0.03075848090000002,
+            "0": 0.0,
+            "1": 0.14459972599999998
+          }
+        },
+        "closest_available_divergence": {
+          "finite": 806,
+          "mean": 0.00115352970471464,
+          "n": 806,
+          "nonfinite": 0,
+          "quantiles": {
+            ".5": 0.000186324,
+            ".9": 0.0024980055,
+            ".95": 0.00515786225,
+            ".99": 0.013323386400000017,
+            "0": 0.0,
+            "1": 0.114002003
+          }
+        },
+        "divergence": {
+          "finite": 806,
+          "mean": 0.0030168403200992555,
+          "n": 806,
+          "nonfinite": 0,
+          "quantiles": {
+            ".5": 0.0002589345,
+            ".9": 0.005184387,
+            ".95": 0.011978000999999999,
+            ".99": 0.04614034380000024,
+            "0": 0.0,
+            "1": 0.147494279
+          }
+        },
+        "gt_rows": 806,
+        "truth_missing_excluded": 0,
+        "wrong_counts": {
+          "0.001": 228,
+          "0.005": 83,
+          "0.01": 47
+        }
+      },
+      "matched_retention_is_retrospective_batch_ranking_not_deployment_threshold": true,
+      "metrics_by_divergence_threshold": {
+        "0.001": {
+          "cutoff:hash_control": {
+            "accepted": 782.0,
+            "accepted_wrong": 219.0,
+            "coverage": 0.9702233250620348,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28005115089514065,
+            "error_per_eligible": 0.271712158808933,
+            "fraction_errors_removed": 0.03947368421052633,
+            "total_wrong": 228.0
+          },
+          "cutoff:logistic": {
+            "accepted": 767.0,
+            "accepted_wrong": 191.0,
+            "coverage": 0.9516129032258065,
+            "eligible": 806.0,
+            "error_per_accepted": 0.24902216427640156,
+            "error_per_eligible": 0.2369727047146402,
+            "fraction_errors_removed": 0.16228070175438591,
+            "total_wrong": 228.0
+          },
+          "cutoff:no_filter": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          },
+          "cutoff:quality": {
+            "accepted": 778.0,
+            "accepted_wrong": 221.0,
+            "coverage": 0.9652605459057072,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28406169665809766,
+            "error_per_eligible": 0.27419354838709675,
+            "fraction_errors_removed": 0.030701754385964897,
+            "total_wrong": 228.0
+          },
+          "cutoff:total_reads": {
+            "accepted": 722.0,
+            "accepted_wrong": 205.0,
+            "coverage": 0.8957816377171216,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2839335180055402,
+            "error_per_eligible": 0.2543424317617866,
+            "fraction_errors_removed": 0.10087719298245612,
+            "total_wrong": 228.0
+          },
+          "cutoff:unexpl_fraction": {
+            "accepted": 771.0,
+            "accepted_wrong": 194.0,
+            "coverage": 0.956575682382134,
+            "eligible": 806.0,
+            "error_per_accepted": 0.251621271076524,
+            "error_per_eligible": 0.24069478908188585,
+            "fraction_errors_removed": 0.14912280701754388,
+            "total_wrong": 228.0
+          },
+          "cutoff:unexpl_reads": {
+            "accepted": 774.0,
+            "accepted_wrong": 198.0,
+            "coverage": 0.9602977667493796,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2558139534883721,
+            "error_per_eligible": 0.2456575682382134,
+            "fraction_errors_removed": 0.13157894736842102,
+            "total_wrong": 228.0
+          },
+          "cutoff:weight_dist": {
+            "accepted": 781.0,
+            "accepted_wrong": 208.0,
+            "coverage": 0.9689826302729528,
+            "eligible": 806.0,
+            "error_per_accepted": 0.26632522407170295,
+            "error_per_eligible": 0.25806451612903225,
+            "fraction_errors_removed": 0.08771929824561409,
+            "total_wrong": 228.0
+          },
+          "matched_0.8:hash_control": {
+            "accepted": 645.0,
+            "accepted_wrong": 173.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2682170542635659,
+            "error_per_eligible": 0.21464019851116625,
+            "fraction_errors_removed": 0.24122807017543857,
+            "total_wrong": 228.0
+          },
+          "matched_0.8:logistic": {
+            "accepted": 645.0,
+            "accepted_wrong": 109.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.16899224806201552,
+            "error_per_eligible": 0.13523573200992556,
+            "fraction_errors_removed": 0.5219298245614035,
+            "total_wrong": 228.0
+          },
+          "matched_0.8:quality": {
+            "accepted": 645.0,
+            "accepted_wrong": 182.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28217054263565894,
+            "error_per_eligible": 0.22580645161290322,
+            "fraction_errors_removed": 0.20175438596491224,
+            "total_wrong": 228.0
+          },
+          "matched_0.8:total_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 194.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.30077519379844964,
+            "error_per_eligible": 0.24069478908188585,
+            "fraction_errors_removed": 0.14912280701754388,
+            "total_wrong": 228.0
+          },
+          "matched_0.8:unexpl_fraction": {
+            "accepted": 645.0,
+            "accepted_wrong": 110.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.17054263565891473,
+            "error_per_eligible": 0.13647642679900746,
+            "fraction_errors_removed": 0.5175438596491229,
+            "total_wrong": 228.0
+          },
+          "matched_0.8:unexpl_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 115.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.17829457364341086,
+            "error_per_eligible": 0.14267990074441686,
+            "fraction_errors_removed": 0.4956140350877193,
+            "total_wrong": 228.0
+          },
+          "matched_0.8:weight_dist": {
+            "accepted": 645.0,
+            "accepted_wrong": 164.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.25426356589147286,
+            "error_per_eligible": 0.20347394540942929,
+            "fraction_errors_removed": 0.2807017543859649,
+            "total_wrong": 228.0
+          },
+          "matched_0.95:hash_control": {
+            "accepted": 766.0,
+            "accepted_wrong": 213.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2780678851174935,
+            "error_per_eligible": 0.2642679900744417,
+            "fraction_errors_removed": 0.06578947368421051,
+            "total_wrong": 228.0
+          },
+          "matched_0.95:logistic": {
+            "accepted": 766.0,
+            "accepted_wrong": 190.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.24804177545691905,
+            "error_per_eligible": 0.23573200992555832,
+            "fraction_errors_removed": 0.16666666666666663,
+            "total_wrong": 228.0
+          },
+          "matched_0.95:quality": {
+            "accepted": 766.0,
+            "accepted_wrong": 218.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2845953002610966,
+            "error_per_eligible": 0.2704714640198511,
+            "fraction_errors_removed": 0.04385964912280704,
+            "total_wrong": 228.0
+          },
+          "matched_0.95:total_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 212.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.27676240208877284,
+            "error_per_eligible": 0.2630272952853598,
+            "fraction_errors_removed": 0.07017543859649122,
+            "total_wrong": 228.0
+          },
+          "matched_0.95:unexpl_fraction": {
+            "accepted": 766.0,
+            "accepted_wrong": 189.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.24673629242819844,
+            "error_per_eligible": 0.23449131513647642,
+            "fraction_errors_removed": 0.17105263157894735,
+            "total_wrong": 228.0
+          },
+          "matched_0.95:unexpl_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 192.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2506527415143603,
+            "error_per_eligible": 0.23821339950372208,
+            "fraction_errors_removed": 0.1578947368421053,
+            "total_wrong": 228.0
+          },
+          "matched_0.95:weight_dist": {
+            "accepted": 766.0,
+            "accepted_wrong": 204.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.26631853785900783,
+            "error_per_eligible": 0.2531017369727047,
+            "fraction_errors_removed": 0.10526315789473684,
+            "total_wrong": 228.0
+          },
+          "matched_0.99:hash_control": {
+            "accepted": 798.0,
+            "accepted_wrong": 225.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2819548872180451,
+            "error_per_eligible": 0.27915632754342434,
+            "fraction_errors_removed": 0.013157894736842146,
+            "total_wrong": 228.0
+          },
+          "matched_0.99:logistic": {
+            "accepted": 798.0,
+            "accepted_wrong": 220.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2756892230576441,
+            "error_per_eligible": 0.2729528535980149,
+            "fraction_errors_removed": 0.03508771929824561,
+            "total_wrong": 228.0
+          },
+          "matched_0.99:quality": {
+            "accepted": 798.0,
+            "accepted_wrong": 226.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2832080200501253,
+            "error_per_eligible": 0.2803970223325062,
+            "fraction_errors_removed": 0.00877192982456143,
+            "total_wrong": 228.0
+          },
+          "matched_0.99:total_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 226.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2832080200501253,
+            "error_per_eligible": 0.2803970223325062,
+            "fraction_errors_removed": 0.00877192982456143,
+            "total_wrong": 228.0
+          },
+          "matched_0.99:unexpl_fraction": {
+            "accepted": 798.0,
+            "accepted_wrong": 220.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2756892230576441,
+            "error_per_eligible": 0.2729528535980149,
+            "fraction_errors_removed": 0.03508771929824561,
+            "total_wrong": 228.0
+          },
+          "matched_0.99:unexpl_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 220.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2756892230576441,
+            "error_per_eligible": 0.2729528535980149,
+            "fraction_errors_removed": 0.03508771929824561,
+            "total_wrong": 228.0
+          },
+          "matched_0.99:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 221.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2769423558897243,
+            "error_per_eligible": 0.27419354838709675,
+            "fraction_errors_removed": 0.030701754385964897,
+            "total_wrong": 228.0
+          },
+          "matched_0.9:hash_control": {
+            "accepted": 726.0,
+            "accepted_wrong": 196.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2699724517906336,
+            "error_per_eligible": 0.24317617866004962,
+            "fraction_errors_removed": 0.14035087719298245,
+            "total_wrong": 228.0
+          },
+          "matched_0.9:logistic": {
+            "accepted": 726.0,
+            "accepted_wrong": 159.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2190082644628099,
+            "error_per_eligible": 0.19727047146401985,
+            "fraction_errors_removed": 0.3026315789473685,
+            "total_wrong": 228.0
+          },
+          "matched_0.9:quality": {
+            "accepted": 726.0,
+            "accepted_wrong": 207.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28512396694214875,
+            "error_per_eligible": 0.25682382133995035,
+            "fraction_errors_removed": 0.09210526315789469,
+            "total_wrong": 228.0
+          },
+          "matched_0.9:total_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 206.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2837465564738292,
+            "error_per_eligible": 0.2555831265508685,
+            "fraction_errors_removed": 0.0964912280701754,
+            "total_wrong": 228.0
+          },
+          "matched_0.9:unexpl_fraction": {
+            "accepted": 726.0,
+            "accepted_wrong": 158.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.21763085399449036,
+            "error_per_eligible": 0.19602977667493796,
+            "fraction_errors_removed": 0.3070175438596491,
+            "total_wrong": 228.0
+          },
+          "matched_0.9:unexpl_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 161.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.22176308539944903,
+            "error_per_eligible": 0.19975186104218362,
+            "fraction_errors_removed": 0.29385964912280704,
+            "total_wrong": 228.0
+          },
+          "matched_0.9:weight_dist": {
+            "accepted": 726.0,
+            "accepted_wrong": 185.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.2548209366391185,
+            "error_per_eligible": 0.22952853598014888,
+            "fraction_errors_removed": 0.1885964912280702,
+            "total_wrong": 228.0
+          },
+          "matched_1.0:hash_control": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          },
+          "matched_1.0:logistic": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          },
+          "matched_1.0:quality": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          },
+          "matched_1.0:total_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          },
+          "matched_1.0:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          },
+          "matched_1.0:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          },
+          "matched_1.0:weight_dist": {
+            "accepted": 806.0,
+            "accepted_wrong": 228.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.28287841191067,
+            "error_per_eligible": 0.28287841191067,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 228.0
+          }
+        },
+        "0.005": {
+          "cutoff:hash_control": {
+            "accepted": 782.0,
+            "accepted_wrong": 79.0,
+            "coverage": 0.9702233250620348,
+            "eligible": 806.0,
+            "error_per_accepted": 0.1010230179028133,
+            "error_per_eligible": 0.09801488833746898,
+            "fraction_errors_removed": 0.048192771084337394,
+            "total_wrong": 83.0
+          },
+          "cutoff:logistic": {
+            "accepted": 767.0,
+            "accepted_wrong": 65.0,
+            "coverage": 0.9516129032258065,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0847457627118644,
+            "error_per_eligible": 0.08064516129032258,
+            "fraction_errors_removed": 0.2168674698795181,
+            "total_wrong": 83.0
+          },
+          "cutoff:no_filter": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "cutoff:quality": {
+            "accepted": 778.0,
+            "accepted_wrong": 82.0,
+            "coverage": 0.9652605459057072,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10539845758354756,
+            "error_per_eligible": 0.10173697270471464,
+            "fraction_errors_removed": 0.012048192771084376,
+            "total_wrong": 83.0
+          },
+          "cutoff:total_reads": {
+            "accepted": 722.0,
+            "accepted_wrong": 69.0,
+            "coverage": 0.8957816377171216,
+            "eligible": 806.0,
+            "error_per_accepted": 0.09556786703601108,
+            "error_per_eligible": 0.08560794044665013,
+            "fraction_errors_removed": 0.1686746987951807,
+            "total_wrong": 83.0
+          },
+          "cutoff:unexpl_fraction": {
+            "accepted": 771.0,
+            "accepted_wrong": 64.0,
+            "coverage": 0.956575682382134,
+            "eligible": 806.0,
+            "error_per_accepted": 0.08300907911802853,
+            "error_per_eligible": 0.0794044665012407,
+            "fraction_errors_removed": 0.22891566265060237,
+            "total_wrong": 83.0
+          },
+          "cutoff:unexpl_reads": {
+            "accepted": 774.0,
+            "accepted_wrong": 63.0,
+            "coverage": 0.9602977667493796,
+            "eligible": 806.0,
+            "error_per_accepted": 0.08139534883720931,
+            "error_per_eligible": 0.07816377171215881,
+            "fraction_errors_removed": 0.24096385542168675,
+            "total_wrong": 83.0
+          },
+          "cutoff:weight_dist": {
+            "accepted": 781.0,
+            "accepted_wrong": 76.0,
+            "coverage": 0.9689826302729528,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0973111395646607,
+            "error_per_eligible": 0.09429280397022333,
+            "fraction_errors_removed": 0.08433734939759041,
+            "total_wrong": 83.0
+          },
+          "matched_0.8:hash_control": {
+            "accepted": 645.0,
+            "accepted_wrong": 64.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.09922480620155039,
+            "error_per_eligible": 0.0794044665012407,
+            "fraction_errors_removed": 0.22891566265060237,
+            "total_wrong": 83.0
+          },
+          "matched_0.8:logistic": {
+            "accepted": 645.0,
+            "accepted_wrong": 30.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.046511627906976744,
+            "error_per_eligible": 0.03722084367245657,
+            "fraction_errors_removed": 0.6385542168674698,
+            "total_wrong": 83.0
+          },
+          "matched_0.8:quality": {
+            "accepted": 645.0,
+            "accepted_wrong": 64.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.09922480620155039,
+            "error_per_eligible": 0.0794044665012407,
+            "fraction_errors_removed": 0.22891566265060237,
+            "total_wrong": 83.0
+          },
+          "matched_0.8:total_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 67.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10387596899224806,
+            "error_per_eligible": 0.08312655086848635,
+            "fraction_errors_removed": 0.19277108433734935,
+            "total_wrong": 83.0
+          },
+          "matched_0.8:unexpl_fraction": {
+            "accepted": 645.0,
+            "accepted_wrong": 33.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05116279069767442,
+            "error_per_eligible": 0.04094292803970223,
+            "fraction_errors_removed": 0.6024096385542168,
+            "total_wrong": 83.0
+          },
+          "matched_0.8:unexpl_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 36.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05581395348837209,
+            "error_per_eligible": 0.04466501240694789,
+            "fraction_errors_removed": 0.5662650602409638,
+            "total_wrong": 83.0
+          },
+          "matched_0.8:weight_dist": {
+            "accepted": 645.0,
+            "accepted_wrong": 55.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.08527131782945736,
+            "error_per_eligible": 0.06823821339950373,
+            "fraction_errors_removed": 0.3373493975903614,
+            "total_wrong": 83.0
+          },
+          "matched_0.95:hash_control": {
+            "accepted": 766.0,
+            "accepted_wrong": 78.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10182767624020887,
+            "error_per_eligible": 0.0967741935483871,
+            "fraction_errors_removed": 0.06024096385542166,
+            "total_wrong": 83.0
+          },
+          "matched_0.95:logistic": {
+            "accepted": 766.0,
+            "accepted_wrong": 65.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.08485639686684072,
+            "error_per_eligible": 0.08064516129032258,
+            "fraction_errors_removed": 0.2168674698795181,
+            "total_wrong": 83.0
+          },
+          "matched_0.95:quality": {
+            "accepted": 766.0,
+            "accepted_wrong": 81.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10574412532637076,
+            "error_per_eligible": 0.10049627791563276,
+            "fraction_errors_removed": 0.02409638554216864,
+            "total_wrong": 83.0
+          },
+          "matched_0.95:total_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 71.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0926892950391645,
+            "error_per_eligible": 0.0880893300248139,
+            "fraction_errors_removed": 0.14457831325301207,
+            "total_wrong": 83.0
+          },
+          "matched_0.95:unexpl_fraction": {
+            "accepted": 766.0,
+            "accepted_wrong": 63.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.08224543080939947,
+            "error_per_eligible": 0.07816377171215881,
+            "fraction_errors_removed": 0.24096385542168675,
+            "total_wrong": 83.0
+          },
+          "matched_0.95:unexpl_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 59.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.07702349869451697,
+            "error_per_eligible": 0.07320099255583126,
+            "fraction_errors_removed": 0.28915662650602414,
+            "total_wrong": 83.0
+          },
+          "matched_0.95:weight_dist": {
+            "accepted": 766.0,
+            "accepted_wrong": 74.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.09660574412532637,
+            "error_per_eligible": 0.09181141439205956,
+            "fraction_errors_removed": 0.10843373493975905,
+            "total_wrong": 83.0
+          },
+          "matched_0.99:hash_control": {
+            "accepted": 798.0,
+            "accepted_wrong": 81.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10150375939849623,
+            "error_per_eligible": 0.10049627791563276,
+            "fraction_errors_removed": 0.02409638554216864,
+            "total_wrong": 83.0
+          },
+          "matched_0.99:logistic": {
+            "accepted": 798.0,
+            "accepted_wrong": 80.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10025062656641603,
+            "error_per_eligible": 0.09925558312655088,
+            "fraction_errors_removed": 0.03614457831325302,
+            "total_wrong": 83.0
+          },
+          "matched_0.99:quality": {
+            "accepted": 798.0,
+            "accepted_wrong": 83.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10401002506265664,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "matched_0.99:total_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 82.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10275689223057644,
+            "error_per_eligible": 0.10173697270471464,
+            "fraction_errors_removed": 0.012048192771084376,
+            "total_wrong": 83.0
+          },
+          "matched_0.99:unexpl_fraction": {
+            "accepted": 798.0,
+            "accepted_wrong": 80.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10025062656641603,
+            "error_per_eligible": 0.09925558312655088,
+            "fraction_errors_removed": 0.03614457831325302,
+            "total_wrong": 83.0
+          },
+          "matched_0.99:unexpl_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 77.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.09649122807017543,
+            "error_per_eligible": 0.09553349875930521,
+            "fraction_errors_removed": 0.07228915662650603,
+            "total_wrong": 83.0
+          },
+          "matched_0.99:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 80.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10025062656641603,
+            "error_per_eligible": 0.09925558312655088,
+            "fraction_errors_removed": 0.03614457831325302,
+            "total_wrong": 83.0
+          },
+          "matched_0.9:hash_control": {
+            "accepted": 726.0,
+            "accepted_wrong": 75.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10330578512396695,
+            "error_per_eligible": 0.09305210918114144,
+            "fraction_errors_removed": 0.09638554216867468,
+            "total_wrong": 83.0
+          },
+          "matched_0.9:logistic": {
+            "accepted": 726.0,
+            "accepted_wrong": 51.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.07024793388429752,
+            "error_per_eligible": 0.06327543424317618,
+            "fraction_errors_removed": 0.3855421686746988,
+            "total_wrong": 83.0
+          },
+          "matched_0.9:quality": {
+            "accepted": 726.0,
+            "accepted_wrong": 79.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10881542699724518,
+            "error_per_eligible": 0.09801488833746898,
+            "fraction_errors_removed": 0.048192771084337394,
+            "total_wrong": 83.0
+          },
+          "matched_0.9:total_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 70.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.09641873278236915,
+            "error_per_eligible": 0.08684863523573201,
+            "fraction_errors_removed": 0.15662650602409633,
+            "total_wrong": 83.0
+          },
+          "matched_0.9:unexpl_fraction": {
+            "accepted": 726.0,
+            "accepted_wrong": 50.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.06887052341597796,
+            "error_per_eligible": 0.062034739454094295,
+            "fraction_errors_removed": 0.3975903614457831,
+            "total_wrong": 83.0
+          },
+          "matched_0.9:unexpl_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 47.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.06473829201101929,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.4337349397590361,
+            "total_wrong": 83.0
+          },
+          "matched_0.9:weight_dist": {
+            "accepted": 726.0,
+            "accepted_wrong": 68.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.09366391184573003,
+            "error_per_eligible": 0.08436724565756824,
+            "fraction_errors_removed": 0.1807228915662651,
+            "total_wrong": 83.0
+          },
+          "matched_1.0:hash_control": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "matched_1.0:logistic": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "matched_1.0:quality": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "matched_1.0:total_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "matched_1.0:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "matched_1.0:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          },
+          "matched_1.0:weight_dist": {
+            "accepted": 806.0,
+            "accepted_wrong": 83.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.10297766749379653,
+            "error_per_eligible": 0.10297766749379653,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 83.0
+          }
+        },
+        "0.01": {
+          "cutoff:hash_control": {
+            "accepted": 782.0,
+            "accepted_wrong": 44.0,
+            "coverage": 0.9702233250620348,
+            "eligible": 806.0,
+            "error_per_accepted": 0.056265984654731455,
+            "error_per_eligible": 0.05459057071960298,
+            "fraction_errors_removed": 0.06382978723404253,
+            "total_wrong": 47.0
+          },
+          "cutoff:logistic": {
+            "accepted": 767.0,
+            "accepted_wrong": 35.0,
+            "coverage": 0.9516129032258065,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04563233376792699,
+            "error_per_eligible": 0.043424317617866005,
+            "fraction_errors_removed": 0.25531914893617025,
+            "total_wrong": 47.0
+          },
+          "cutoff:no_filter": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "cutoff:quality": {
+            "accepted": 778.0,
+            "accepted_wrong": 46.0,
+            "coverage": 0.9652605459057072,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05912596401028278,
+            "error_per_eligible": 0.05707196029776675,
+            "fraction_errors_removed": 0.021276595744680882,
+            "total_wrong": 47.0
+          },
+          "cutoff:total_reads": {
+            "accepted": 722.0,
+            "accepted_wrong": 38.0,
+            "coverage": 0.8957816377171216,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05263157894736842,
+            "error_per_eligible": 0.04714640198511166,
+            "fraction_errors_removed": 0.19148936170212771,
+            "total_wrong": 47.0
+          },
+          "cutoff:unexpl_fraction": {
+            "accepted": 771.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.956575682382134,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04409857328145266,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.276595744680851,
+            "total_wrong": 47.0
+          },
+          "cutoff:unexpl_reads": {
+            "accepted": 774.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.9602977667493796,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04392764857881137,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.276595744680851,
+            "total_wrong": 47.0
+          },
+          "cutoff:weight_dist": {
+            "accepted": 781.0,
+            "accepted_wrong": 43.0,
+            "coverage": 0.9689826302729528,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05505761843790013,
+            "error_per_eligible": 0.05334987593052109,
+            "fraction_errors_removed": 0.08510638297872342,
+            "total_wrong": 47.0
+          },
+          "matched_0.8:hash_control": {
+            "accepted": 645.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05271317829457364,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.276595744680851,
+            "total_wrong": 47.0
+          },
+          "matched_0.8:logistic": {
+            "accepted": 645.0,
+            "accepted_wrong": 16.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.024806201550387597,
+            "error_per_eligible": 0.019851116625310174,
+            "fraction_errors_removed": 0.6595744680851063,
+            "total_wrong": 47.0
+          },
+          "matched_0.8:quality": {
+            "accepted": 645.0,
+            "accepted_wrong": 35.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05426356589147287,
+            "error_per_eligible": 0.043424317617866005,
+            "fraction_errors_removed": 0.25531914893617025,
+            "total_wrong": 47.0
+          },
+          "matched_0.8:total_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 38.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05891472868217054,
+            "error_per_eligible": 0.04714640198511166,
+            "fraction_errors_removed": 0.19148936170212771,
+            "total_wrong": 47.0
+          },
+          "matched_0.8:unexpl_fraction": {
+            "accepted": 645.0,
+            "accepted_wrong": 18.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.027906976744186046,
+            "error_per_eligible": 0.022332506203473945,
+            "fraction_errors_removed": 0.6170212765957447,
+            "total_wrong": 47.0
+          },
+          "matched_0.8:unexpl_reads": {
+            "accepted": 645.0,
+            "accepted_wrong": 17.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.02635658914728682,
+            "error_per_eligible": 0.02109181141439206,
+            "fraction_errors_removed": 0.6382978723404256,
+            "total_wrong": 47.0
+          },
+          "matched_0.8:weight_dist": {
+            "accepted": 645.0,
+            "accepted_wrong": 28.0,
+            "coverage": 0.8002481389578163,
+            "eligible": 806.0,
+            "error_per_accepted": 0.043410852713178294,
+            "error_per_eligible": 0.034739454094292806,
+            "fraction_errors_removed": 0.4042553191489362,
+            "total_wrong": 47.0
+          },
+          "matched_0.95:hash_control": {
+            "accepted": 766.0,
+            "accepted_wrong": 43.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05613577023498695,
+            "error_per_eligible": 0.05334987593052109,
+            "fraction_errors_removed": 0.08510638297872342,
+            "total_wrong": 47.0
+          },
+          "matched_0.95:logistic": {
+            "accepted": 766.0,
+            "accepted_wrong": 35.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04569190600522193,
+            "error_per_eligible": 0.043424317617866005,
+            "fraction_errors_removed": 0.25531914893617025,
+            "total_wrong": 47.0
+          },
+          "matched_0.95:quality": {
+            "accepted": 766.0,
+            "accepted_wrong": 45.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0587467362924282,
+            "error_per_eligible": 0.05583126550868486,
+            "fraction_errors_removed": 0.04255319148936165,
+            "total_wrong": 47.0
+          },
+          "matched_0.95:total_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 38.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04960835509138381,
+            "error_per_eligible": 0.04714640198511166,
+            "fraction_errors_removed": 0.19148936170212771,
+            "total_wrong": 47.0
+          },
+          "matched_0.95:unexpl_fraction": {
+            "accepted": 766.0,
+            "accepted_wrong": 34.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.044386422976501305,
+            "error_per_eligible": 0.04218362282878412,
+            "fraction_errors_removed": 0.276595744680851,
+            "total_wrong": 47.0
+          },
+          "matched_0.95:unexpl_reads": {
+            "accepted": 766.0,
+            "accepted_wrong": 31.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.04046997389033943,
+            "error_per_eligible": 0.038461538461538464,
+            "fraction_errors_removed": 0.34042553191489366,
+            "total_wrong": 47.0
+          },
+          "matched_0.95:weight_dist": {
+            "accepted": 766.0,
+            "accepted_wrong": 41.0,
+            "coverage": 0.9503722084367245,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05352480417754569,
+            "error_per_eligible": 0.05086848635235732,
+            "fraction_errors_removed": 0.12765957446808507,
+            "total_wrong": 47.0
+          },
+          "matched_0.99:hash_control": {
+            "accepted": 798.0,
+            "accepted_wrong": 45.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05639097744360902,
+            "error_per_eligible": 0.05583126550868486,
+            "fraction_errors_removed": 0.04255319148936165,
+            "total_wrong": 47.0
+          },
+          "matched_0.99:logistic": {
+            "accepted": 798.0,
+            "accepted_wrong": 46.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05764411027568922,
+            "error_per_eligible": 0.05707196029776675,
+            "fraction_errors_removed": 0.021276595744680882,
+            "total_wrong": 47.0
+          },
+          "matched_0.99:quality": {
+            "accepted": 798.0,
+            "accepted_wrong": 47.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05889724310776942,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "matched_0.99:total_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 46.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05764411027568922,
+            "error_per_eligible": 0.05707196029776675,
+            "fraction_errors_removed": 0.021276595744680882,
+            "total_wrong": 47.0
+          },
+          "matched_0.99:unexpl_fraction": {
+            "accepted": 798.0,
+            "accepted_wrong": 45.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05639097744360902,
+            "error_per_eligible": 0.05583126550868486,
+            "fraction_errors_removed": 0.04255319148936165,
+            "total_wrong": 47.0
+          },
+          "matched_0.99:unexpl_reads": {
+            "accepted": 798.0,
+            "accepted_wrong": 43.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05388471177944862,
+            "error_per_eligible": 0.05334987593052109,
+            "fraction_errors_removed": 0.08510638297872342,
+            "total_wrong": 47.0
+          },
+          "matched_0.99:weight_dist": {
+            "accepted": 798.0,
+            "accepted_wrong": 45.0,
+            "coverage": 0.9900744416873449,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05639097744360902,
+            "error_per_eligible": 0.05583126550868486,
+            "fraction_errors_removed": 0.04255319148936165,
+            "total_wrong": 47.0
+          },
+          "matched_0.9:hash_control": {
+            "accepted": 726.0,
+            "accepted_wrong": 40.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05509641873278237,
+            "error_per_eligible": 0.04962779156327544,
+            "fraction_errors_removed": 0.14893617021276595,
+            "total_wrong": 47.0
+          },
+          "matched_0.9:logistic": {
+            "accepted": 726.0,
+            "accepted_wrong": 28.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03856749311294766,
+            "error_per_eligible": 0.034739454094292806,
+            "fraction_errors_removed": 0.4042553191489362,
+            "total_wrong": 47.0
+          },
+          "matched_0.9:quality": {
+            "accepted": 726.0,
+            "accepted_wrong": 44.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.06060606060606061,
+            "error_per_eligible": 0.05459057071960298,
+            "fraction_errors_removed": 0.06382978723404253,
+            "total_wrong": 47.0
+          },
+          "matched_0.9:total_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 38.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05234159779614325,
+            "error_per_eligible": 0.04714640198511166,
+            "fraction_errors_removed": 0.19148936170212771,
+            "total_wrong": 47.0
+          },
+          "matched_0.9:unexpl_fraction": {
+            "accepted": 726.0,
+            "accepted_wrong": 27.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.0371900826446281,
+            "error_per_eligible": 0.033498759305210915,
+            "fraction_errors_removed": 0.42553191489361697,
+            "total_wrong": 47.0
+          },
+          "matched_0.9:unexpl_reads": {
+            "accepted": 726.0,
+            "accepted_wrong": 23.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.03168044077134986,
+            "error_per_eligible": 0.028535980148883373,
+            "fraction_errors_removed": 0.5106382978723405,
+            "total_wrong": 47.0
+          },
+          "matched_0.9:weight_dist": {
+            "accepted": 726.0,
+            "accepted_wrong": 37.0,
+            "coverage": 0.9007444168734491,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05096418732782369,
+            "error_per_eligible": 0.04590570719602978,
+            "fraction_errors_removed": 0.21276595744680848,
+            "total_wrong": 47.0
+          },
+          "matched_1.0:hash_control": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "matched_1.0:logistic": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "matched_1.0:quality": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "matched_1.0:total_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "matched_1.0:unexpl_fraction": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "matched_1.0:unexpl_reads": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          },
+          "matched_1.0:weight_dist": {
+            "accepted": 806.0,
+            "accepted_wrong": 47.0,
+            "coverage": 1.0,
+            "eligible": 806.0,
+            "error_per_accepted": 0.05831265508684864,
+            "error_per_eligible": 0.05831265508684864,
+            "fraction_errors_removed": 0.0,
+            "total_wrong": 47.0
+          }
+        }
+      },
+      "n": 806,
+      "truth_missing_excluded_from_loo_test_keys": 0
+    }
+  },
+  "warnings_unused": true
+}

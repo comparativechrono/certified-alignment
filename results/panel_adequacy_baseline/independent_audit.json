@@ -1,0 +1,481 @@
+{
+  "status": "pass",
+  "freeze_commit": "d6d3b76ff823c85dafed3704667ad1713df17750",
+  "calibration_selected_scalar": "unexpl_fraction",
+  "scope": "Independent recomputation; no model refitting or split changes; no import of analyze.py",
+  "primary": {
+    "loo": {
+      "heldout_cases": 806,
+      "unscorable_all_source_cases": 171,
+      "posthoc_descriptive_error_concentration": {
+        "cutoff:no_filter": {
+          "errors": 83,
+          "donors_with_errors": 10,
+          "loci_with_errors": 32,
+          "groups_with_errors": 32,
+          "errors_by_donor": {
+            "HG03486": 13,
+            "HG02630": 10,
+            "HG03579": 10,
+            "HG00735": 9,
+            "HG02055": 8,
+            "HG02148": 8,
+            "NA18906": 8,
+            "HG01978": 7,
+            "HG03492": 6,
+            "HG01928": 4
+          },
+          "errors_by_locus": {
+            "MUC1": 10,
+            "SMOC2": 9,
+            "TPO": 9,
+            "COL18A1": 5,
+            "MUC19": 4,
+            "SLC22A1": 4,
+            "CTDP1": 4,
+            "ETFB": 3,
+            "KIR3DL2": 3,
+            "PTK6": 3,
+            "CHRNA4": 3,
+            "GP6": 3,
+            "TRPM4": 3,
+            "A4GALT": 2,
+            "LMNB2": 1,
+            "TNNI3": 1,
+            "GRIN1": 1,
+            "HLA-B": 1,
+            "PCCB": 1,
+            "MDK": 1,
+            "KCNV2": 1,
+            "ALOXE3": 1,
+            "ABCG8": 1,
+            "CYP2W1": 1,
+            "ECHS1": 1,
+            "FGFRL1": 1,
+            "RHCE": 1,
+            "DOK7": 1,
+            "APOBEC1": 1,
+            "DSPP": 1,
+            "SBK3": 1,
+            "SH2B1": 1
+          },
+          "closest_available_above_005": 41,
+          "closest_available_at_or_below_005": 42,
+          "closest_available_unscorable": 0,
+          "label_aware_rejection_budget_bound": {
+            "interpretation": "Post-hoc perfect-error-label ranking bound; not a deployable filter or evidence of observability",
+            "eligible": 806,
+            "accepted": 806,
+            "rejection_budget": 0,
+            "initial_errors": 83,
+            "minimum_retained_errors": 83,
+            "minimum_error_fraction_among_accepted": 0.10297766749379653,
+            "maximum_further_errors_removable": 0,
+            "maximum_relative_error_reduction": 0.0
+          },
+          "closest_available_by_full_control_sequence_discrepancy": {
+            "available_above|full_control_at_or_below": 36,
+            "available_above|full_control_above": 5,
+            "available_at_or_below|full_control_at_or_below": 32,
+            "available_at_or_below|full_control_above": 10
+          }
+        },
+        "matched_0.95:unexpl_fraction": {
+          "errors": 63,
+          "donors_with_errors": 10,
+          "loci_with_errors": 29,
+          "groups_with_errors": 29,
+          "errors_by_donor": {
+            "HG03486": 10,
+            "HG00735": 9,
+            "HG02148": 8,
+            "HG03579": 8,
+            "HG01978": 6,
+            "HG02630": 6,
+            "NA18906": 5,
+            "HG01928": 4,
+            "HG02055": 4,
+            "HG03492": 3
+          },
+          "errors_by_locus": {
+            "MUC1": 10,
+            "TPO": 6,
+            "MUC19": 4,
+            "SLC22A1": 4,
+            "SMOC2": 4,
+            "CTDP1": 4,
+            "COL18A1": 3,
+            "CHRNA4": 3,
+            "ETFB": 2,
+            "PTK6": 2,
+            "TRPM4": 2,
+            "GP6": 2,
+            "KIR3DL2": 1,
+            "LMNB2": 1,
+            "TNNI3": 1,
+            "GRIN1": 1,
+            "PCCB": 1,
+            "MDK": 1,
+            "KCNV2": 1,
+            "A4GALT": 1,
+            "ALOXE3": 1,
+            "ABCG8": 1,
+            "CYP2W1": 1,
+            "ECHS1": 1,
+            "FGFRL1": 1,
+            "RHCE": 1,
+            "DSPP": 1,
+            "SBK3": 1,
+            "SH2B1": 1
+          },
+          "closest_available_above_005": 26,
+          "closest_available_at_or_below_005": 37,
+          "closest_available_unscorable": 0,
+          "label_aware_rejection_budget_bound": {
+            "interpretation": "Post-hoc perfect-error-label ranking bound; not a deployable filter or evidence of observability",
+            "eligible": 806,
+            "accepted": 766,
+            "rejection_budget": 40,
+            "initial_errors": 83,
+            "minimum_retained_errors": 43,
+            "minimum_error_fraction_among_accepted": 0.05613577023498695,
+            "maximum_further_errors_removable": 20,
+            "maximum_relative_error_reduction": 0.31746031746031744
+          },
+          "closest_available_by_full_control_sequence_discrepancy": {
+            "available_above|full_control_at_or_below": 22,
+            "available_above|full_control_above": 4,
+            "available_at_or_below|full_control_at_or_below": 27,
+            "available_at_or_below|full_control_above": 10
+          }
+        },
+        "matched_0.95:logistic": {
+          "errors": 65,
+          "donors_with_errors": 10,
+          "loci_with_errors": 29,
+          "groups_with_errors": 29,
+          "errors_by_donor": {
+            "HG03486": 11,
+            "HG00735": 9,
+            "HG02148": 7,
+            "HG03579": 7,
+            "HG01978": 6,
+            "HG02055": 6,
+            "HG02630": 6,
+            "NA18906": 5,
+            "HG01928": 4,
+            "HG03492": 4
+          },
+          "errors_by_locus": {
+            "MUC1": 10,
+            "SMOC2": 7,
+            "TPO": 6,
+            "MUC19": 4,
+            "SLC22A1": 4,
+            "CTDP1": 4,
+            "PTK6": 3,
+            "CHRNA4": 3,
+            "ETFB": 2,
+            "COL18A1": 2,
+            "TRPM4": 2,
+            "KIR3DL2": 1,
+            "LMNB2": 1,
+            "TNNI3": 1,
+            "GRIN1": 1,
+            "PCCB": 1,
+            "MDK": 1,
+            "KCNV2": 1,
+            "A4GALT": 1,
+            "ALOXE3": 1,
+            "ABCG8": 1,
+            "CYP2W1": 1,
+            "ECHS1": 1,
+            "FGFRL1": 1,
+            "GP6": 1,
+            "RHCE": 1,
+            "DSPP": 1,
+            "SBK3": 1,
+            "SH2B1": 1
+          },
+          "closest_available_above_005": 29,
+          "closest_available_at_or_below_005": 36,
+          "closest_available_unscorable": 0,
+          "label_aware_rejection_budget_bound": {
+            "interpretation": "Post-hoc perfect-error-label ranking bound; not a deployable filter or evidence of observability",
+            "eligible": 806,
+            "accepted": 766,
+            "rejection_budget": 40,
+            "initial_errors": 83,
+            "minimum_retained_errors": 43,
+            "minimum_error_fraction_among_accepted": 0.05613577023498695,
+            "maximum_further_errors_removable": 22,
+            "maximum_relative_error_reduction": 0.3384615384615385
+          },
+          "closest_available_by_full_control_sequence_discrepancy": {
+            "available_above|full_control_at_or_below": 24,
+            "available_above|full_control_above": 5,
+            "available_at_or_below|full_control_at_or_below": 26,
+            "available_at_or_below|full_control_above": 10
+          }
+        }
+      }
+    },
+    "full": {
+      "heldout_cases": 806,
+      "unscorable_all_source_cases": 171,
+      "posthoc_descriptive_error_concentration": {
+        "cutoff:no_filter": {
+          "errors": 15,
+          "donors_with_errors": 10,
+          "loci_with_errors": 7,
+          "groups_with_errors": 7,
+          "errors_by_donor": {
+            "HG00735": 3,
+            "HG01928": 2,
+            "HG02055": 2,
+            "HG02148": 2,
+            "HG01978": 1,
+            "HG02630": 1,
+            "HG03486": 1,
+            "HG03492": 1,
+            "HG03579": 1,
+            "NA18906": 1
+          },
+          "errors_by_locus": {
+            "MUC1": 6,
+            "SLC22A1": 3,
+            "MUC19": 2,
+            "LMNB2": 1,
+            "GRIN1": 1,
+            "PTK6": 1,
+            "CHRNA4": 1
+          },
+          "closest_available_above_005": null,
+          "closest_available_at_or_below_005": null,
+          "closest_available_unscorable": null,
+          "label_aware_rejection_budget_bound": {
+            "interpretation": "Post-hoc perfect-error-label ranking bound; not a deployable filter or evidence of observability",
+            "eligible": 806,
+            "accepted": 806,
+            "rejection_budget": 0,
+            "initial_errors": 15,
+            "minimum_retained_errors": 15,
+            "minimum_error_fraction_among_accepted": 0.018610421836228287,
+            "maximum_further_errors_removable": 0,
+            "maximum_relative_error_reduction": 0.0
+          }
+        },
+        "matched_0.95:unexpl_fraction": {
+          "errors": 12,
+          "donors_with_errors": 8,
+          "loci_with_errors": 6,
+          "groups_with_errors": 6,
+          "errors_by_donor": {
+            "HG00735": 3,
+            "HG01928": 2,
+            "HG02148": 2,
+            "HG01978": 1,
+            "HG02055": 1,
+            "HG02630": 1,
+            "HG03579": 1,
+            "NA18906": 1
+          },
+          "errors_by_locus": {
+            "MUC1": 4,
+            "SLC22A1": 3,
+            "MUC19": 2,
+            "LMNB2": 1,
+            "GRIN1": 1,
+            "PTK6": 1
+          },
+          "closest_available_above_005": null,
+          "closest_available_at_or_below_005": null,
+          "closest_available_unscorable": null,
+          "label_aware_rejection_budget_bound": {
+            "interpretation": "Post-hoc perfect-error-label ranking bound; not a deployable filter or evidence of observability",
+            "eligible": 806,
+            "accepted": 766,
+            "rejection_budget": 40,
+            "initial_errors": 15,
+            "minimum_retained_errors": 0,
+            "minimum_error_fraction_among_accepted": 0.0,
+            "maximum_further_errors_removable": 12,
+            "maximum_relative_error_reduction": 1.0
+          }
+        },
+        "matched_0.95:logistic": {
+          "errors": 10,
+          "donors_with_errors": 7,
+          "loci_with_errors": 7,
+          "groups_with_errors": 7,
+          "errors_by_donor": {
+            "HG00735": 3,
+            "HG02148": 2,
+            "HG01978": 1,
+            "HG02055": 1,
+            "HG02630": 1,
+            "HG03492": 1,
+            "NA18906": 1
+          },
+          "errors_by_locus": {
+            "MUC19": 2,
+            "SLC22A1": 2,
+            "MUC1": 2,
+            "LMNB2": 1,
+            "GRIN1": 1,
+            "PTK6": 1,
+            "CHRNA4": 1
+          },
+          "closest_available_above_005": null,
+          "closest_available_at_or_below_005": null,
+          "closest_available_unscorable": null,
+          "label_aware_rejection_budget_bound": {
+            "interpretation": "Post-hoc perfect-error-label ranking bound; not a deployable filter or evidence of observability",
+            "eligible": 806,
+            "accepted": 766,
+            "rejection_budget": 40,
+            "initial_errors": 15,
+            "minimum_retained_errors": 0,
+            "minimum_error_fraction_among_accepted": 0.0,
+            "maximum_further_errors_removable": 10,
+            "maximum_relative_error_reduction": 1.0
+          }
+        }
+      }
+    }
+  },
+  "cosigt": {
+    "cmrg": {
+      "matched_cases": 11674,
+      "duplicates": {
+        "full": 0,
+        "all_out": 0
+      },
+      "unit": "fractions, not percentages",
+      "metrics": {
+        "full_cosigt": {
+          "scorable": 11674,
+          "unscorable": 0,
+          "threshold_counts": {
+            "0.005": 326,
+            "0.001": 700,
+            "0.01": 223
+          },
+          "qv_fraction_checks": 23348
+        },
+        "full_locityper": {
+          "scorable": 11669,
+          "unscorable": 5,
+          "threshold_counts": {
+            "0.005": 138,
+            "0.001": 255,
+            "0.01": 101
+          },
+          "qv_fraction_checks": 23338
+        },
+        "all_out_cosigt": {
+          "scorable": 11674,
+          "unscorable": 0,
+          "threshold_counts": {
+            "0.005": 1674,
+            "0.001": 3857,
+            "0.01": 1113
+          },
+          "qv_fraction_checks": 23348
+        },
+        "all_out_best_available_comparator": {
+          "scorable": 11674,
+          "unscorable": 0,
+          "threshold_counts": {
+            "0.005": 629,
+            "0.001": 2353,
+            "0.01": 257
+          },
+          "qv_fraction_checks": 23348
+        }
+      },
+      "max_qv_inversion_relative_error": 2.213147126928371e-16
+    },
+    "sv": {
+      "matched_cases": 14838,
+      "duplicates": {
+        "full": 0,
+        "all_out": 24
+      },
+      "unit": "fractions, not percentages",
+      "metrics": {
+        "full_cosigt": {
+          "scorable": 14838,
+          "unscorable": 0,
+          "threshold_counts": {
+            "0.005": 585,
+            "0.001": 716,
+            "0.01": 540
+          },
+          "qv_fraction_checks": 29676
+        },
+        "full_locityper": {
+          "scorable": 14816,
+          "unscorable": 22,
+          "threshold_counts": {
+            "0.005": 277,
+            "0.001": 334,
+            "0.01": 261
+          },
+          "qv_fraction_checks": 29632
+        },
+        "all_out_cosigt": {
+          "scorable": 14838,
+          "unscorable": 0,
+          "threshold_counts": {
+            "0.005": 2326,
+            "0.001": 6681,
+            "0.01": 1648
+          },
+          "qv_fraction_checks": 29676
+        },
+        "all_out_best_available_comparator": {
+          "scorable": 14838,
+          "unscorable": 0,
+          "threshold_counts": {
+            "0.005": 898,
+            "0.001": 5027,
+            "0.01": 520
+          },
+          "qv_fraction_checks": 29676
+        }
+      },
+      "max_qv_inversion_relative_error": 2.0193903341465576e-16
+    }
+  },
+  "checks": {
+    "source_sha256": 20,
+    "freeze_bytes_unchanged": 4,
+    "analysis_code_hash": 1,
+    "primary_unique_keys": 2,
+    "paired_primary_keys": 1,
+    "independent_overlap_components": 1,
+    "overlap_memberships": 1,
+    "complete_donor_locus_matrix": 1,
+    "donor_split": 1,
+    "locus_split": 1,
+    "development_only_imputation": 1,
+    "development_only_mean": 1,
+    "development_only_scaling": 1,
+    "calibration_scalar_winner": 1,
+    "calibration_risk_cutoff": 7,
+    "calibration_tie_cutoff": 7,
+    "primary_metric": 2120,
+    "manual_native_and_logistic_scores": 12896,
+    "heldout_decision": 69316,
+    "main_bootstrap_intervals": 16,
+    "paired_bootstrap_intervals": 8,
+    "cosigt_matched_keys": 2,
+    "cosigt_duplicate_count": 2,
+    "cosigt_mean_haplotype_error": 106021,
+    "cosigt_error_is_fraction_from_qv": 212042,
+    "cosigt_scorable_count": 8,
+    "cosigt_discrepancy_counts": 8,
+    "cosigt_duplicate_identical_fields": 24
+  }
+}

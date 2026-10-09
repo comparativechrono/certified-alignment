@@ -36,3 +36,6 @@ external-adapter-test-*/
 
 # Published external raw outputs are stored losslessly as gzip.
 /results/external_benchmark/raw.jsonl
+
+# Panel-study expanded case manifest; its lossless gzip copy is committed.
+/results/panel_adequacy_baseline/split_manifest.json

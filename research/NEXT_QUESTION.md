@@ -4,6 +4,12 @@ Literature assessment: 9 October 2026. Status: research recommendation, not an
 implemented method, established novelty claim, or completed experiment.
 The v6 alignment prototype remains a documented negative result.
 
+**Update:** the historical [baseline study](PANEL_BASELINE_RESULTS.md) is now
+complete, with [protocol](PANEL_BASELINE_PROTOCOL.md) frozen before analysis.
+It finds residual sequence discrepancies after ordinary confidence filtering;
+structural-allele truth and read-level observability remain to be established.
+The recommendation below is retained as the original research rationale.
+
 ## Recommendation
 
 **Can DNA read alignments detect when a sample carries an indel or structural

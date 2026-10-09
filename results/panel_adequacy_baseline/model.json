@@ -1,0 +1,66 @@
+{
+  "C": 1.0,
+  "available": true,
+  "class_weight": null,
+  "coefficients_standardized": [
+    0.500242784960287,
+    0.4861176870783711,
+    1.2278950585402981,
+    -0.7578202666112788,
+    0.17288708195885988,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "feature_names": [
+    "log1p_quality",
+    "log1p_weight_dist",
+    "log1p_unexpl_reads",
+    "log1p_total_reads",
+    "unexpl_fraction",
+    "log1p_quality_missing",
+    "log1p_weight_dist_missing",
+    "log1p_unexpl_reads_missing",
+    "log1p_total_reads_missing",
+    "unexpl_fraction_missing"
+  ],
+  "imputation_medians": [
+    3.0587070727153796,
+    0.12049455986063669,
+    1.9459101490553132,
+    8.114623841679965,
+    0.0017334241915319443
+  ],
+  "intercept": -1.978463685036055,
+  "iterations": 12,
+  "max_iter": 2000,
+  "penalty": "l2",
+  "random_state": 20261009,
+  "scaler_mean": [
+    3.2493715898692033,
+    0.7365457940228196,
+    2.1954907053850183,
+    8.24310920604368,
+    0.005241821076952254,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scaler_scale": [
+    1.3392043127676654,
+    1.074145967164553,
+    1.8003616172987724,
+    0.9465498594894454,
+    0.00919513008642986,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "solver": "lbfgs"
+}

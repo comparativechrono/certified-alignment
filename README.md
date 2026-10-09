@@ -28,6 +28,15 @@ and [reproduction instructions](EXTERNAL_REPRODUCTION.md). The protocol and
 inputs were committed before timing; published runs are preserved alongside
 source, proofs and earlier results.
 
+**New research: reference-panel adequacy.** The [baseline study](research/PANEL_BASELINE_RESULTS.md)
+is complete. On 806 scorable held-out historical leave-one-out calls, the
+calibration-selected native filter retained 63 sequence discrepancies at 95%
+retention; an ordinary combined confidence model retained 65. This establishes
+residual discrepancies, not an advantage for a new algorithm or proof of
+missing structural alleles. A small read-level audit is the next feasibility
+step. [Frozen protocol](research/PANEL_BASELINE_PROTOCOL.md), source snapshots,
+analysis code and independent checks are included.
+
 **Version 4** evaluates that ordered relaxation on demand, proving only the
 threshold needed at each band exit and retaining sparse cached intervals.
 Work and memory caps preserve admissibility. See `SPARSE_BOUND.md` for the

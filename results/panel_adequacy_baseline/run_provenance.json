@@ -1,0 +1,15 @@
+{
+  "protocol_freeze_commit": "d6d3b76ff823c85dafed3704667ad1713df17750",
+  "protocol_freeze_tree": "28ce7ad9026d0e9a306535a40521e841fc9fc4a5",
+  "analysis_sha256": "0147a6d73d21934f29637c9252d96e985c8cd93239f49adb92f70e33ad6bd5fd",
+  "command": [
+    "python3",
+    "studies/panel_adequacy/analyze.py"
+  ],
+  "working_directory": "/workspace/scratch/b4a4909ae85e/certified-alignment",
+  "start_utc": "2026-10-09T22:48:14.840796+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "finish_utc": "2026-10-09T22:48:29.039410+00:00",
+  "exit_status": 0
+}
