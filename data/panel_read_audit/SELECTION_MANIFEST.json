@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "design": "posthoc_exploratory_case_control_audit",
+  "historical_baseline_commit": "9b33cd9",
+  "selection": "LOO heldout accept_matched_0.95:unexpl_fraction=1 and div>0.005 and avail_div>0.005 and paired full div<=0.005",
+  "controls": "Same-locus different-donor heldout case with scorable full and LOO div<=0.005; no acceptance requirement; no read-outcome or native-metric ranking",
+  "matching": "Process candidates by (locus,sample); choose minimum prior control reuse count, then SHA256(control salt|case sample|locus|control sample); do not expand beyond heldout cases when unmatched",
+  "control_hash_salt": "panel-read-audit-v1|control",
+  "cases": 22,
+  "loci": 15,
+  "donors": 10,
+  "matched_cases": 21,
+  "unique_control_cases": 18,
+  "reused_control_matches": 3,
+  "unmatched_case_ids": [
+    "HG03492__MUC1"
+  ],
+  "warnings": [
+    "Truth-selected cases cannot estimate prospective accuracy or demonstrate calibrated uncertainty.",
+    "The complete set contains 22 known sequence discrepancies, not 22 proven absent structural alleles.",
+    "Reused controls are not independent observations.",
+    "Expected sample.1/sample.2 IDs require alias verification against the archived database.",
+    "Grouping BED coordinates are not authorized as extraction coordinates without reference verification."
+  ],
+  "inputs": [
+    {
+      "path": "results/panel_adequacy_baseline/heldout_predictions.csv.gz",
+      "sha256": "b78908c01375c9e6e1dda86252f345a0e627642d404f6266bbc54cb0096782cf",
+      "bytes": 146329
+    },
+    {
+      "path": "results/panel_adequacy_baseline/heldout_truth.csv.gz",
+      "sha256": "41837eda2759c659a566d4951a9c2ded28550f932e7e2b793098edd6d84f5c48",
+      "bytes": 32969
+    },
+    {
+      "path": "data/panel_adequacy/locityper/loo_illumina.csv.gz",
+      "sha256": "88f21d04e4cb09e5c4640847228fa89062e831bccbf373130db2ad1481fb6f0f",
+      "bytes": 1310480
+    },
+    {
+      "path": "data/panel_adequacy/locityper/full_illumina.csv.gz",
+      "sha256": "08e9b822b547a653b52687cb6d4e7559c3aafe95a96f16c40269251433030292",
+      "bytes": 552975
+    },
+    {
+      "path": "data/panel_adequacy/locus_groups.tsv",
+      "sha256": "daba72c6cc5e1f57eecda25e6a87c6ba4f633b8e41a2797037d2453976ee1253",
+      "bytes": 11787
+    },
+    {
+      "path": "data/panel_adequacy/donor_splits.tsv",
+      "sha256": "0b6fc9dc03e89c47fa43320b681dfed4b7cab00b0225c49c1d938989e4ef339b",
+      "bytes": 3359
+    },
+    {
+      "path": "data/panel_adequacy/locus_splits.tsv",
+      "sha256": "45be485797897b5ccd9672342602e09bfaf43a8a1fa8098e00b892b941c6fe85",
+      "bytes": 28663
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/panel_read_audit/cases.tsv",
+      "sha256": "e32b676d5e1fc728c121c38665cf3566e632d010fe295e1488db1835a598e20a",
+      "bytes": 13431
+    },
+    {
+      "path": "data/panel_read_audit/control_manifest.tsv",
+      "sha256": "aa9167a3dad6146520a33b2c152b287a73d1df140aaca96a835e0879f81137ea",
+      "bytes": 3224
+    },
+    {
+      "path": "data/panel_read_audit/controls.tsv",
+      "sha256": "20b34953f9b7fa479d6a8066552fe9904309f50ea8e1ff82e6db8844eef43b38",
+      "bytes": 10594
+    }
+  ]
+}
