@@ -1,0 +1,298 @@
+{
+  "source_url": "https://zenodo.org/records/15879519/files/db.tar.gz?download=1",
+  "record": "https://zenodo.org/records/15879519",
+  "license": "CC-BY-4.0",
+  "official_md5": "f782f6e72426b7a818c7e1fd42f50277",
+  "bytes": 785474256,
+  "sha256": "0f3082cd6a032f52fd4758c7f1bab2a795ececf97de7d3e1b695e5a2fe79a992",
+  "selected_loci": [
+    "ABCG8",
+    "CHRNA4",
+    "COL18A1",
+    "CTDP1",
+    "DSPP",
+    "ETFB",
+    "GP6",
+    "KCNV2",
+    "KIR3DL2",
+    "MUC1",
+    "MUC19",
+    "PTK6",
+    "SMOC2",
+    "TPO",
+    "TRPM4"
+  ],
+  "files": [
+    {
+      "archive_member": "db/loci/ABCG8/ref.bed",
+      "bytes": 29,
+      "sha256": "0b6dc31bc3221dc1533c4b92eb8b469941bd353ed8df7d593778913b93e2d86b"
+    },
+    {
+      "archive_member": "db/loci/CHRNA4/ref.bed",
+      "bytes": 31,
+      "sha256": "612b7dc6e064968f42cd25035614809473ec439de24f29ee62d4b8b5e78768f0"
+    },
+    {
+      "archive_member": "db/loci/COL18A1/ref.bed",
+      "bytes": 32,
+      "sha256": "a524a6a4801dcda38d41dd335887e4df2e185f5206f3174f93d9154a9e5c4c24"
+    },
+    {
+      "archive_member": "db/loci/CTDP1/ref.bed",
+      "bytes": 30,
+      "sha256": "19f438c3a18d861e41bbf80cb5f7b639486d9d1caadb26a349a47c955339c18b"
+    },
+    {
+      "archive_member": "db/loci/DSPP/ref.bed",
+      "bytes": 28,
+      "sha256": "17e7582c31c67dcb24414c42478f2cf0082e56c07edd8aeffc7b0b0a887f7e08"
+    },
+    {
+      "archive_member": "db/loci/ETFB/ref.bed",
+      "bytes": 29,
+      "sha256": "3e31dc962c927dccc794bb048729b251ec213f242189fcb5dab3ede4d922b759"
+    },
+    {
+      "archive_member": "db/loci/GP6/ref.bed",
+      "bytes": 28,
+      "sha256": "c8a9f276cb9885606f353a2d8145c4fcc35fe90bc3c9a042771ab7c0779178b9"
+    },
+    {
+      "archive_member": "db/loci/KCNV2/ref.bed",
+      "bytes": 27,
+      "sha256": "1cd3d66b5d6050100d05d919c2c0f4db8239d5541c3b877ff92f54df3293b64f"
+    },
+    {
+      "archive_member": "db/loci/KIR3DL2/ref.bed",
+      "bytes": 32,
+      "sha256": "4ec0c5d2ca9778a4edf7da2919094ec8e8ccd138159879f51dd81639e99aac56"
+    },
+    {
+      "archive_member": "db/loci/MUC19/ref.bed",
+      "bytes": 30,
+      "sha256": "05c3bcd9c74f9894204f6273dc662d9f3736f6dbcbde05e49d72d342474b75f9"
+    },
+    {
+      "archive_member": "db/loci/MUC1/ref.bed",
+      "bytes": 30,
+      "sha256": "f6a9cf9bfb518a01f18607288ebf3c258127b0b3280a9413265c9ef86f4e06c5"
+    },
+    {
+      "archive_member": "db/loci/PTK6/ref.bed",
+      "bytes": 29,
+      "sha256": "be7f9f9bb5e0da2305a478a82a9fb36cc514dabe00f8a8193eee90bca10e2cf3"
+    },
+    {
+      "archive_member": "db/loci/SMOC2/ref.bed",
+      "bytes": 31,
+      "sha256": "2078f2ce1c9b0728cdb2cc8a87ab03dc5942b01f910488350811f7a51fcfd10f"
+    },
+    {
+      "archive_member": "db/loci/TPO/ref.bed",
+      "bytes": 25,
+      "sha256": "8290993344a418261bd5bf2d00436a3620dcb7fca5bd0460a89c9034043eccb0"
+    },
+    {
+      "archive_member": "db/loci/TRPM4/ref.bed",
+      "bytes": 30,
+      "sha256": "a0dc9002a4566d6c8faefd0701a8490dc4916d72006186f51bc4707f5400707f"
+    },
+    {
+      "archive_member": "db/loci/ABCG8/discarded_haplotypes.txt",
+      "bytes": 44,
+      "sha256": "cde096c7fc250bdd67b90dd82fd2a4d2fc30a1fb5efe92f00ec02df530f8a938"
+    },
+    {
+      "archive_member": "db/loci/CHRNA4/discarded_haplotypes.txt",
+      "bytes": 44,
+      "sha256": "d888bda9e629e0144de0865dd019001c710d8741c3fedd65f3d747fa6dcf9750"
+    },
+    {
+      "archive_member": "db/loci/COL18A1/discarded_haplotypes.txt",
+      "bytes": 22,
+      "sha256": "aaced954bdb3861f102d21d5ed0017c4aafdd6c9485c5c892668ce2dce122b95"
+    },
+    {
+      "archive_member": "db/loci/CTDP1/discarded_haplotypes.txt",
+      "bytes": 22,
+      "sha256": "2f3cf5031d2b2c6bdff43a70abc8cf436a1edfe54f34da0c4b0b71ac75b6e596"
+    },
+    {
+      "archive_member": "db/loci/DSPP/discarded_haplotypes.txt",
+      "bytes": 623,
+      "sha256": "aeeb608ffa373c1e731e1cf2c9ae9b5012ac1995f02d3cb85818a228f88531e5"
+    },
+    {
+      "archive_member": "db/loci/ETFB/discarded_haplotypes.txt",
+      "bytes": 88,
+      "sha256": "eaa70950231f6b09d1a0b82daf4f879d92d0d6503d1d6210011bbb288607a9be"
+    },
+    {
+      "archive_member": "db/loci/KCNV2/discarded_haplotypes.txt",
+      "bytes": 360,
+      "sha256": "2dfab169c571ed4130d6f059f7323922916bca9322d6f946e5d62c327aa2de4e"
+    },
+    {
+      "archive_member": "db/loci/KIR3DL2/discarded_haplotypes.txt",
+      "bytes": 22,
+      "sha256": "babbfe3fa9ae2a6d974167b1d3a56ac874403862190f4be3017b0e93cdb8e25f"
+    },
+    {
+      "archive_member": "db/loci/MUC19/discarded_haplotypes.txt",
+      "bytes": 22,
+      "sha256": "5fa8b09ee75b75b9a866f6498e02e5a2d6e5be508abaa974012bb0b59650f9bc"
+    },
+    {
+      "archive_member": "db/loci/MUC1/discarded_haplotypes.txt",
+      "bytes": 22,
+      "sha256": "f156e8f6046dc46219328cc07c9355ff89e8c6f1c0f4a5b37a480b3ef07eeebf"
+    },
+    {
+      "archive_member": "db/loci/PTK6/discarded_haplotypes.txt",
+      "bytes": 110,
+      "sha256": "9522dc74127960abab83b2ee31bb0a6bfccf0b002590ac3e5e4c8725020f2ae8"
+    },
+    {
+      "archive_member": "db/loci/TRPM4/discarded_haplotypes.txt",
+      "bytes": 44,
+      "sha256": "b139394495e9aab19ee9d430405a4057dfd723a22ca2b90102ddaa3eafded2c0"
+    },
+    {
+      "archive_member": "db/loci/ABCG8/haplotypes.fa.gz",
+      "bytes": 1181909,
+      "sha256": "5d1dbec9a9bececc282717aa72e58e7bd6cd2c8f394a8fd3325da69fb50d6a22"
+    },
+    {
+      "archive_member": "db/loci/CHRNA4/haplotypes.fa.gz",
+      "bytes": 648975,
+      "sha256": "a3b8b6ee332bf07e7dabc1aa3a02f40afcb703a474b007b184055fdc836ccfb1"
+    },
+    {
+      "archive_member": "db/loci/COL18A1/haplotypes.fa.gz",
+      "bytes": 2798253,
+      "sha256": "beed839aaccca349aaa449969f7db8d53ffdc6ea26cc8bbecfd6fe847a565883"
+    },
+    {
+      "archive_member": "db/loci/CTDP1/haplotypes.fa.gz",
+      "bytes": 1838387,
+      "sha256": "9122cd5ac5f0e681c3ee336b98f2b9c690f0b946e5b132ae773840d5e41e8621"
+    },
+    {
+      "archive_member": "db/loci/DSPP/haplotypes.fa.gz",
+      "bytes": 39319,
+      "sha256": "69cc4378c25744199cde3a268e5a976be4530b64ea6f47df3b2f002fdc3b2e29"
+    },
+    {
+      "archive_member": "db/loci/ETFB/haplotypes.fa.gz",
+      "bytes": 360716,
+      "sha256": "e8b91acbbb0821f0219727d03e71c496c265e8fa1620346aa199675d1ab698fa"
+    },
+    {
+      "archive_member": "db/loci/GP6/haplotypes.fa.gz",
+      "bytes": 867427,
+      "sha256": "0556b38cbae63c7a2b3c914ac4a61571335dda3808c91cead24cef3e562ebbd1"
+    },
+    {
+      "archive_member": "db/loci/KCNV2/haplotypes.fa.gz",
+      "bytes": 179012,
+      "sha256": "74e779c868e2e11ce9c14487982ad4fdf1d364f55f59f41256af4225398c396c"
+    },
+    {
+      "archive_member": "db/loci/KIR3DL2/haplotypes.fa.gz",
+      "bytes": 3887727,
+      "sha256": "97b3ac326ef21610800f91d8a737e8b3c3dcdf2b17667a7fa061e097f51603f8"
+    },
+    {
+      "archive_member": "db/loci/MUC19/haplotypes.fa.gz",
+      "bytes": 4621828,
+      "sha256": "b1cb17646cfb17d01c420e84d52dee5484e3331bfccb347c4f744b995fb5e207"
+    },
+    {
+      "archive_member": "db/loci/MUC1/haplotypes.fa.gz",
+      "bytes": 43745,
+      "sha256": "271eea2461b86bf6b3a6f42e756776d0aed4b562ad4c8e41c66b7714089c919e"
+    },
+    {
+      "archive_member": "db/loci/PTK6/haplotypes.fa.gz",
+      "bytes": 148819,
+      "sha256": "71cc53af5dab0d4a00a760939fe77f6027096eb00c1f63b918f64d8f04fbaaae"
+    },
+    {
+      "archive_member": "db/loci/SMOC2/haplotypes.fa.gz",
+      "bytes": 5992170,
+      "sha256": "004d0645b93130cf2e88d078c5dba8d25720a30ca1475acfc826a927d07cc12d"
+    },
+    {
+      "archive_member": "db/loci/TPO/haplotypes.fa.gz",
+      "bytes": 4304100,
+      "sha256": "c1c8899f624533103046747066f04efb22030066b3c6116fb72475d914116212"
+    },
+    {
+      "archive_member": "db/loci/TRPM4/haplotypes.fa.gz",
+      "bytes": 1311258,
+      "sha256": "8b2fc5164b51686b54f2fea6a4c622dd4b6f9a171d831eb63111976972cd01ff"
+    }
+  ],
+  "archive_readme_version": "v0.17.3",
+  "reference_assembly": "GRCh38",
+  "reference_evidence": {
+    "assembly": "GRCh38",
+    "paper": "https://doi.org/10.1038/s41588-025-02362-4",
+    "paper_fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12597825/fullTextXML",
+    "paper_evidence": "Data availability specifies the HPRC GRCh38 graph raw VCF; Supplementary Table 1 is explicitly labelled GRCh38 coordinates.",
+    "crosscheck": "All 15 selected archived ref.bed intervals exactly match COSIGT cmrgs_original.bed, snapshotted in data/panel_adequacy/cosigt/.",
+    "coordinate_convention": "0-based half-open BED. Use these original intervals, not COSIGT refined intervals."
+  },
+  "selection_input": {
+    "path": "data/panel_read_audit/cases.tsv",
+    "sha256": "e32b676d5e1fc728c121c38665cf3566e632d010fe295e1488db1835a598e20a"
+  },
+  "archive_readme_discrepancy": "README advertises haplotypes.paf.gz, but the checksum-verified archive contains no PAF files. Original archived numeric outcomes cannot be independently replicated until corresponding alignments are recovered or regenerated and validated.",
+  "missing_advertised_members": [
+    "db/loci/ABCG8/haplotypes.paf.gz",
+    "db/loci/CHRNA4/haplotypes.paf.gz",
+    "db/loci/COL18A1/haplotypes.paf.gz",
+    "db/loci/CTDP1/haplotypes.paf.gz",
+    "db/loci/DSPP/haplotypes.paf.gz",
+    "db/loci/ETFB/haplotypes.paf.gz",
+    "db/loci/GP6/haplotypes.paf.gz",
+    "db/loci/KCNV2/haplotypes.paf.gz",
+    "db/loci/KIR3DL2/haplotypes.paf.gz",
+    "db/loci/MUC1/haplotypes.paf.gz",
+    "db/loci/MUC19/haplotypes.paf.gz",
+    "db/loci/PTK6/haplotypes.paf.gz",
+    "db/loci/SMOC2/haplotypes.paf.gz",
+    "db/loci/TPO/haplotypes.paf.gz",
+    "db/loci/TRPM4/haplotypes.paf.gz"
+  ],
+  "evaluation_source": {
+    "repository": "https://github.com/tprodanov/locityper",
+    "tag": "v0.17.3",
+    "commit": "146cfd42e9179bafd63d1f41db7fc449940989de",
+    "files": [
+      {
+        "path": "extra/gt_dist.py",
+        "source_url": "https://raw.githubusercontent.com/tprodanov/locityper/146cfd42e9179bafd63d1f41db7fc449940989de/extra/gt_dist.py",
+        "sha256": "1099c43e4489672d5362395e8fb6cdaa8842b32e5d925b38d8fa565b30a5c26d"
+      },
+      {
+        "path": "extra/eval_accuracy.py",
+        "source_url": "https://raw.githubusercontent.com/tprodanov/locityper/146cfd42e9179bafd63d1f41db7fc449940989de/extra/eval_accuracy.py",
+        "sha256": "20f18314e27416c0a1f98447d7854993c9e402223e0174ff450f57f98da44eb6"
+      },
+      {
+        "path": "extra/common.py",
+        "source_url": "https://raw.githubusercontent.com/tprodanov/locityper/146cfd42e9179bafd63d1f41db7fc449940989de/extra/common.py",
+        "sha256": "67e4c151f8e7c55efd0ef662ae24353357347816e08c61e680276bba6b3927d8"
+      },
+      {
+        "path": "LICENSE",
+        "source_url": "https://raw.githubusercontent.com/tprodanov/locityper/146cfd42e9179bafd63d1f41db7fc449940989de/LICENSE",
+        "sha256": "f90d1546fe0e436830365c9196856450a72896ee25472fe450dc800f8b7ef070"
+      }
+    ],
+    "note": "The archive README calls benchmark v0.17.3, while table comments retain v0.17.0 input filenames. Match archived numeric values explicitly."
+  },
+  "note": "Full archive checksum verified before any extracted panel analysis."
+}

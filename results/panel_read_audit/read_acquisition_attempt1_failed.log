@@ -1,0 +1,105 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b4a4909ae85e/certified-alignment/studies/panel_read_audit/reads/acquire_slices.py", line 140, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b4a4909ae85e/certified-alignment/studies/panel_read_audit/reads/acquire_slices.py", line 126, in main
+    jobs=[(s,sorted(by[s],key=lambda:r['locus']),sources[s],args) for s in sorted(by)]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: main.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+{"sample": "HG01928", "locus": "CTDP1", "bam_bytes": 1288294, "records": 22090}
+{"sample": "HG01978", "locus": "CTDP1", "bam_bytes": 1409549, "records": 22690}
+{"sample": "HG01928", "locus": "ETFB", "bam_bytes": 457318, "records": 6623}
+{"sample": "HG02055", "locus": "DSPP", "bam_bytes": 276670, "records": 3215}
+{"sample": "HG02055", "locus": "GP6", "bam_bytes": 1217270, "records": 9455}
+[W::retry_reconnect] Retrying connection (attempt 1/3) at offset 1241494707
+[W::retry_reconnect] Retrying connection (attempt 1/3) at offset 399440879
+[W::retry_reconnect] Retrying connection (attempt 1/3) at offset 1986704868
+[W::retry_reconnect] Retrying connection (attempt 1/3) at offset 1139478707
+[W::retry_reconnect] Retrying connection (attempt 2/3) at offset 1986704868
+[W::retry_reconnect] Retrying connection (attempt 2/3) at offset 1139478707
+[W::retry_reconnect] Retrying connection (attempt 2/3) at offset 399440879
+[W::retry_reconnect] Retrying connection (attempt 2/3) at offset 1241494707
+[W::retry_reconnect] Retrying connection (attempt 3/3) at offset 1986704868
+[W::retry_reconnect] Retrying connection (attempt 3/3) at offset 1139478707
+[W::retry_reconnect] Retrying connection (attempt 3/3) at offset 399440879
+[W::retry_reconnect] Retrying connection (attempt 3/3) at offset 1241494707
+[E::bgzf_read_block] [E::bgzf_read_block] Failed to read uncompressed data at offset 1139470164: Input/output errorFailed to read uncompressed data at offset 1986675973: Input/output error
+
+[E::bgzf_read] [E::bgzf_read] Read block operation failed with error 4 after 63111168 of 173246064 bytes
+Read block operation failed with error 4 after 15138816 of 135179241 bytes
+bgzf_read() on reference file: Input/output error
+bgzf_read() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr12:40352399-40392842
+[E::cram_next_slice] Slice decode failure
+[E::bgzf_read_block] Failed to read uncompressed data at offset 1241444180: Input/output error
+[E::bgzf_read] Read block operation failed with error 4 after 165085184 of 173246064 bytes
+bgzf_read() on reference file: Input/output error
+{"sample": "HG02055", "locus": "MUC19", "error": "OSError('truncated file')"}
+[E::cram_decode_slice] Unable to fetch reference chr6:168413306-168451592
+[E::cram_next_slice] Slice decode failure
+[E::bgzf_read_block] Failed to read uncompressed data at offset 399379343: Input/output error
+[E::bgzf_read] Read block operation failed with error 4 after 146866176 of 245653436 bytes
+bgzf_read() on reference file: Input/output error
+{"sample": "HG01978", "locus": "SMOC2", "error": "OSError('truncated file')"}
+[E::cram_decode_slice] Unable to fetch reference chr6:168420694-168458184
+[E::cram_next_slice] Slice decode failure
+{"sample": "HG01928", "locus": "SMOC2", "error": "OSError('truncated file')"}
+[E::cram_decode_slice] Unable to fetch reference chr2:43803954-43842827
+[E::cram_next_slice] Slice decode failure
+{"sample": "HG00735", "locus": "ABCG8", "error": "OSError('truncated file')"}
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr12:40392707-40435677
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr6:168451449-168487899
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr6:168458037-168495702
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr2:43842683-43883465
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr12:40435534-40474731
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr6:168487752-168524870
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr2:43883321-43923875
+bgzf_useek() on reference file: Input/output error
+[E::cram_decode_slice] Unable to fetch reference chr6:168495556-168534084
+[E::hts_open_format] Failed to open file "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram"
+{"sample": "HG02148", "locus": "KCNV2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram`')"}
+{"sample": "HG02148", "locus": "SMOC2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram`')"}
+{"sample": "HG02148", "locus": "KIR3DL2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram`')"}
+[E::hts_open_format] Failed to open file "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram"
+[E::hts_open_format] Failed to open file "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram"
+{"sample": "HG03486", "locus": "ABCG8", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}
+{"sample": "HG03486", "locus": "COL18A1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}
+{"sample": "HG03486", "locus": "GP6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}
+{"sample": "HG03486", "locus": "MUC19", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}
+{"sample": "HG02630", "locus": "CHRNA4", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}
+{"sample": "HG02630", "locus": "TRPM4", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}
+{"sample": "HG02630", "locus": "CTDP1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}
+{"sample": "HG02630", "locus": "KCNV2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}
+{"sample": "HG02630", "locus": "MUC19", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}
+{"sample": "HG02630", "locus": "PTK6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}
+{"sample": "HG00735", "locus": "CHRNA4", "bam_bytes": 115542, "records": 0}
+[E::hts_open_format] Failed to open file "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram"
+{"sample": "HG01978", "locus": "TPO", "bam_bytes": 115528, "records": 0}
+[W::hts_close] EOF marker is absent. The input is probably truncated
+[E::hts_open_format] Failed to open file "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram"
+{"sample": "HG03492", "locus": "MUC1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram`')"}
+{"sample": "HG03492", "locus": "MUC19", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram`')"}
+{"sample": "HG03579", "locus": "CTDP1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}
+{"sample": "HG03579", "locus": "DSPP", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}
+{"sample": "HG03579", "locus": "GP6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}
+{"sample": "HG03579", "locus": "COL18A1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}
+[E::hts_open_format] Failed to open file "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram"
+{"sample": "NA18906", "locus": "CTDP1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram`')"}
+{"sample": "NA18906", "locus": "PTK6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram`')"}
+{"sample": "NA18906", "locus": "SMOC2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram`')"}
+{"sample": "HG00735", "locus": "CTDP1", "bam_bytes": 115544, "records": 0}
+{"sample": "HG00735", "locus": "ETFB", "bam_bytes": 115535, "records": 0}
+{"sample": "HG00735", "locus": "GP6", "bam_bytes": 115522, "records": 0}
+{"sample": "HG00735", "locus": "KIR3DL2", "bam_bytes": 115537, "records": 0}
+{"sample": "HG00735", "locus": "SMOC2", "bam_bytes": 115544, "records": 0}
+{"sample": "HG00735", "locus": "TPO", "bam_bytes": 115522, "records": 0}
+{"sample": "HG00735", "locus": "TRPM4", "bam_bytes": 115544, "records": 0}
+[W::hts_close] EOF marker is absent. The input is probably truncated
+{"successful_pairs": 14, "expected_pairs": 40, "errors": [{"sample": "HG02055", "locus": "MUC19", "error": "OSError('truncated file')"}, {"sample": "HG01928", "locus": "SMOC2", "error": "OSError('truncated file')"}, {"sample": "HG02148", "locus": "KCNV2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram`')"}, {"sample": "HG02148", "locus": "SMOC2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram`')"}, {"sample": "HG02148", "locus": "KIR3DL2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram`')"}, {"sample": "HG03486", "locus": "ABCG8", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}, {"sample": "HG03486", "locus": "COL18A1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}, {"sample": "HG03486", "locus": "GP6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}, {"sample": "HG03486", "locus": "MUC19", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram`')"}, {"sample": "HG02630", "locus": "CHRNA4", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}, {"sample": "HG02630", "locus": "TRPM4", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}, {"sample": "HG02630", "locus": "CTDP1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}, {"sample": "HG02630", "locus": "KCNV2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}, {"sample": "HG02630", "locus": "MUC19", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}, {"sample": "HG02630", "locus": "PTK6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram`')"}, {"sample": "HG03492", "locus": "MUC1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram`')"}, {"sample": "HG03492", "locus": "MUC19", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram`')"}, {"sample": "HG03579", "locus": "CTDP1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}, {"sample": "HG03579", "locus": "DSPP", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}, {"sample": "HG03579", "locus": "GP6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}, {"sample": "HG03579", "locus": "COL18A1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram`')"}, {"sample": "HG01978", "locus": "SMOC2", "error": "OSError('truncated file')"}, {"sample": "NA18906", "locus": "CTDP1", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram`')"}, {"sample": "NA18906", "locus": "PTK6", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram`')"}, {"sample": "NA18906", "locus": "SMOC2", "error": "ValueError('could not open alignment file `https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram`')"}, {"sample": "HG00735", "locus": "ABCG8", "error": "OSError('truncated file')"}]}

@@ -1,0 +1,90 @@
+{
+  "package_url": "https://api.anaconda.org/download/bioconda/locityper/0.17.3/linux-64/locityper-0.17.3-h919a2d8_0.tar.bz2",
+  "package_sha256": "8a9d28e7ba8a9605fbab6a18d370dc41948822365eadbd64413a7aadfff3db0a",
+  "package_size_bytes": 2904704,
+  "binary_sha256": "cc73d9e285584e1969f68637ce95f789e77c985fbd76c9c818cce632fc7b371d",
+  "source_tag": "v0.17.3",
+  "source_commit": "146cfd42e9179bafd63d1f41db7fc449940989de",
+  "published_alignment_command": "locityper align -i loci/$locus/haplotypes.fa.gz -o loci/$locus/haplotypes.paf.gz -A -D 1",
+  "published_command_source": {
+    "repository": "https://github.com/tprodanov/locityper-bench",
+    "commit": "ed5c5b4c6f7495287a9fff6b62eb7666409ef2e2",
+    "file": "README.md",
+    "file_sha256": "363f616250840f94fe062c7f01b57763c3d20be7869b536616aea540992b1f02"
+  },
+  "source_archive_sha256_from_recipe": "d9ecc464a4394a0523afd6ba4c5f7bf80fe44ca15926cca1075ac70cd14b9255",
+  "version_output": "locityper v0.17.3\nCreated by Timofey Prodanov <timofey.prodanov@hhu.de> and Tobias Marschall <tobias.marschall@hhu.de>",
+  "alignment_flags": [
+    "-m",
+    "15",
+    "15",
+    "-D",
+    "1",
+    "-k",
+    "25,51,101",
+    "-g",
+    "500",
+    "-a",
+    "9",
+    "-M",
+    "4",
+    "-O",
+    "6",
+    "-E",
+    "1",
+    "-@",
+    "8"
+  ],
+  "synthetic_input_sha256": "a3cc3a6749479c7a8fe863971d11c36149fe231cd6f51a596cadd854912be5d3",
+  "synthetic_paf_sha256": "c3bb4c3f9488056a32c56546cc82435df6d2d9c2164945a1b9964dc3b23b5ba3",
+  "synthetic_records": [
+    {
+      "query": "synthetic_insertion60",
+      "reference": "synthetic_reference",
+      "cigar": "600=60I600=",
+      "edit": 60,
+      "score": -66
+    },
+    {
+      "query": "synthetic_deletion80",
+      "reference": "synthetic_reference",
+      "cigar": "400=80D720=",
+      "edit": 80,
+      "score": -86
+    },
+    {
+      "query": "synthetic_substitution1",
+      "reference": "synthetic_reference",
+      "cigar": "500=1X699=",
+      "edit": 1,
+      "score": -4
+    },
+    {
+      "query": "synthetic_deletion80",
+      "reference": "synthetic_insertion60",
+      "cigar": "400=80D120=60D600=",
+      "edit": 140,
+      "score": -152
+    },
+    {
+      "query": "synthetic_substitution1",
+      "reference": "synthetic_insertion60",
+      "cigar": "500=1X99=60D600=",
+      "edit": 61,
+      "score": -70
+    },
+    {
+      "query": "synthetic_substitution1",
+      "reference": "synthetic_deletion80",
+      "cigar": "400=80I20=1X699=",
+      "edit": 81,
+      "score": -90
+    }
+  ],
+  "limitations": [
+    "Release-matched Bioconda build; not the authors original benchmark executable.",
+    "The packaged recipe cloned WFA2 without pinning its source commit.",
+    "Synthetic smoke validation does not establish identical outputs on study haplotypes.",
+    "Default backbone/max-gap alignment is heuristic; accuracy 9 does not certify global optimality."
+  ]
+}

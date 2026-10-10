@@ -1,0 +1,10 @@
+{
+  "audit": "PASS",
+  "audit_scope": "Independent exact cohort keys, all BAM SHA256, sequential decoded record counts, donor read-group identity, local FASTA SHA linkage, reference chromosome M5 linkage",
+  "pairs": 40,
+  "records": 993855,
+  "bam_bytes": 70545821,
+  "read_manifest_sha256": "ed282f12f9d417ac12495169035233b31a7b095404b0cf1b35b857cbad62a86a",
+  "reference_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+  "biological_support_outcomes_calculated": false
+}

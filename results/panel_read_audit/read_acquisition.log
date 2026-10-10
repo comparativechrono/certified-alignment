@@ -1,0 +1,52 @@
+{"sample": "HG01928", "locus": "CTDP1", "error": "ValueError('Stale or unverified acquisition: HG01928__CTDP1')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG01978", "locus": "CTDP1", "error": "ValueError('Stale or unverified acquisition: HG01978__CTDP1')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG02055", "locus": "DSPP", "error": "ValueError('Stale or unverified acquisition: HG02055__DSPP')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG00735", "locus": "ABCG8", "bam_bytes": 955156, "records": 13380, "status": "verified"}
+{"sample": "HG00735", "locus": "CHRNA4", "error": "ValueError('Stale or unverified acquisition: HG00735__CHRNA4')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG02055", "locus": "GP6", "error": "ValueError('Stale or unverified acquisition: HG02055__GP6')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG01928", "locus": "ETFB", "error": "ValueError('Stale or unverified acquisition: HG01928__ETFB')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG01978", "locus": "SMOC2", "bam_bytes": 3436344, "records": 64577, "status": "verified"}
+{"sample": "HG00735", "locus": "CTDP1", "error": "ValueError('Stale or unverified acquisition: HG00735__CTDP1')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG01978", "locus": "TPO", "error": "ValueError('Stale or unverified acquisition: HG01978__TPO')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG02055", "locus": "MUC19", "bam_bytes": 2246509, "records": 45036, "status": "verified"}
+{"sample": "HG01928", "locus": "SMOC2", "bam_bytes": 3311936, "records": 62291, "status": "verified"}
+{"sample": "HG00735", "locus": "ETFB", "error": "ValueError('Stale or unverified acquisition: HG00735__ETFB')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG00735", "locus": "GP6", "error": "ValueError('Stale or unverified acquisition: HG00735__GP6')", "status": "unresolved_acquisition_failure"}
+{"sample": "HG02630", "locus": "CHRNA4", "bam_bytes": 742091, "records": 12791, "status": "verified"}
+{"sample": "HG02148", "locus": "KCNV2", "bam_bytes": 298137, "records": 4053, "status": "verified"}
+{"sample": "HG03486", "locus": "ABCG8", "bam_bytes": 931714, "records": 13194, "status": "verified"}
+{"sample": "HG02630", "locus": "CTDP1", "bam_bytes": 1336224, "records": 22630, "status": "verified"}
+{"sample": "HG03486", "locus": "COL18A1", "bam_bytes": 2058333, "records": 34254, "status": "verified"}
+{"sample": "HG00735", "locus": "KIR3DL2", "bam_bytes": 5842100, "records": 30835, "status": "verified"}
+{"sample": "HG02148", "locus": "KIR3DL2", "bam_bytes": 6305789, "records": 37537, "status": "verified"}
+{"sample": "HG02630", "locus": "KCNV2", "bam_bytes": 314966, "records": 4396, "status": "verified"}
+{"sample": "HG03486", "locus": "GP6", "bam_bytes": 1266572, "records": 9637, "status": "verified"}
+{"sample": "HG02148", "locus": "SMOC2", "bam_bytes": 3311091, "records": 63212, "status": "verified"}
+{"sample": "HG00735", "locus": "SMOC2", "bam_bytes": 3625615, "records": 57194, "status": "verified"}
+{"sample": "HG02630", "locus": "MUC19", "bam_bytes": 2217006, "records": 47141, "status": "verified"}
+{"sample": "HG00735", "locus": "TPO", "bam_bytes": 3318245, "records": 40563, "status": "verified"}
+{"sample": "HG03486", "locus": "MUC19", "bam_bytes": 2561583, "records": 47128, "status": "verified"}
+{"sample": "HG02630", "locus": "PTK6", "bam_bytes": 402351, "records": 5412, "status": "verified"}
+{"sample": "HG03492", "locus": "MUC1", "bam_bytes": 339437, "records": 3264, "status": "verified"}
+{"sample": "HG00735", "locus": "TRPM4", "bam_bytes": 1070768, "records": 14233, "status": "verified"}
+{"sample": "HG02630", "locus": "TRPM4", "bam_bytes": 1004531, "records": 16676, "status": "verified"}
+{"sample": "HG03579", "locus": "COL18A1", "bam_bytes": 1897301, "records": 32672, "status": "verified"}
+{"sample": "HG03492", "locus": "MUC19", "bam_bytes": 2260224, "records": 42561, "status": "verified"}
+{"sample": "HG03579", "locus": "CTDP1", "bam_bytes": 1305304, "records": 20233, "status": "verified"}
+{"sample": "NA18906", "locus": "CTDP1", "bam_bytes": 1355328, "records": 20613, "status": "verified"}
+{"sample": "HG03579", "locus": "DSPP", "bam_bytes": 260580, "records": 2900, "status": "verified"}
+{"sample": "NA18906", "locus": "PTK6", "bam_bytes": 402821, "records": 4750, "status": "verified"}
+{"sample": "HG03579", "locus": "GP6", "bam_bytes": 1148434, "records": 8912, "status": "verified"}
+{"sample": "NA18906", "locus": "SMOC2", "bam_bytes": 3230409, "records": 56239, "status": "verified"}
+{"successful_pairs": 30, "expected_pairs": 40, "errors": [{"sample": "HG01978", "locus": "CTDP1", "error": "ValueError('Stale or unverified acquisition: HG01978__CTDP1')", "status": "unresolved_acquisition_failure"}, {"sample": "HG01978", "locus": "TPO", "error": "ValueError('Stale or unverified acquisition: HG01978__TPO')", "status": "unresolved_acquisition_failure"}, {"sample": "HG02055", "locus": "DSPP", "error": "ValueError('Stale or unverified acquisition: HG02055__DSPP')", "status": "unresolved_acquisition_failure"}, {"sample": "HG02055", "locus": "GP6", "error": "ValueError('Stale or unverified acquisition: HG02055__GP6')", "status": "unresolved_acquisition_failure"}, {"sample": "HG01928", "locus": "CTDP1", "error": "ValueError('Stale or unverified acquisition: HG01928__CTDP1')", "status": "unresolved_acquisition_failure"}, {"sample": "HG01928", "locus": "ETFB", "error": "ValueError('Stale or unverified acquisition: HG01928__ETFB')", "status": "unresolved_acquisition_failure"}, {"sample": "HG00735", "locus": "CHRNA4", "error": "ValueError('Stale or unverified acquisition: HG00735__CHRNA4')", "status": "unresolved_acquisition_failure"}, {"sample": "HG00735", "locus": "CTDP1", "error": "ValueError('Stale or unverified acquisition: HG00735__CTDP1')", "status": "unresolved_acquisition_failure"}, {"sample": "HG00735", "locus": "ETFB", "error": "ValueError('Stale or unverified acquisition: HG00735__ETFB')", "status": "unresolved_acquisition_failure"}, {"sample": "HG00735", "locus": "GP6", "error": "ValueError('Stale or unverified acquisition: HG00735__GP6')", "status": "unresolved_acquisition_failure"}]}
+{"sample": "HG02055", "locus": "DSPP", "bam_bytes": 276670, "records": 3215, "status": "verified"}
+{"sample": "HG01928", "locus": "CTDP1", "bam_bytes": 1288294, "records": 22090, "status": "verified"}
+{"sample": "HG01978", "locus": "CTDP1", "bam_bytes": 1409549, "records": 22690, "status": "verified"}
+{"sample": "HG00735", "locus": "CHRNA4", "bam_bytes": 782532, "records": 10772, "status": "verified"}
+{"sample": "HG01928", "locus": "ETFB", "bam_bytes": 457318, "records": 6623, "status": "verified"}
+{"sample": "HG02055", "locus": "GP6", "bam_bytes": 1217270, "records": 9455, "status": "verified"}
+{"sample": "HG00735", "locus": "CTDP1", "bam_bytes": 1473576, "records": 20260, "status": "verified"}
+{"sample": "HG01978", "locus": "TPO", "bam_bytes": 3094965, "records": 45191, "status": "verified"}
+{"sample": "HG00735", "locus": "ETFB", "bam_bytes": 533278, "records": 6105, "status": "verified"}
+{"sample": "HG00735", "locus": "GP6", "bam_bytes": 1255470, "records": 9140, "status": "verified"}
+{"successful_pairs": 40, "expected_pairs": 40, "errors": []}

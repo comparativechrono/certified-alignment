@@ -1,0 +1,12 @@
+{
+  "sample_locus_pairs": 40,
+  "donors": 10,
+  "loci": 15,
+  "alignment_records": 993855,
+  "bam_bytes": 70545821,
+  "primary_paired_qnames": 500222,
+  "primary_paired_qnames_without_both_ends": 9733,
+  "manifest_sha256": "ed282f12f9d417ac12495169035233b31a7b095404b0cf1b35b857cbad62a86a",
+  "script_sha256": "0830e101ac6cbab6e3baf1b9f2a84c04d0373dd84912b4346ae8b63e5378e3f0",
+  "errors": []
+}

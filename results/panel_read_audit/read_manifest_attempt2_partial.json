@@ -1,0 +1,4772 @@
+{
+  "status": "partial_acquisition",
+  "acquisition_mode": "fresh_per_locus_handles_verified_local_reference",
+  "protocol_commit": "986336d1308ef903123fcbc52f0084e1659c972d",
+  "acquisition_script_sha256": "0830e101ac6cbab6e3baf1b9f2a84c04d0373dd84912b4346ae8b63e5378e3f0",
+  "command_argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "certified-alignment/studies/panel_read_audit/reads/acquire_slices.py",
+    "--cases",
+    "certified-alignment/data/panel_read_audit/cases.tsv",
+    "--controls",
+    "certified-alignment/data/panel_read_audit/controls.tsv",
+    "--sources",
+    "certified-alignment/data/panel_read_audit/read_sources.json",
+    "--db",
+    "panel_external/read_audit_database/db",
+    "--output",
+    "panel_external/read_audit_reads/bams",
+    "--cache",
+    "panel_external/read_audit_reads/indexes",
+    "--manifest",
+    "certified-alignment/results/panel_read_audit/read_manifest.json",
+    "--reference-fasta",
+    "panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+    "--flank",
+    "1000",
+    "--workers",
+    "4",
+    "--protocol-commit",
+    "986336d1308ef903123fcbc52f0084e1659c972d"
+  ],
+  "records": [
+    {
+      "sample": "HG00735",
+      "locus": "ABCG8",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr2",
+          43831942,
+          43882988
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr2",
+          43830942,
+          43883988
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "0b6dc31bc3221dc1533c4b92eb8b469941bd353ed8df7d593778913b93e2d86b",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram",
+      "cram_published_md5_text": "bbf166a63ac811ceda377dd56b8477a8  HG00735.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"04cd1fe53d256dbc87e02609387625c3-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17315000841,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram.crai",
+      "crai_sha256": "d23697daabe62166dfa6590ed4519612e7ef34e10ac859269643915dfdcbefc7",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr2",
+          "LN": 242193529,
+          "M5": "f98db672eb0993dcfdabafe2a882905c",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG00735__ABCG8.bam",
+      "bam_sha256": "ed08adda901305acba3a4e0e2e721d8b09dc38562c99bb07d4473dd51ea4a1be",
+      "bam_bytes": 955156,
+      "bai_sha256": "b4801df600b52425a2ebf3a04c3a96f27b082c24ac9e4c06281724889baaa4ea",
+      "counts": {
+        "all_records": 13380,
+        "primary_records": 13338,
+        "duplicate_records": 920,
+        "supplementary_records": 42,
+        "unmapped_records_in_windows": 29,
+        "primary_paired_qnames": 6741,
+        "primary_paired_qnames_with_both_ends": 6597,
+        "primary_paired_qnames_without_both_ends": 144
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:27:46.261480+00:00"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "KIR3DL2",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr19",
+          54723153,
+          54868521
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr19",
+          54722153,
+          54869521
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "4ec0c5d2ca9778a4edf7da2919094ec8e8ccd138159879f51dd81639e99aac56",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram",
+      "cram_published_md5_text": "bbf166a63ac811ceda377dd56b8477a8  HG00735.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"04cd1fe53d256dbc87e02609387625c3-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17315000841,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram.crai",
+      "crai_sha256": "d23697daabe62166dfa6590ed4519612e7ef34e10ac859269643915dfdcbefc7",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr19",
+          "LN": 58617616,
+          "M5": "85f9f4fc152c58cb7913c06d6b98573a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG00735__KIR3DL2.bam",
+      "bam_sha256": "bbd92a6292f898402e95b06b19bc09fe8de57120e2f96e9d7bb9b736288605e4",
+      "bam_bytes": 5842100,
+      "bai_sha256": "39caa255308082928fd49bff96b2ed4e82b674f8c1c835f050ee1e2500137b7b",
+      "counts": {
+        "all_records": 30835,
+        "primary_records": 30786,
+        "duplicate_records": 1891,
+        "supplementary_records": 49,
+        "unmapped_records_in_windows": 74,
+        "primary_paired_qnames": 15531,
+        "primary_paired_qnames_with_both_ends": 15255,
+        "primary_paired_qnames_without_both_ends": 276
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:14.304815+00:00"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "SMOC2",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr6",
+          168441151,
+          168673445
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr6",
+          168440151,
+          168674445
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "2078f2ce1c9b0728cdb2cc8a87ab03dc5942b01f910488350811f7a51fcfd10f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram",
+      "cram_published_md5_text": "bbf166a63ac811ceda377dd56b8477a8  HG00735.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"04cd1fe53d256dbc87e02609387625c3-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17315000841,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram.crai",
+      "crai_sha256": "d23697daabe62166dfa6590ed4519612e7ef34e10ac859269643915dfdcbefc7",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr6",
+          "LN": 170805979,
+          "M5": "5691468a67c7e7a7b5f2a3a683792c29",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG00735__SMOC2.bam",
+      "bam_sha256": "dacba2d3789dfb0f9c499c8ce2e6e092dda9a325c570354ebd8a57889bc60ead",
+      "bam_bytes": 3625615,
+      "bai_sha256": "fe059ce59c0aae95b37f3a652d5eec1a89f55a09f5504f66fcebf5dbbfe3430b",
+      "counts": {
+        "all_records": 57194,
+        "primary_records": 57066,
+        "duplicate_records": 3719,
+        "unmapped_records_in_windows": 154,
+        "supplementary_records": 128,
+        "primary_paired_qnames": 28702,
+        "primary_paired_qnames_with_both_ends": 28364,
+        "primary_paired_qnames_without_both_ends": 338
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:20.560052+00:00"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "TPO",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr2",
+          1374066,
+          1544598
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr2",
+          1373066,
+          1545598
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "8290993344a418261bd5bf2d00436a3620dcb7fca5bd0460a89c9034043eccb0",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram",
+      "cram_published_md5_text": "bbf166a63ac811ceda377dd56b8477a8  HG00735.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"04cd1fe53d256dbc87e02609387625c3-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17315000841,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram.crai",
+      "crai_sha256": "d23697daabe62166dfa6590ed4519612e7ef34e10ac859269643915dfdcbefc7",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr2",
+          "LN": 242193529,
+          "M5": "f98db672eb0993dcfdabafe2a882905c",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG00735__TPO.bam",
+      "bam_sha256": "29362a0bce5fd0a2bfd732f65e77879c55c8bbd3e890b2c2b21f649f47edda45",
+      "bam_bytes": 3318245,
+      "bai_sha256": "8e3d4359575a5bfb29324355812f35f625a94948356a176d89992bb91b9b5568",
+      "counts": {
+        "all_records": 40563,
+        "primary_records": 40158,
+        "duplicate_records": 2730,
+        "unmapped_records_in_windows": 294,
+        "supplementary_records": 405,
+        "primary_paired_qnames": 20342,
+        "primary_paired_qnames_with_both_ends": 19816,
+        "primary_paired_qnames_without_both_ends": 526
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:25.647165+00:00"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "TRPM4",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr19",
+          49157741,
+          49211836
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr19",
+          49156741,
+          49212836
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "a0dc9002a4566d6c8faefd0701a8490dc4916d72006186f51bc4707f5400707f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram",
+      "cram_published_md5_text": "bbf166a63ac811ceda377dd56b8477a8  HG00735.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"04cd1fe53d256dbc87e02609387625c3-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17315000841,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG00735/raw_data/Illumina/child/HG00735.final.cram.crai",
+      "crai_sha256": "d23697daabe62166dfa6590ed4519612e7ef34e10ac859269643915dfdcbefc7",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr19",
+          "LN": 58617616,
+          "M5": "85f9f4fc152c58cb7913c06d6b98573a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3CYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3GMDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L001",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L002",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L003",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG00735_CATAGAGT-TGCCACCA_HV3HYDSXX_L004",
+          "SM": "HG00735",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG00735",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG00735__TRPM4.bam",
+      "bam_sha256": "ae2e515418e13f6da9d0f3a304bd5276440cf837269d204b48ccf4b3b91a49db",
+      "bam_bytes": 1070768,
+      "bai_sha256": "8038bba36d9c38cb1cdb12dc1c80405df25e2d5d688ec9e5499285727e0867a2",
+      "counts": {
+        "all_records": 14233,
+        "primary_records": 14189,
+        "supplementary_records": 44,
+        "unmapped_records_in_windows": 51,
+        "duplicate_records": 920,
+        "primary_paired_qnames": 7180,
+        "primary_paired_qnames_with_both_ends": 7009,
+        "primary_paired_qnames_without_both_ends": 171
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:29.102509+00:00"
+    },
+    {
+      "sample": "HG01928",
+      "locus": "SMOC2",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr6",
+          168441151,
+          168673445
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr6",
+          168440151,
+          168674445
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "2078f2ce1c9b0728cdb2cc8a87ab03dc5942b01f910488350811f7a51fcfd10f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG01928/raw_data/Illumina/child/HG01928.final.cram",
+      "cram_published_md5_text": "7b6f2f79facff37664ba028d8219001e  HG01928.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"cd7c1e57d30d714cf12c3f02e412e439-233\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15599978935,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG01928/raw_data/Illumina/child/HG01928.final.cram.crai",
+      "crai_sha256": "32ff8d5224ec9731e105c325cf1a186305d1a299c10866b0ed6b59a7515279d0",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr6",
+          "LN": 170805979,
+          "M5": "5691468a67c7e7a7b5f2a3a683792c29",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2KGDSXX_L001",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2KGDSXX_L002",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2KGDSXX_L003",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2KGDSXX_L004",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2LVDSXX_L001",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2LVDSXX_L002",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2LVDSXX_L003",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV2LVDSXX_L004",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV375DSXX_L001",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV375DSXX_L002",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV375DSXX_L003",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01928_GCGCAAGC-TCACGCCG_HV375DSXX_L004",
+          "SM": "HG01928",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01928",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG01928__SMOC2.bam",
+      "bam_sha256": "bf22d11fac3b69f60039012bb1c2c74e423cd323c3999ef142ec7d8792fe562d",
+      "bam_bytes": 3311936,
+      "bai_sha256": "d11a57d75077f8d47dcbf3501095a1b7113b2cf7047e8318747301f01aa31f57",
+      "counts": {
+        "all_records": 62291,
+        "primary_records": 62198,
+        "duplicate_records": 4178,
+        "unmapped_records_in_windows": 140,
+        "supplementary_records": 93,
+        "primary_paired_qnames": 31289,
+        "primary_paired_qnames_with_both_ends": 30909,
+        "primary_paired_qnames_without_both_ends": 380
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:27:57.970117+00:00"
+    },
+    {
+      "sample": "HG01978",
+      "locus": "SMOC2",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr6",
+          168441151,
+          168673445
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr6",
+          168440151,
+          168674445
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "2078f2ce1c9b0728cdb2cc8a87ab03dc5942b01f910488350811f7a51fcfd10f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG01978/raw_data/Illumina/child/HG01978.final.cram",
+      "cram_published_md5_text": "6789e99ac14218800e82182efe61d1fb  HG01978.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"59876f9c473bcc086fad7dbccec03b25-241\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 16143624077,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG01978/raw_data/Illumina/child/HG01978.final.cram.crai",
+      "crai_sha256": "e0e973d4f82b600e71be27d10f1475e5066a7bc181475db636cc7109b058a7b0",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr6",
+          "LN": 170805979,
+          "M5": "5691468a67c7e7a7b5f2a3a683792c29",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2KGDSXX_L001",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2KGDSXX_L002",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2KGDSXX_L003",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2KGDSXX_L004",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2LVDSXX_L001",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2LVDSXX_L002",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2LVDSXX_L003",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV2LVDSXX_L004",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV375DSXX_L001",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV375DSXX_L002",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV375DSXX_L003",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG01978_AACAGGTT-ATACCAAG_HV375DSXX_L004",
+          "SM": "HG01978",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG01978",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG01978__SMOC2.bam",
+      "bam_sha256": "18d7895f8cc2a58c17cf0aa26c05d780ec7367a65f0d2d585a2ef54150b31247",
+      "bam_bytes": 3436344,
+      "bai_sha256": "6f7f289132855abfc26150f22752aff02e5a8b6ad891473f462d4d81c7229823",
+      "counts": {
+        "all_records": 64577,
+        "primary_records": 64453,
+        "duplicate_records": 5763,
+        "unmapped_records_in_windows": 143,
+        "supplementary_records": 124,
+        "primary_paired_qnames": 32410,
+        "primary_paired_qnames_with_both_ends": 32043,
+        "primary_paired_qnames_without_both_ends": 367
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:27:52.653038+00:00"
+    },
+    {
+      "sample": "HG02055",
+      "locus": "MUC19",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr12",
+          40393267,
+          40570832
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr12",
+          40392267,
+          40571832
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "05c3bcd9c74f9894204f6273dc662d9f3736f6dbcbde05e49d72d342474b75f9",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG02055/raw_data/Illumina/child/HG02055.final.cram",
+      "cram_published_md5_text": "10836a150bf8ff58ef6f03f8a5c22d63  HG02055.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"d78993c1f3b2c355b3ce5bdf3d2a8d49-233\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15615853575,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG02055/raw_data/Illumina/child/HG02055.final.cram.crai",
+      "crai_sha256": "195ee2129b92ef77b4270c05d0486aed74ff85fe620ca19476072193c49478f1",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr12",
+          "LN": 133275309,
+          "M5": "96e414eace405d8c27a6d35ba19df56f",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HT275DSXX_L001",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HT275DSXX_L002",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HT275DSXX_L003",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HT275DSXX_L004",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV27LDSXX_L001",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV27LDSXX_L002",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV27LDSXX_L003",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV27LDSXX_L004",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV37TDSXX_L001",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV37TDSXX_L002",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV37TDSXX_L003",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02055_TACCGAGG-CCTGAACT_HV37TDSXX_L004",
+          "SM": "HG02055",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02055",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02055__MUC19.bam",
+      "bam_sha256": "3a28442a473f12b413d8455d45f1cfee8ad676253c64a29552e1e636c0fc6b53",
+      "bam_bytes": 2246509,
+      "bai_sha256": "81dc60d4ba441551177fc59f4e8fa9382d4b87994235657040b05434e4e5373b",
+      "counts": {
+        "all_records": 45036,
+        "primary_records": 44957,
+        "duplicate_records": 4429,
+        "unmapped_records_in_windows": 35,
+        "supplementary_records": 79,
+        "primary_paired_qnames": 22671,
+        "primary_paired_qnames_with_both_ends": 22286,
+        "primary_paired_qnames_without_both_ends": 385
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:27:57.593694+00:00"
+    },
+    {
+      "sample": "HG02148",
+      "locus": "KCNV2",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr9",
+          2716310,
+          2730037
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr9",
+          2715310,
+          2731037
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "1cd3d66b5d6050100d05d919c2c0f4db8239d5541c3b877ff92f54df3293b64f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram",
+      "cram_published_md5_text": "e8ce4297f6f50f171ec5798baaadb15d  HG02148.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"233ca1628cab34f1e85406b044f71e75-232\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15526450491,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram.crai",
+      "crai_sha256": "3fd83f892d0e661272b30a5c376ded6c27d63e451b430034d34fafc585e999bf",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr9",
+          "LN": 138394717,
+          "M5": "6c198acf68b5af7b9d676dfdd531b5de",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV323DSXX_L001",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV3KYDSXX_L003",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV3KYDSXX_L004",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02148__KCNV2.bam",
+      "bam_sha256": "d6fd0ffbdc96c9480a3a7bf6959b60cbf60ad821171d9d0ad5910b5c7aad88cc",
+      "bam_bytes": 298137,
+      "bai_sha256": "14b559f6ba2b5099861a3d53f0114ebd822d4026b27a67254d39fbf7662d4ed9",
+      "counts": {
+        "all_records": 4053,
+        "primary_records": 4032,
+        "duplicate_records": 748,
+        "supplementary_records": 21,
+        "unmapped_records_in_windows": 4,
+        "primary_paired_qnames": 2081,
+        "primary_paired_qnames_with_both_ends": 1951,
+        "primary_paired_qnames_without_both_ends": 130
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:05.854815+00:00"
+    },
+    {
+      "sample": "HG02148",
+      "locus": "KIR3DL2",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr19",
+          54723153,
+          54868521
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr19",
+          54722153,
+          54869521
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "4ec0c5d2ca9778a4edf7da2919094ec8e8ccd138159879f51dd81639e99aac56",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram",
+      "cram_published_md5_text": "e8ce4297f6f50f171ec5798baaadb15d  HG02148.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"233ca1628cab34f1e85406b044f71e75-232\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15526450491,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram.crai",
+      "crai_sha256": "3fd83f892d0e661272b30a5c376ded6c27d63e451b430034d34fafc585e999bf",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr19",
+          "LN": 58617616,
+          "M5": "85f9f4fc152c58cb7913c06d6b98573a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV323DSXX_L001",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV3KYDSXX_L003",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV3KYDSXX_L004",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02148__KIR3DL2.bam",
+      "bam_sha256": "3412dd2c5566b3f3b590b60103de996f831bf2cb7978d954aa4d59f25829d9ab",
+      "bam_bytes": 6305789,
+      "bai_sha256": "01bd5faafbe8a58a35a9867b77f1a4b8f5f12ba7ea17aa6f42c5d3b6b53e5442",
+      "counts": {
+        "all_records": 37537,
+        "primary_records": 37519,
+        "duplicate_records": 6637,
+        "unmapped_records_in_windows": 58,
+        "supplementary_records": 18,
+        "primary_paired_qnames": 18884,
+        "primary_paired_qnames_with_both_ends": 18635,
+        "primary_paired_qnames_without_both_ends": 249
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:14.935150+00:00"
+    },
+    {
+      "sample": "HG02148",
+      "locus": "SMOC2",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr6",
+          168441151,
+          168673445
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr6",
+          168440151,
+          168674445
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "2078f2ce1c9b0728cdb2cc8a87ab03dc5942b01f910488350811f7a51fcfd10f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram",
+      "cram_published_md5_text": "e8ce4297f6f50f171ec5798baaadb15d  HG02148.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"233ca1628cab34f1e85406b044f71e75-232\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15526450491,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02148/raw_data/Illumina/child/HG02148.final.cram.crai",
+      "crai_sha256": "3fd83f892d0e661272b30a5c376ded6c27d63e451b430034d34fafc585e999bf",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr6",
+          "LN": 170805979,
+          "M5": "5691468a67c7e7a7b5f2a3a683792c29",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV323DSXX_L001",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV3KYDSXX_L003",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02148_CGCTATGT-TCCGACAC_HV3KYDSXX_L004",
+          "SM": "HG02148",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02148",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02148__SMOC2.bam",
+      "bam_sha256": "8d13edc1ce1d9b1dbad21f02e8193d2ad6820d9e38f25488252580d00f4b9682",
+      "bam_bytes": 3311091,
+      "bai_sha256": "b1007d13aa67ea15a6ed09270e044bb9f68f93f176c6ffb9800ac17c3c9625d8",
+      "counts": {
+        "all_records": 63212,
+        "primary_records": 63106,
+        "duplicate_records": 10955,
+        "unmapped_records_in_windows": 150,
+        "supplementary_records": 106,
+        "primary_paired_qnames": 31725,
+        "primary_paired_qnames_with_both_ends": 31381,
+        "primary_paired_qnames_without_both_ends": 344
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:20.188116+00:00"
+    },
+    {
+      "sample": "HG02630",
+      "locus": "CHRNA4",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr20",
+          63343223,
+          63378401
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr20",
+          63342223,
+          63379401
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "612b7dc6e064968f42cd25035614809473ec439de24f29ee62d4b8b5e78768f0",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram",
+      "cram_published_md5_text": "90b1964ff8a28729821af8e9c4c0cc74  HG02630.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1f216ed4ba6346da84a574df0716e40-236\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15796265554,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram.crai",
+      "crai_sha256": "60c61957b2541af5e39a6ae1e92ec3c0aff47ae408113774cb780de6d75d0520",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr20",
+          "LN": 64444167,
+          "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02630__CHRNA4.bam",
+      "bam_sha256": "dcb929305966c98b531aed6f36513b7d3cf96841679c9d0bbdbcb6c35836e443",
+      "bam_bytes": 742091,
+      "bai_sha256": "fe1ff1997177ed790c11a5f3d742cb66f184b32edd262eef0ad4edc08724a01a",
+      "counts": {
+        "all_records": 12791,
+        "primary_records": 12666,
+        "duplicate_records": 1270,
+        "supplementary_records": 125,
+        "unmapped_records_in_windows": 69,
+        "primary_paired_qnames": 6470,
+        "primary_paired_qnames_with_both_ends": 6196,
+        "primary_paired_qnames_without_both_ends": 274
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:05.850488+00:00"
+    },
+    {
+      "sample": "HG02630",
+      "locus": "CTDP1",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr18",
+          79679803,
+          79754510
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr18",
+          79678803,
+          79755510
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "19f438c3a18d861e41bbf80cb5f7b639486d9d1caadb26a349a47c955339c18b",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram",
+      "cram_published_md5_text": "90b1964ff8a28729821af8e9c4c0cc74  HG02630.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1f216ed4ba6346da84a574df0716e40-236\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15796265554,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram.crai",
+      "crai_sha256": "60c61957b2541af5e39a6ae1e92ec3c0aff47ae408113774cb780de6d75d0520",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr18",
+          "LN": 80373285,
+          "M5": "11eeaa801f6b0e2e36a1138616b8ee9a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02630__CTDP1.bam",
+      "bam_sha256": "c9b756e875a5dd1964ec0dd6624639ac6daf2d0bbeaf35f11697977ad09968fa",
+      "bam_bytes": 1336224,
+      "bai_sha256": "dc6ac2b1f1f1a2de281014ff76aa8e42d8ae0b1da55568306553d029b6c47b29",
+      "counts": {
+        "all_records": 22630,
+        "primary_records": 22600,
+        "duplicate_records": 2069,
+        "unmapped_records_in_windows": 50,
+        "supplementary_records": 30,
+        "primary_paired_qnames": 11374,
+        "primary_paired_qnames_with_both_ends": 11226,
+        "primary_paired_qnames_without_both_ends": 148
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:13.413120+00:00"
+    },
+    {
+      "sample": "HG02630",
+      "locus": "KCNV2",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr9",
+          2716310,
+          2730037
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr9",
+          2715310,
+          2731037
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "1cd3d66b5d6050100d05d919c2c0f4db8239d5541c3b877ff92f54df3293b64f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram",
+      "cram_published_md5_text": "90b1964ff8a28729821af8e9c4c0cc74  HG02630.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1f216ed4ba6346da84a574df0716e40-236\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15796265554,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram.crai",
+      "crai_sha256": "60c61957b2541af5e39a6ae1e92ec3c0aff47ae408113774cb780de6d75d0520",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr9",
+          "LN": 138394717,
+          "M5": "6c198acf68b5af7b9d676dfdd531b5de",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02630__KCNV2.bam",
+      "bam_sha256": "bc3f6609e3ec4ebc5842b2c4e9630a8f210ddc0de8e7ba0acf19e8e72614f0be",
+      "bam_bytes": 314966,
+      "bai_sha256": "2ebef90535d2e48321874578a212e1f58372bea1f9967add643b178d364a91f1",
+      "counts": {
+        "all_records": 4396,
+        "primary_records": 4393,
+        "duplicate_records": 396,
+        "unmapped_records_in_windows": 2,
+        "supplementary_records": 3,
+        "primary_paired_qnames": 2234,
+        "primary_paired_qnames_with_both_ends": 2159,
+        "primary_paired_qnames_without_both_ends": 75
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:19.007042+00:00"
+    },
+    {
+      "sample": "HG02630",
+      "locus": "MUC19",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr12",
+          40393267,
+          40570832
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr12",
+          40392267,
+          40571832
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "05c3bcd9c74f9894204f6273dc662d9f3736f6dbcbde05e49d72d342474b75f9",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram",
+      "cram_published_md5_text": "90b1964ff8a28729821af8e9c4c0cc74  HG02630.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1f216ed4ba6346da84a574df0716e40-236\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15796265554,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram.crai",
+      "crai_sha256": "60c61957b2541af5e39a6ae1e92ec3c0aff47ae408113774cb780de6d75d0520",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr12",
+          "LN": 133275309,
+          "M5": "96e414eace405d8c27a6d35ba19df56f",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02630__MUC19.bam",
+      "bam_sha256": "6cdf205f191da4e30e54501436f553fbb93be632bd66d9029dc1de1616319b83",
+      "bam_bytes": 2217006,
+      "bai_sha256": "14e1ff857d404ca9c75010f112e5e52fe19234173f26fefe77214eac7780662c",
+      "counts": {
+        "all_records": 47141,
+        "primary_records": 47095,
+        "duplicate_records": 4467,
+        "unmapped_records_in_windows": 32,
+        "supplementary_records": 46,
+        "primary_paired_qnames": 23677,
+        "primary_paired_qnames_with_both_ends": 23418,
+        "primary_paired_qnames_without_both_ends": 259
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:25.162473+00:00"
+    },
+    {
+      "sample": "HG02630",
+      "locus": "PTK6",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr20",
+          63523218,
+          63537689
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr20",
+          63522218,
+          63538689
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "be7f9f9bb5e0da2305a478a82a9fb36cc514dabe00f8a8193eee90bca10e2cf3",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram",
+      "cram_published_md5_text": "90b1964ff8a28729821af8e9c4c0cc74  HG02630.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1f216ed4ba6346da84a574df0716e40-236\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15796265554,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram.crai",
+      "crai_sha256": "60c61957b2541af5e39a6ae1e92ec3c0aff47ae408113774cb780de6d75d0520",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr20",
+          "LN": 64444167,
+          "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02630__PTK6.bam",
+      "bam_sha256": "81302d519e74def7afe8bbb50af6ef4373459255394af571f084ec3d90045009",
+      "bam_bytes": 402351,
+      "bai_sha256": "12e03b9d40b8f77989795ea075b14e178be8a9175d71efa143c56b1d98a3f63e",
+      "counts": {
+        "all_records": 5412,
+        "primary_records": 5400,
+        "duplicate_records": 519,
+        "unmapped_records_in_windows": 38,
+        "supplementary_records": 12,
+        "primary_paired_qnames": 2778,
+        "primary_paired_qnames_with_both_ends": 2622,
+        "primary_paired_qnames_without_both_ends": 156
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:28.809101+00:00"
+    },
+    {
+      "sample": "HG02630",
+      "locus": "TRPM4",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr19",
+          49157741,
+          49211836
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr19",
+          49156741,
+          49212836
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "a0dc9002a4566d6c8faefd0701a8490dc4916d72006186f51bc4707f5400707f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram",
+      "cram_published_md5_text": "90b1964ff8a28729821af8e9c4c0cc74  HG02630.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1f216ed4ba6346da84a574df0716e40-236\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15796265554,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG02630/raw_data/Illumina/child/HG02630.final.cram.crai",
+      "crai_sha256": "60c61957b2541af5e39a6ae1e92ec3c0aff47ae408113774cb780de6d75d0520",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr19",
+          "LN": 58617616,
+          "M5": "85f9f4fc152c58cb7913c06d6b98573a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2KGDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV2LVDSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L001",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L002",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L003",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG02630_GTGAATAT-TCTCATTC_HV375DSXX_L004",
+          "SM": "HG02630",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG02630",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG02630__TRPM4.bam",
+      "bam_sha256": "6777660d027125fb69d40f3bfe2e1fbc201e0b1a3795fb3395010ef95b461f32",
+      "bam_bytes": 1004531,
+      "bai_sha256": "61fe61d6b84201c53a3409702cccccb438c5ed7100cc3f4fe8fc96d3a9b3b46d",
+      "counts": {
+        "all_records": 16676,
+        "primary_records": 16614,
+        "supplementary_records": 62,
+        "duplicate_records": 1429,
+        "unmapped_records_in_windows": 48,
+        "primary_paired_qnames": 8424,
+        "primary_paired_qnames_with_both_ends": 8190,
+        "primary_paired_qnames_without_both_ends": 234
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:33.497262+00:00"
+    },
+    {
+      "sample": "HG03486",
+      "locus": "ABCG8",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr2",
+          43831942,
+          43882988
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr2",
+          43830942,
+          43883988
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "0b6dc31bc3221dc1533c4b92eb8b469941bd353ed8df7d593778913b93e2d86b",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram",
+      "cram_published_md5_text": "226d900af077d8ecc41d622004c30fb1  HG03486.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"18c436ff871ac48a62cad6bbe886f595-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17330815877,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram.crai",
+      "crai_sha256": "f816672b7c24a029ec14c635c0dc33c4c7904944d04f9d6df11795bdfb740664",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr2",
+          "LN": 242193529,
+          "M5": "f98db672eb0993dcfdabafe2a882905c",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03486__ABCG8.bam",
+      "bam_sha256": "f3bc153b6384fb630d99e688930874d928214119d0efb2404661ca1482d575f2",
+      "bam_bytes": 931714,
+      "bai_sha256": "70b5ca98aa4fdcdde37b0959c1d5c5b8d2f95f7622150c3cb33737a6df09688e",
+      "counts": {
+        "all_records": 13194,
+        "primary_records": 13083,
+        "duplicate_records": 866,
+        "unmapped_records_in_windows": 32,
+        "supplementary_records": 111,
+        "primary_paired_qnames": 6679,
+        "primary_paired_qnames_with_both_ends": 6404,
+        "primary_paired_qnames_without_both_ends": 275
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:06.259482+00:00"
+    },
+    {
+      "sample": "HG03486",
+      "locus": "COL18A1",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr21",
+          45405165,
+          45513720
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr21",
+          45404165,
+          45514720
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "a524a6a4801dcda38d41dd335887e4df2e185f5206f3174f93d9154a9e5c4c24",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram",
+      "cram_published_md5_text": "226d900af077d8ecc41d622004c30fb1  HG03486.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"18c436ff871ac48a62cad6bbe886f595-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17330815877,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram.crai",
+      "crai_sha256": "f816672b7c24a029ec14c635c0dc33c4c7904944d04f9d6df11795bdfb740664",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr21",
+          "LN": 46709983,
+          "M5": "974dc7aec0b755b19f031418fdedf293",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03486__COL18A1.bam",
+      "bam_sha256": "30bb931ff6ab8a6b10ff3b18a7baee857b768cc0950183248789d90541425a21",
+      "bam_bytes": 2058333,
+      "bai_sha256": "7550077f857c787ff538d5d0134d33fc79c593a31d3c643d864d3199479810cb",
+      "counts": {
+        "all_records": 34254,
+        "primary_records": 34134,
+        "duplicate_records": 2225,
+        "unmapped_records_in_windows": 175,
+        "supplementary_records": 120,
+        "primary_paired_qnames": 17231,
+        "primary_paired_qnames_with_both_ends": 16903,
+        "primary_paired_qnames_without_both_ends": 328
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:13.768641+00:00"
+    },
+    {
+      "sample": "HG03486",
+      "locus": "GP6",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr19",
+          55004436,
+          55038406
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr19",
+          55003436,
+          55039406
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "c8a9f276cb9885606f353a2d8145c4fcc35fe90bc3c9a042771ab7c0779178b9",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram",
+      "cram_published_md5_text": "226d900af077d8ecc41d622004c30fb1  HG03486.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"18c436ff871ac48a62cad6bbe886f595-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17330815877,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram.crai",
+      "crai_sha256": "f816672b7c24a029ec14c635c0dc33c4c7904944d04f9d6df11795bdfb740664",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr19",
+          "LN": 58617616,
+          "M5": "85f9f4fc152c58cb7913c06d6b98573a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03486__GP6.bam",
+      "bam_sha256": "adc10072bedf206319b741c2a93f91785a5a82d7fdd633aa9314293d843f04ed",
+      "bam_bytes": 1266572,
+      "bai_sha256": "a4d4cc18e1101d4c5f15928d40eded936a754f751fadf517b1eb37da8f9ac091",
+      "counts": {
+        "all_records": 9637,
+        "primary_records": 9600,
+        "duplicate_records": 608,
+        "supplementary_records": 37,
+        "unmapped_records_in_windows": 33,
+        "primary_paired_qnames": 4897,
+        "primary_paired_qnames_with_both_ends": 4703,
+        "primary_paired_qnames_without_both_ends": 194
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:19.774427+00:00"
+    },
+    {
+      "sample": "HG03486",
+      "locus": "MUC19",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr12",
+          40393267,
+          40570832
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr12",
+          40392267,
+          40571832
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "05c3bcd9c74f9894204f6273dc662d9f3736f6dbcbde05e49d72d342474b75f9",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram",
+      "cram_published_md5_text": "226d900af077d8ecc41d622004c30fb1  HG03486.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"18c436ff871ac48a62cad6bbe886f595-259\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 17330815877,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03486/raw_data/Illumina/child/HG03486.final.cram.crai",
+      "crai_sha256": "f816672b7c24a029ec14c635c0dc33c4c7904944d04f9d6df11795bdfb740664",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr12",
+          "LN": 133275309,
+          "M5": "96e414eace405d8c27a6d35ba19df56f",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHFDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVTHYDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L001",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L002",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L003",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03486_GCTTGTCA-GAACATAC_HVVMNDSXX_L004",
+          "SM": "HG03486",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03486",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03486__MUC19.bam",
+      "bam_sha256": "d2cddd8bd5bd1c51197364eb696b0e0114395d8c5c7cc88c11c0fce28ed96d41",
+      "bam_bytes": 2561583,
+      "bai_sha256": "90fa122ed0e6966de58ea23815c2cdc134d736be373ee7ffc678fffec449c898",
+      "counts": {
+        "all_records": 47128,
+        "primary_records": 47020,
+        "duplicate_records": 3213,
+        "unmapped_records_in_windows": 65,
+        "supplementary_records": 108,
+        "primary_paired_qnames": 23730,
+        "primary_paired_qnames_with_both_ends": 23290,
+        "primary_paired_qnames_without_both_ends": 440
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:25.680805+00:00"
+    },
+    {
+      "sample": "HG03492",
+      "locus": "MUC1",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr1",
+          155184370,
+          155194793
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr1",
+          155183370,
+          155195793
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "f6a9cf9bfb518a01f18607288ebf3c258127b0b3280a9413265c9ef86f4e06c5",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram",
+      "cram_published_md5_text": "1660893645a6fbd2ebc9d690f552094f  HG03492.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1dbd97b624cff7af40639c2af64ac4d-230\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15369361282,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram.crai",
+      "crai_sha256": "304a99081ea3cc08eb40d51cb389879e46a8c7f9ad40196893bdd15fa664c7ed",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr1",
+          "LN": 248956422,
+          "M5": "6aef897c3d6ff0c78aff06ac189178dd",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L001",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L002",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L003",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L004",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L001",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L002",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L003",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L004",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L001",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L002",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L003",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L004",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03492__MUC1.bam",
+      "bam_sha256": "a9ff60d83f1c1fb162da86743226a9b5069cde15842558a18edbddd9730f8450",
+      "bam_bytes": 339437,
+      "bai_sha256": "944c9c602d6c4561f60c869878e7aa384ea1caf1fdf9d696ad491963a71f8a93",
+      "counts": {
+        "all_records": 3264,
+        "primary_records": 3231,
+        "duplicate_records": 207,
+        "unmapped_records_in_windows": 26,
+        "supplementary_records": 33,
+        "primary_paired_qnames": 1665,
+        "primary_paired_qnames_with_both_ends": 1566,
+        "primary_paired_qnames_without_both_ends": 99
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:28.971661+00:00"
+    },
+    {
+      "sample": "HG03492",
+      "locus": "MUC19",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr12",
+          40393267,
+          40570832
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr12",
+          40392267,
+          40571832
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "05c3bcd9c74f9894204f6273dc662d9f3736f6dbcbde05e49d72d342474b75f9",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram",
+      "cram_published_md5_text": "1660893645a6fbd2ebc9d690f552094f  HG03492.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c1dbd97b624cff7af40639c2af64ac4d-230\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15369361282,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram.crai",
+      "crai_sha256": "304a99081ea3cc08eb40d51cb389879e46a8c7f9ad40196893bdd15fa664c7ed",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr12",
+          "LN": 133275309,
+          "M5": "96e414eace405d8c27a6d35ba19df56f",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L001",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L002",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L003",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHFDSXX_L004",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L001",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L002",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L003",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVTHYDSXX_L004",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L001",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L002",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L003",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03492_TCCAACGC-TTGGACTT_HVVMNDSXX_L004",
+          "SM": "HG03492",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03492",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03492__MUC19.bam",
+      "bam_sha256": "f1f444a54b1918e1416ff610bff73bce8306575606099dcab25fa3122e5e22a2",
+      "bam_bytes": 2260224,
+      "bai_sha256": "2924d15e7b297e911d8f29393ae26497c50d1c517a5956613bea728bc04c9cbd",
+      "counts": {
+        "all_records": 42561,
+        "primary_records": 42449,
+        "duplicate_records": 2756,
+        "supplementary_records": 112,
+        "unmapped_records_in_windows": 53,
+        "primary_paired_qnames": 21503,
+        "primary_paired_qnames_with_both_ends": 20946,
+        "primary_paired_qnames_without_both_ends": 557
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:34.011232+00:00"
+    },
+    {
+      "sample": "HG03579",
+      "locus": "COL18A1",
+      "role": "represented_sequence_proxy_control",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr21",
+          45405165,
+          45513720
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr21",
+          45404165,
+          45514720
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "a524a6a4801dcda38d41dd335887e4df2e185f5206f3174f93d9154a9e5c4c24",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram",
+      "cram_published_md5_text": "7a3e6256835370b91d6d69e5d5db6a67  HG03579.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c117c45c35b3a948c040f1dff3e5ff8e-226\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15147460269,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram.crai",
+      "crai_sha256": "9a6163ee29d54039582cdc70d90c3a75fd7ff8ed54497182f6070faee4a3d267",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr21",
+          "LN": 46709983,
+          "M5": "974dc7aec0b755b19f031418fdedf293",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03579__COL18A1.bam",
+      "bam_sha256": "4febfc70620fc17d5c87240d593b821998079bba08d141e2a04ba7e2d998dd9e",
+      "bam_bytes": 1897301,
+      "bai_sha256": "77f56273b9b1ec83b757dd75caff69226dc6a6f292510a1d89e354a7cb415d0e",
+      "counts": {
+        "all_records": 32672,
+        "primary_records": 32517,
+        "duplicate_records": 3255,
+        "supplementary_records": 155,
+        "unmapped_records_in_windows": 110,
+        "primary_paired_qnames": 16402,
+        "primary_paired_qnames_with_both_ends": 16115,
+        "primary_paired_qnames_without_both_ends": 287
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:33.908952+00:00"
+    },
+    {
+      "sample": "HG03579",
+      "locus": "CTDP1",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr18",
+          79679803,
+          79754510
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr18",
+          79678803,
+          79755510
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "19f438c3a18d861e41bbf80cb5f7b639486d9d1caadb26a349a47c955339c18b",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram",
+      "cram_published_md5_text": "7a3e6256835370b91d6d69e5d5db6a67  HG03579.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c117c45c35b3a948c040f1dff3e5ff8e-226\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15147460269,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram.crai",
+      "crai_sha256": "9a6163ee29d54039582cdc70d90c3a75fd7ff8ed54497182f6070faee4a3d267",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr18",
+          "LN": 80373285,
+          "M5": "11eeaa801f6b0e2e36a1138616b8ee9a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03579__CTDP1.bam",
+      "bam_sha256": "a694466f9dc1719a8d2474c61334d82fcb2b0efd3db44bbcd26fa096d345e1a8",
+      "bam_bytes": 1305304,
+      "bai_sha256": "b88e250622fc640ae072cc21dafa4ff11df5980da9f8b7e920843090e23ffd35",
+      "counts": {
+        "all_records": 20233,
+        "primary_records": 20188,
+        "duplicate_records": 1924,
+        "unmapped_records_in_windows": 43,
+        "supplementary_records": 45,
+        "primary_paired_qnames": 10159,
+        "primary_paired_qnames_with_both_ends": 10029,
+        "primary_paired_qnames_without_both_ends": 130
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:37.452898+00:00"
+    },
+    {
+      "sample": "HG03579",
+      "locus": "DSPP",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr4",
+          87607701,
+          87618237
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr4",
+          87606701,
+          87619237
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "17e7582c31c67dcb24414c42478f2cf0082e56c07edd8aeffc7b0b0a887f7e08",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram",
+      "cram_published_md5_text": "7a3e6256835370b91d6d69e5d5db6a67  HG03579.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c117c45c35b3a948c040f1dff3e5ff8e-226\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15147460269,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram.crai",
+      "crai_sha256": "9a6163ee29d54039582cdc70d90c3a75fd7ff8ed54497182f6070faee4a3d267",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr4",
+          "LN": 190214555,
+          "M5": "3210fecf1eb92d5489da4346b3fddc6e",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03579__DSPP.bam",
+      "bam_sha256": "174cc5e3ccc3943e5ed7bcda8ed5954baa73e0c06bbb4a100f6e22a98fb350e1",
+      "bam_bytes": 260580,
+      "bai_sha256": "aa3ba05069a5c3578caa74cd66dbb92b2888a8f2f407d9597c235664a19ce1fd",
+      "counts": {
+        "all_records": 2900,
+        "duplicate_records": 242,
+        "primary_records": 2897,
+        "unmapped_records_in_windows": 5,
+        "supplementary_records": 3,
+        "primary_paired_qnames": 1488,
+        "primary_paired_qnames_with_both_ends": 1409,
+        "primary_paired_qnames_without_both_ends": 79
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:42.765714+00:00"
+    },
+    {
+      "sample": "HG03579",
+      "locus": "GP6",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr19",
+          55004436,
+          55038406
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr19",
+          55003436,
+          55039406
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "c8a9f276cb9885606f353a2d8145c4fcc35fe90bc3c9a042771ab7c0779178b9",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram",
+      "cram_published_md5_text": "7a3e6256835370b91d6d69e5d5db6a67  HG03579.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"c117c45c35b3a948c040f1dff3e5ff8e-226\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15147460269,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG03579/raw_data/Illumina/child/HG03579.final.cram.crai",
+      "crai_sha256": "9a6163ee29d54039582cdc70d90c3a75fd7ff8ed54497182f6070faee4a3d267",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr19",
+          "LN": 58617616,
+          "M5": "85f9f4fc152c58cb7913c06d6b98573a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVKJYDSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVV5LDSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L001",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L002",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L003",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "HG03579_CTAGCGCT-GTGTAGAC_HVW23DSXX_L004",
+          "SM": "HG03579",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "HG03579",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/HG03579__GP6.bam",
+      "bam_sha256": "e9ace2109b5d0ef9d80a94d6c9ce4375c439e8304f5fe5f16e577c401f3609ff",
+      "bam_bytes": 1148434,
+      "bai_sha256": "97add7c206ed30dc4c29f7d196cd64e6ffab3dc880e14135f69418037ffc94e5",
+      "counts": {
+        "all_records": 8912,
+        "primary_records": 8883,
+        "duplicate_records": 821,
+        "unmapped_records_in_windows": 21,
+        "supplementary_records": 29,
+        "primary_paired_qnames": 4541,
+        "primary_paired_qnames_with_both_ends": 4342,
+        "primary_paired_qnames_without_both_ends": 199
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:49.282277+00:00"
+    },
+    {
+      "sample": "NA18906",
+      "locus": "CTDP1",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr18",
+          79679803,
+          79754510
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr18",
+          79678803,
+          79755510
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "19f438c3a18d861e41bbf80cb5f7b639486d9d1caadb26a349a47c955339c18b",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram",
+      "cram_published_md5_text": "12719a8404b89d524778dc460c99655f  NA18906.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"78bc9abe366369a4e0f4a869dae4292f-239\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15999024797,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram.crai",
+      "crai_sha256": "e961ef08f6f1d80dec451c71537a2e868bcfa04f375d7e105f6583da62d04524",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr18",
+          "LN": 80373285,
+          "M5": "11eeaa801f6b0e2e36a1138616b8ee9a",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/NA18906__CTDP1.bam",
+      "bam_sha256": "33fefc8d78b9ea25dc1a8d70074faddf1ddfe6fd4412102be956209b88327e32",
+      "bam_bytes": 1355328,
+      "bai_sha256": "4a17dbd9b427360ec4057c8d2745854db9f5e57ecbdcc52575742f6ba7332d30",
+      "counts": {
+        "all_records": 20613,
+        "primary_records": 20555,
+        "duplicate_records": 1428,
+        "unmapped_records_in_windows": 53,
+        "supplementary_records": 58,
+        "primary_paired_qnames": 10357,
+        "primary_paired_qnames_with_both_ends": 10198,
+        "primary_paired_qnames_without_both_ends": 159
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:37.764134+00:00"
+    },
+    {
+      "sample": "NA18906",
+      "locus": "PTK6",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr20",
+          63523218,
+          63537689
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr20",
+          63522218,
+          63538689
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "be7f9f9bb5e0da2305a478a82a9fb36cc514dabe00f8a8193eee90bca10e2cf3",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram",
+      "cram_published_md5_text": "12719a8404b89d524778dc460c99655f  NA18906.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"78bc9abe366369a4e0f4a869dae4292f-239\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15999024797,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram.crai",
+      "crai_sha256": "e961ef08f6f1d80dec451c71537a2e868bcfa04f375d7e105f6583da62d04524",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr20",
+          "LN": 64444167,
+          "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/NA18906__PTK6.bam",
+      "bam_sha256": "02aefd6df1208f4513bc37b68ecc528aef70b668bc2bc68190c927af1d3e268d",
+      "bam_bytes": 402821,
+      "bai_sha256": "e81dddf9c43f8cb9347a1a6e808c77a0624a83e8744ba9910d21d563d66ff762",
+      "counts": {
+        "all_records": 4750,
+        "primary_records": 4728,
+        "duplicate_records": 340,
+        "unmapped_records_in_windows": 60,
+        "supplementary_records": 22,
+        "primary_paired_qnames": 2426,
+        "primary_paired_qnames_with_both_ends": 2302,
+        "primary_paired_qnames_without_both_ends": 124
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:42.855344+00:00"
+    },
+    {
+      "sample": "NA18906",
+      "locus": "SMOC2",
+      "role": "panel_adequacy_candidate",
+      "status": "verified",
+      "acquisition_verified": true,
+      "assembly": "GRCh38_full_analysis_set_plus_decoy_hla",
+      "coordinate_convention": "0-based half-open",
+      "historical_ref_bed_intervals": [
+        [
+          "chr6",
+          168441151,
+          168673445
+        ]
+      ],
+      "fetched_intervals": [
+        [
+          "chr6",
+          168440151,
+          168674445
+        ]
+      ],
+      "flank_bp": 1000,
+      "ref_bed_sha256": "2078f2ce1c9b0728cdb2cc8a87ab03dc5942b01f910488350811f7a51fcfd10f",
+      "cram_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram",
+      "cram_published_md5_text": "12719a8404b89d524778dc460c99655f  NA18906.final.cram",
+      "whole_cram_checksum_verification": "Publisher sidecar only; not locally recomputed because only indexed slices were downloaded",
+      "cram_etag": "\"78bc9abe366369a4e0f4a869dae4292f-239\"",
+      "source_etag_and_size_checked_at_acquisition": true,
+      "cram_size": 15999024797,
+      "crai_url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC_PLUS/NA18906/raw_data/Illumina/child/NA18906.final.cram.crai",
+      "crai_sha256": "e961ef08f6f1d80dec451c71537a2e868bcfa04f375d7e105f6583da62d04524",
+      "reference_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+      "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+      "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+      "reference_local_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/reference/selected_GRCh38.fa",
+      "reference_local_sha256": "79d2de0b4b0084fb2b614296083ad5c43fb9b1e2ab07200f280715e23cbb5fc4",
+      "reference_dictionary_m5_match": true,
+      "cram_reference_sequences": [
+        {
+          "SN": "chr6",
+          "LN": 170805979,
+          "M5": "5691468a67c7e7a7b5f2a3a683792c29",
+          "UR": "/gpfs/internal/sweng/production/Resources/GRCh38_1000genomes/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+        }
+      ],
+      "read_groups": [
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHFDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVTHYDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L001",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L002",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L003",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        },
+        {
+          "ID": "NA18906_ACTCGTGT-ATTGGAAC_HVVMNDSXX_L004",
+          "SM": "NA18906",
+          "PL": "illumina",
+          "PM": "NovaSeq",
+          "LB": "NA18906",
+          "DS": "GRCh38"
+        }
+      ],
+      "bam_path": "/workspace/scratch/b4a4909ae85e/panel_external/read_audit_reads/bams/NA18906__SMOC2.bam",
+      "bam_sha256": "1b5b480375d12a25fe77986f63ee0a4237233e6649b8f8671a265efb39926610",
+      "bam_bytes": 3230409,
+      "bai_sha256": "f451a868865b9161f3e812bddae9a0761b39f83ef853f3ac61fec7219c8a8620",
+      "counts": {
+        "all_records": 56239,
+        "duplicate_records": 3825,
+        "primary_records": 56136,
+        "unmapped_records_in_windows": 163,
+        "supplementary_records": 103,
+        "primary_paired_qnames": 28222,
+        "primary_paired_qnames_with_both_ends": 27914,
+        "primary_paired_qnames_without_both_ends": 308
+      },
+      "mate_retrieval": "No fetch outside windows; paired qnames without both ends explicitly counted. Globally unmapped and elsewhere-mapped reads absent unless their stored coordinates fall inside windows.",
+      "filters": "None during acquisition",
+      "pysam_version": "0.24.1",
+      "htslib_version": "1.24",
+      "retrieved_at_utc": "2026-10-10T08:28:50.155216+00:00"
+    }
+  ],
+  "errors": [
+    {
+      "sample": "HG01978",
+      "locus": "CTDP1",
+      "error": "ValueError('Stale or unverified acquisition: HG01978__CTDP1')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG01978",
+      "locus": "TPO",
+      "error": "ValueError('Stale or unverified acquisition: HG01978__TPO')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG02055",
+      "locus": "DSPP",
+      "error": "ValueError('Stale or unverified acquisition: HG02055__DSPP')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG02055",
+      "locus": "GP6",
+      "error": "ValueError('Stale or unverified acquisition: HG02055__GP6')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG01928",
+      "locus": "CTDP1",
+      "error": "ValueError('Stale or unverified acquisition: HG01928__CTDP1')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG01928",
+      "locus": "ETFB",
+      "error": "ValueError('Stale or unverified acquisition: HG01928__ETFB')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "CHRNA4",
+      "error": "ValueError('Stale or unverified acquisition: HG00735__CHRNA4')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "CTDP1",
+      "error": "ValueError('Stale or unverified acquisition: HG00735__CTDP1')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "ETFB",
+      "error": "ValueError('Stale or unverified acquisition: HG00735__ETFB')",
+      "status": "unresolved_acquisition_failure"
+    },
+    {
+      "sample": "HG00735",
+      "locus": "GP6",
+      "error": "ValueError('Stale or unverified acquisition: HG00735__GP6')",
+      "status": "unresolved_acquisition_failure"
+    }
+  ],
+  "expected_sample_locus_pairs": 40,
+  "reference_fai_sha256": "f361f004bdae5ca68d632458b01a3848d02834ac7176f378e177344d148a6a6d",
+  "reference_dict_sha256": "91f7a9993b70c9c85b3a51a20b888d866cd55938ce1ccd3a325a38954d2fbdeb",
+  "interpretation": "Regional read audit. No assertion of identical raw libraries to historical caller input. No global unmapped-read search."
+}

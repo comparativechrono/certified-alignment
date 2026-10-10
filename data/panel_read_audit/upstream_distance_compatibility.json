@@ -1,0 +1,2249 @@
+{
+  "method": "unmodified upstream Locityper gt_dist.py",
+  "upstream_commit": "146cfd42e9179bafd63d1f41db7fc449940989de",
+  "cases": 40,
+  "comparisons": 120,
+  "mismatches": [],
+  "rows": [
+    {
+      "sample": "HG03486",
+      "locus": "ABCG8",
+      "truth_haplotype_ids": [
+        "HG03486.1",
+        "HG03486.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02145.2",
+        "HG02717.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "95314",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "12183",
+            "size": "106850",
+            "div": "0.114019654",
+            "qv": "9.430202823"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "12181",
+            "size": "106849",
+            "div": "0.114002003",
+            "qv": "9.430875188"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02630",
+      "locus": "CHRNA4",
+      "truth_haplotype_ids": [
+        "HG02630.1",
+        "HG02630.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG00621.1",
+        "HG02055.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "73433",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1020",
+            "size": "73473",
+            "div": "0.013882651",
+            "qv": "18.575276013"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "980",
+            "size": "73454",
+            "div": "0.013341683",
+            "qv": "18.747893750"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03486",
+      "locus": "COL18A1",
+      "truth_haplotype_ids": [
+        "HG03486.1",
+        "HG03486.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02886.2",
+        "HG01361.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "221362",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "4001",
+            "size": "224269",
+            "div": "0.017840183",
+            "qv": "17.486006952"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "1473",
+            "size": "221989",
+            "div": "0.006635464",
+            "qv": "21.781287080"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG01978",
+      "locus": "CTDP1",
+      "truth_haplotype_ids": [
+        "HG01978.1",
+        "HG01978.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01175.2",
+        "HG01358.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "153635",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1297",
+            "size": "153665",
+            "div": "0.008440439",
+            "qv": "20.736349842"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "1295",
+            "size": "153665",
+            "div": "0.008427423",
+            "qv": "20.743051919"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03579",
+      "locus": "CTDP1",
+      "truth_haplotype_ids": [
+        "HG03579.1",
+        "HG03579.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01106.1",
+        "NA21309.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "150011",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1421",
+            "size": "151163",
+            "div": "0.009400449",
+            "qv": "20.268514245"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "994",
+            "size": "150729",
+            "div": "0.006594617",
+            "qv": "21.808104335"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "NA18906",
+      "locus": "CTDP1",
+      "truth_haplotype_ids": [
+        "NA18906.1",
+        "NA18906.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02723.2",
+        "HG02559.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "148935",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "2192",
+            "size": "150553",
+            "div": "0.014559657",
+            "qv": "18.368488641"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "1428",
+            "size": "149810",
+            "div": "0.009532074",
+            "qv": "20.208125966"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03579",
+      "locus": "DSPP",
+      "truth_haplotype_ids": [
+        "HG03579.2",
+        "HG03579.1"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02630.1",
+        "HG02080.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "20637",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "189",
+            "size": "20819",
+            "div": "0.009078246",
+            "qv": "20.419980610"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "149",
+            "size": "20780",
+            "div": "0.007170356",
+            "qv": "21.444592748"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "ETFB",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG03579.2",
+        "HG01358.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "43513",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "507",
+            "size": "43516",
+            "div": "0.011650887",
+            "qv": "19.336410088"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "344",
+            "size": "43553",
+            "div": "0.007898423",
+            "qv": "21.024596327"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03486",
+      "locus": "GP6",
+      "truth_haplotype_ids": [
+        "HG03486.1",
+        "HG03486.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01891.1",
+        "HG02109.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "68160",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "628",
+            "size": "68590",
+            "div": "0.009155854",
+            "qv": "20.383011591"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "359",
+            "size": "68220",
+            "div": "0.005262386",
+            "qv": "22.788172665"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03579",
+      "locus": "GP6",
+      "truth_haplotype_ids": [
+        "HG03579.1",
+        "HG03579.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "NA18906.2",
+        "HG01952.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "68208",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "859",
+            "size": "68710",
+            "div": "0.012501819",
+            "qv": "19.030267847"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "417",
+            "size": "68308",
+            "div": "0.006104702",
+            "qv": "22.143355148"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02148",
+      "locus": "KCNV2",
+      "truth_haplotype_ids": [
+        "HG02148.1",
+        "HG02148.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG00621.2",
+        "HG01952.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "27143",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "334",
+            "size": "27476",
+            "div": "0.012156063",
+            "qv": "19.152070409"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "334",
+            "size": "27476",
+            "div": "0.012156063",
+            "qv": "19.152070409"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "KIR3DL2",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02723.2",
+        "HG02148.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "275435",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1644",
+            "size": "276940",
+            "div": "0.005936304",
+            "qv": "22.264838747"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "1644",
+            "size": "276940",
+            "div": "0.005936304",
+            "qv": "22.264838747"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03492",
+      "locus": "MUC1",
+      "truth_haplotype_ids": [
+        "HG03492.1",
+        "HG03492.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01123.1",
+        "HG00741.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "75",
+            "size": "19075",
+            "div": "0.003931848",
+            "qv": "24.054032832"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1107",
+            "size": "19976",
+            "div": "0.055416500",
+            "qv": "12.563609085"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "161",
+            "size": "19076",
+            "div": "0.008439925",
+            "qv": "20.736614377"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02055",
+      "locus": "MUC19",
+      "truth_haplotype_ids": [
+        "HG02055.1",
+        "HG02055.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01106.1",
+        "HG03453.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "358588",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "4185",
+            "size": "362679",
+            "div": "0.011539130",
+            "qv": "19.378269473"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "4185",
+            "size": "362679",
+            "div": "0.011539130",
+            "qv": "19.378269473"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03486",
+      "locus": "MUC19",
+      "truth_haplotype_ids": [
+        "HG03486.1",
+        "HG03486.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02886.2",
+        "HG02886.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "368620",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "5285",
+            "size": "368636",
+            "div": "0.014336636",
+            "qv": "18.435527533"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "5278",
+            "size": "368640",
+            "div": "0.014317491",
+            "qv": "18.441330715"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "NA18906",
+      "locus": "PTK6",
+      "truth_haplotype_ids": [
+        "NA18906.1",
+        "NA18906.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG03453.2",
+        "NA20129.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "29423",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "420",
+            "size": "29427",
+            "div": "0.014272607",
+            "qv": "18.454966989"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "210",
+            "size": "29449",
+            "div": "0.007130972",
+            "qv": "21.468512573"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "SMOC2",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01358.1",
+        "HG03579.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "470995",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "7537",
+            "size": "474573",
+            "div": "0.015881645",
+            "qv": "17.991045109"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "3608",
+            "size": "473727",
+            "div": "0.007616201",
+            "qv": "21.182616091"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG01928",
+      "locus": "SMOC2",
+      "truth_haplotype_ids": [
+        "HG01928.1",
+        "HG01928.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01258.2",
+        "HG02148.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "468124",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "10300",
+            "size": "475407",
+            "div": "0.021665646",
+            "qv": "16.642283474"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "2805",
+            "size": "469893",
+            "div": "0.005969444",
+            "qv": "22.240661098"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02148",
+      "locus": "SMOC2",
+      "truth_haplotype_ids": [
+        "HG02148.1",
+        "HG02148.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01071.2",
+        "HG01928.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "466060",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "2793",
+            "size": "467319",
+            "div": "0.005976646",
+            "qv": "22.235425030"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "2793",
+            "size": "467319",
+            "div": "0.005976646",
+            "qv": "22.235425030"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "NA18906",
+      "locus": "SMOC2",
+      "truth_haplotype_ids": [
+        "NA18906.1",
+        "NA18906.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG03492.2",
+        "HG02818.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "464931",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "4580",
+            "size": "466112",
+            "div": "0.009825965",
+            "qv": "20.076248059"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "3159",
+            "size": "466597",
+            "div": "0.006770296",
+            "qv": "21.693923163"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "TPO",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01952.2",
+        "HG02080.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "346715",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "13281",
+            "size": "350925",
+            "div": "0.037845694",
+            "qv": "14.219835319"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "2615",
+            "size": "347285",
+            "div": "0.007529839",
+            "qv": "21.232143324"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02630",
+      "locus": "TRPM4",
+      "truth_haplotype_ids": [
+        "HG02630.1",
+        "HG02630.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01361.1",
+        "HG02055.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "107773",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "773",
+            "size": "108174",
+            "div": "0.007145895",
+            "qv": "21.459433952"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "727",
+            "size": "108138",
+            "div": "0.006722891",
+            "qv": "21.724439222"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "ABCG8",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01071.1",
+        "HG01175.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "102043",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "60",
+            "size": "102060",
+            "div": "0.000587889",
+            "qv": "32.307043136"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "36",
+            "size": "102057",
+            "div": "0.000352744",
+            "qv": "34.525402972"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "CHRNA4",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01071.2",
+        "HG00621.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "72412",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "148",
+            "size": "72437",
+            "div": "0.002043155",
+            "qv": "26.896987402"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "115",
+            "size": "72439",
+            "div": "0.001587543",
+            "qv": "27.992746060"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03579",
+      "locus": "COL18A1",
+      "truth_haplotype_ids": [
+        "HG03579.1",
+        "HG03579.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02630.2",
+        "HG02818.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "224350",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "333",
+            "size": "224407",
+            "div": "0.001483911",
+            "qv": "28.285921664"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "333",
+            "size": "224407",
+            "div": "0.001483911",
+            "qv": "28.285921664"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "CTDP1",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02080.1",
+        "HG01109.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "150019",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "331",
+            "size": "150324",
+            "div": "0.002201911",
+            "qv": "26.572003297"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "69",
+            "size": "150056",
+            "div": "0.000459828",
+            "qv": "33.374042747"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG01928",
+      "locus": "CTDP1",
+      "truth_haplotype_ids": [
+        "HG01928.1",
+        "HG01928.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG00438.1",
+        "HG00438.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "148371",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "252",
+            "size": "148570",
+            "div": "0.001696170",
+            "qv": "27.705305826"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "15",
+            "size": "148373",
+            "div": "0.000101097",
+            "qv": "39.952636189"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02630",
+      "locus": "CTDP1",
+      "truth_haplotype_ids": [
+        "HG02630.1",
+        "HG02630.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01891.2",
+        "HG02622.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "150337",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "176",
+            "size": "150415",
+            "div": "0.001170096",
+            "qv": "29.317784802"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "57",
+            "size": "150369",
+            "div": "0.000379067",
+            "qv": "34.212834559"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02055",
+      "locus": "DSPP",
+      "truth_haplotype_ids": [
+        "HG02055.1",
+        "HG02055.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01891.2",
+        "HG02818.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "20723",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "6",
+            "size": "20723",
+            "div": "0.000289533",
+            "qv": "35.383013766"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "6",
+            "size": "20723",
+            "div": "0.000289533",
+            "qv": "35.383013766"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG01928",
+      "locus": "ETFB",
+      "truth_haplotype_ids": [
+        "HG01928.1",
+        "HG01928.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01361.1",
+        "HG01361.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "149",
+            "size": "43129",
+            "div": "0.003454752",
+            "qv": "24.615831202"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "150",
+            "size": "43129",
+            "div": "0.003477938",
+            "qv": "24.586781295"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "2",
+            "size": "42980",
+            "div": "0.000046533",
+            "qv": "43.322364155"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "GP6",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01109.1",
+        "HG02080.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "68060",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "60",
+            "size": "68071",
+            "div": "0.000881433",
+            "qv": "30.548108803"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "46",
+            "size": "68061",
+            "div": "0.000675864",
+            "qv": "31.701404941"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02055",
+      "locus": "GP6",
+      "truth_haplotype_ids": [
+        "HG02055.1",
+        "HG02055.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02717.2",
+        "HG01071.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "68672",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "80",
+            "size": "68707",
+            "div": "0.001164365",
+            "qv": "29.339109991"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "79",
+            "size": "68705",
+            "div": "0.001149844",
+            "qv": "29.393612527"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02630",
+      "locus": "KCNV2",
+      "truth_haplotype_ids": [
+        "HG02630.1",
+        "HG02630.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG00741.1",
+        "HG02559.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "27506",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "45",
+            "size": "27506",
+            "div": "0.001636007",
+            "qv": "27.862149249"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "45",
+            "size": "27506",
+            "div": "0.001636007",
+            "qv": "27.862149249"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02148",
+      "locus": "KIR3DL2",
+      "truth_haplotype_ids": [
+        "HG02148.1",
+        "HG02148.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG00735.2",
+        "HG01106.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "290707",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "110",
+            "size": "290728",
+            "div": "0.000378361",
+            "qv": "34.220941755"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "110",
+            "size": "290728",
+            "div": "0.000378361",
+            "qv": "34.220941755"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02630",
+      "locus": "MUC19",
+      "truth_haplotype_ids": [
+        "HG02630.1",
+        "HG02630.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02109.2",
+        "HG03516.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "355079",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "148",
+            "size": "355169",
+            "div": "0.000416703",
+            "qv": "33.801733371"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "131",
+            "size": "355138",
+            "div": "0.000368871",
+            "qv": "34.331258489"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG03492",
+      "locus": "MUC19",
+      "truth_haplotype_ids": [
+        "HG03492.1",
+        "HG03492.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG02818.1",
+        "HG02818.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "367142",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "126",
+            "size": "367198",
+            "div": "0.000343139",
+            "qv": "34.645297620"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "88",
+            "size": "367177",
+            "div": "0.000239666",
+            "qv": "36.203927970"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG02630",
+      "locus": "PTK6",
+      "truth_haplotype_ids": [
+        "HG02630.1",
+        "HG02630.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG03579.2",
+        "HG02818.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "1",
+            "size": "29067",
+            "div": "0.000034403",
+            "qv": "44.634002106"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1",
+            "size": "29067",
+            "div": "0.000034403",
+            "qv": "44.634002106"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "1",
+            "size": "29067",
+            "div": "0.000034403",
+            "qv": "44.634002106"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG01978",
+      "locus": "SMOC2",
+      "truth_haplotype_ids": [
+        "HG01978.1",
+        "HG01978.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01071.1",
+        "HG01952.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "471778",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1223",
+            "size": "472674",
+            "div": "0.002587407",
+            "qv": "25.871352570"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "1223",
+            "size": "472674",
+            "div": "0.002587407",
+            "qv": "25.871352570"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG01978",
+      "locus": "TPO",
+      "truth_haplotype_ids": [
+        "HG01978.1",
+        "HG01978.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01123.1",
+        "HG01071.2"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "343719",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "1656",
+            "size": "344331",
+            "div": "0.004809326",
+            "qv": "23.179157914"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "1312",
+            "size": "344116",
+            "div": "0.003812668",
+            "qv": "24.187710310"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    },
+    {
+      "sample": "HG00735",
+      "locus": "TRPM4",
+      "truth_haplotype_ids": [
+        "HG00735.1",
+        "HG00735.2"
+      ],
+      "closest_available_haplotype_ids": [
+        "HG01928.1",
+        "HG00741.1"
+      ],
+      "comparisons": {
+        "full": {
+          "computed": {
+            "edit": "0",
+            "size": "108188",
+            "div": "0.000000000",
+            "qv": "inf"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "loo": {
+          "computed": {
+            "edit": "104",
+            "size": "108220",
+            "div": "0.000961005",
+            "qv": "30.172741903"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        },
+        "available": {
+          "computed": {
+            "edit": "71",
+            "size": "108201",
+            "div": "0.000656186",
+            "qv": "31.829729258"
+          },
+          "matches_archive": {
+            "edit": true,
+            "size": true,
+            "div": true,
+            "qv": true
+          }
+        }
+      }
+    }
+  ]
+}
